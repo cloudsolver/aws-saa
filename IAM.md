@@ -1,0 +1,39 @@
+Identity and Access Management is a Global Service.
+
+* Users: mapped to a physical user, has a password for AWS Console.
+* Groups: contains users only.
+* Policies: JSON document that outlines permissions for users or groups.
+	* *Users or Groups can be assigned JSON documents called Policies.*
+	* Policies declare permissions. You can inherit policies, but not roles.
+* Roles: for EC2 instnace or AWS Services.
+	* IAM Role for Services:
+	* Perform actions on your behalf 
+	* Assign persmissions to AWS services with IAM Roles e.g. EC2 Instnace, Lambda, etc.
+* Security: MFA + Password policy.
+	* IAM password policies can be protected by requiring
+	* Complexity: min length, specific character types, numbers, non-alphanumeric characters, expiration, prevent reuse and change password by user.
+	* MFA: protect Root and IAM users. Password you know + Security device you own.
+* Access Keys: CLI or SDK
+* [[Audit]]: [[IAM Credentials Report]] and [[IAM Access Advisor]] 
+
+Principle of least privilege: give users only rights they need to do their job. #wellarchitected
+Changes to IAM groups are live immediately. Policy can be attached directly, and by groups.
+
+In the policy JSON document what is 'sid'?
+It is the statement identifier that describes the policy statement.
+
+What happens when a user has restricted policy as well as a group that has permissions that override that restriction?
+
+[[Cloud Shell]] is handy.
+
+
+### IAM Guidelines & Best Practices #bestpractice
+1. Don't use root.
+2. One physical user 
+3. Assigne users to groups and assign permissions to groups
+4. Strong password
+5. MFA
+6. Use Roles for permissions to AWS services
+7. Use Access Keys for CLI SDK
+8. IAM Credentials Report for audit.
+9. Use Access Advisor to review policies and least priviledge adjustments. [[Access Advisor]] shows the services permissions granted to the user and when those services were last accessed. You can use this information to review your policies later.

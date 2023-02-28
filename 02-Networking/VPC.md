@@ -4,7 +4,7 @@ A [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-your-vpc.html
 
 **Subnets**
 
-A [subnet](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html) is a range of IP addresses in your [[VPC]]. A [[subnet]] must reside in a single [[Availability Zone]]. After you add subnets, you can deploy AWS resources in your [[VPC]].
+A [subnet](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html) is a range of IP addresses in your [[VPC]]. A [[Subnet]] must reside in a single [[Availability Zone]]. After you add subnets, you can deploy AWS resources in your [[VPC]].
 
 **IP addressing**
 

@@ -13,12 +13,11 @@ Design Architectures that are:
 ### 1. Secure
 
 1. Design secure access to AWS resources.
-	1. Knowledge:
-		1. Access controls and management across multiple accounts.
-		2. AWS federated access and identity services. AWS Identity and Access Managment (IAM), AWS Single-Sign-On.
-		3. AWS [[Global Infrastructure]] (AZ, AWS Regions).
-		4. AWS Security Best Practices (e.g. Principle of Least Privilege).
-		5. The AWS Shared Responsibility Model.
+	1. Access controls and management across multiple accounts.
+	2. AWS federated access and identity services. AWS Identity and Access Managment (IAM), AWS Single-Sign-On.
+	3. AWS [[Global Infrastructure]] (AZ, AWS Regions).
+	4. AWS Security Best Practices (e.g. Principle of Least Privilege).
+	5. The AWS Shared Responsibility Model.
 	2. Skills
 		1. Applying AWS security best practices to [[IAM]] users and root users (for example, multifactor authentication [[MFA]])
 		2. Designing a flexible [[authorization]] model that includes [[IAM]] users, groups, roles and policies.
@@ -26,13 +25,12 @@ Design Architectures that are:
 		4. Determine the appropriate use of resource policies for AWS services.
 		5. Determining when to [[federate]] a [[directory service]] with [[IAM]] roles.
 2. Design secure workloads and applications.
-	1. Knowledge:
-		1. Application configuration and credentials security.
-		2. AWS service endpoints.
-		3. Control ports, protocols, and network traffic on AWS.
-		4. Secure application access.
-		5. Security services with appropriate use cases (for example, Amazon Cognito, Amazon Guard Duty, Amazon Macie).
-		6. Threat vectors external to AWS (for example, DDoS, SQL injection)
+	1. Application configuration and credentials security.
+	2. AWS service endpoints.
+	3. Control ports, protocols, and network traffic on AWS.
+	4. Secure application access.
+	5. Security services with appropriate use cases (for example, Amazon Cognito, Amazon Guard Duty, Amazon Macie).
+	6. Threat vectors external to AWS (for example, DDoS, SQL injection)
 	2. Skills:
 		1. Designing VPC architectures with security components (for example, security groups, route tables, NACL, NAT gateways).
 		2. Determining network segmentation strategies (for exampe, using public subnets and private subnets).

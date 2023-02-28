@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Global Infrastructure.md",
+                "file": "IAM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "well",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Global Infrastructure.md",
+                "file": "IAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Global Infrastructure.md",
+                "file": "IAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Global Infrastructure.md"
+                "file": "IAM.md"
               }
             }
           }
@@ -162,18 +162,23 @@
   },
   "active": "e8c7b933eb2a83fb",
   "lastOpenFiles": [
-    "Availability Zone.md",
-    "Global Infrastructure.md",
-    "AWS Region.md",
-    "02-Networking/VPN.md",
-    "02-Networking/VPC.md",
+    "Subnet.md",
+    "SCP.md",
     "README.md",
+    "IAM.md",
+    "EC2 Auto Scaling.md",
+    "Cloud Shell.md",
+    "00-Resources/AWS_Whitepapers.md",
+    "02-Networking/VPN.md",
+    "ACM.md",
+    "02-Networking/VPC.md",
+    "Availability Zone.md",
+    "AWS Region.md",
+    "Global Infrastructure.md",
     "02-Networking/IPSEC.md",
     "02-Networking/Hybrid Cloud Architecture.md",
     "01-Compute/EC2.md",
     "02-Networking/Gateways.md",
-    "RPO.md",
-    "00-Resources/AWS_Whitepapers.md",
-    "EC2 Auto Scaling.md"
+    "RPO.md"
   ]
 }

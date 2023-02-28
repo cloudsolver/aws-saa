@@ -2,4 +2,4 @@
     
 -   **[[VPN]] tunnel**: An encrypted link where data can pass from the customer network to or from AWS.
     
-    Each VPN connection includes two VPN tunnels which you can simultaneously use for [[high availability]].
+    Each VPN connection includes two VPN tunnels which you can simultaneously use for [[high availability]] #wellarchitected 
