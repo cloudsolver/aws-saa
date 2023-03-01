@@ -1,10 +1,13 @@
-Identity and Access Management is a Global Service.
+Identity and Access Management is a core #awsservice  Global Service.
 
 * Users: mapped to a physical user, has a password for AWS Console.
 * Groups: contains users only.
 * Policies: JSON document that outlines permissions for users or groups.
 	* *Users or Groups can be assigned JSON documents called Policies.*
 	* Policies declare permissions. You can inherit policies, but not roles.
+	* IAM Policy contains 'version'
+	* IAM Policy Statement contains Sid, Effect, Principal, Action, Resources, and Condition.
+	* `sid` is the statement identifier that describes the policy statement.
 * Roles: for EC2 instnace or AWS Services.
 	* IAM Role for Services:
 	* Perform actions on your behalf 
@@ -19,10 +22,25 @@ Identity and Access Management is a Global Service.
 Principle of least privilege: give users only rights they need to do their job. #wellarchitected
 Changes to IAM groups are live immediately. Policy can be attached directly, and by groups.
 
-In the policy JSON document what is 'sid'?
-It is the statement identifier that describes the policy statement.
 
-What happens when a user has restricted policy as well as a group that has permissions that override that restriction?
+
+#Q What happens when a user has restricted policy as well as a group that has permissions that override that restriction?
+1. The policies
+2.
+#Q  Which of the following is an IAM Security Tool?
+1. IAM Credentials Report
+2. IAM Root Account Manager
+3. IAM Services Report
+4. IAM Security Advisor
+Answer: This is a tricky question because when the question is framed like a 'tool' you would want to pick IAM Securtiy Advisor thinking it is the IAM Access Advisor. However, that would be incorrect becauser there is no Security Advisor within IAM. There is a report that comes out of IAM i.e. IAM Credentials Report - but it is not a tool. Is it? Well, I guess that's the answer for this question.
+An IAM policy consists of one or more statements. A statement in an IAM policy consists of the following, EXCEPT:
+1. Effect
+2. Principal
+3. Version
+4. Action
+5. Resource
+Answer: This is a tricky question because the JSON contains everything listed. However, the version is at a higher level than the statement itself.
+
 
 [[Cloud Shell]] is handy.
 
@@ -36,4 +54,5 @@ What happens when a user has restricted policy as well as a group that has permi
 6. Use Roles for permissions to AWS services
 7. Use Access Keys for CLI SDK
 8. IAM Credentials Report for audit.
-9. Use Access Advisor to review policies and least priviledge adjustments. [[Access Advisor]] shows the services permissions granted to the user and when those services were last accessed. You can use this information to review your policies later.
+9. Use Access Advisor to review policies and least priviledge adjustments. [[IAM Access Advisor]] shows the services permissions granted to the user and when those services were last accessed. You can use this information to review your policies later.
+10. AWS documented IAM best practices: [Click Here](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
