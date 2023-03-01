@@ -36,6 +36,7 @@ You can connect to EC2 via [[EC2 Instance Connect]] or [[SSH]] assuming the [[Se
 	* #usecase: batch, data analysis, image processing, distributed workloads, flexible start and end times.
 	* #antipattern Not suitable for critical jobs or databases.
 	![[spot-instance-state-diagram.png]]
+	* There are two types of spot requests: persistent and one-time. Refer to the state machine.
 	* Cancel the spot request first, then cancel the spot instances. This way, new spot instances won't be created.
 * Spot Fleets
 	* Set of Spot Instnaces and Optional On-Demand Instances.
