@@ -8,7 +8,7 @@ A [subnet](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.ht
 
 **IP addressing**
 
-You can assign IPv4 addresses and IPv6 addresses to your VPCs and subnets. You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as EC2 instances, NAT gateways, and Network Load Balancers.
+You can assign IPv4 addresses and IPv6 addresses to your VPCs and subnets. You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as [EC2](EC2.md) instances, NAT gateways, and Network Load Balancers.
 
 **Routing**
 
@@ -26,7 +26,7 @@ Use a [VPC peering connection](https://docs.aws.amazon.com/vpc/latest/peering/) 
 
 [Copy network traffic](https://docs.aws.amazon.com/vpc/latest/mirroring/) from network interfaces and send it to security and monitoring appliances for deep packet inspection.
 
-**Transit [[gateways]]**
+**Transit [[Gateways]]**
 
 Use a [transit gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-tgw.html), which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS Direct Connect connections.
 
@@ -37,3 +37,5 @@ A [flow log](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) ca
 **VPN connections**
 
 Connect your VPCs to your on-premises networks using [AWS Virtual Private Network (AWS VPN)](https://docs.aws.amazon.com/vpc/latest/userguide/vpn-connections.html).
+
+[[ENI]] is a logical component of a VPC that representes a virtual network card.

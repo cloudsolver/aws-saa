@@ -1,0 +1,1 @@
+Elastic Block Storage is a key storage service for EC2.

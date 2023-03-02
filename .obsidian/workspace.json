@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dc1b175897d6ec0e",
+        "id": "e44ad96bc5a003fe",
         "type": "tabs",
         "children": [
           {
-            "id": "1a2daecc37332cfd",
+            "id": "ed026a79226b9bb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EC2.md",
+                "file": "Placement Groups.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#q",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EC2.md",
+                "file": "Placement Groups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EC2.md",
+                "file": "Placement Groups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,11 +127,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EC2.md"
+                "file": "Placement Groups.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -145,32 +147,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a2daecc37332cfd",
+  "active": "240ccf7c20f286fa",
   "lastOpenFiles": [
-    "assets/spot-instance-state-diagram.png",
     "EC2.md",
-    "00-Resources/AWS_Whitepapers.md",
-    "Security Group.md",
-    "02-Networking/VPN.md",
-    "IAM.md",
-    "Ports.md",
-    "assets",
-    "IAM Credentials Report.md",
-    "cr.csv",
-    "IAM Access Advisor.md",
-    "Subnet.md",
-    "SCP.md",
-    "README.md",
-    "EC2 Auto Scaling.md",
-    "Cloud Shell.md",
-    "ACM.md",
-    "02-Networking/VPC.md",
+    "ENI.md",
+    "Elastic IP.md",
+    "VPC.md",
+    "EBS.md",
+    "Placement Groups.md",
+    "Spot Instance.md",
     "Availability Zone.md",
-    "AWS Region.md",
+    "Ports.md",
+    "IPSEC.md",
+    "assets/spead_placement_group.png",
+    "assets/cluster_placement_group.png",
+    "Pasted image 20230301195314.png.md",
+    "Pasted image 20230301195314.png",
+    "Pasted image 20230301195618.png",
+    "Pasted image 20230301195636.png",
+    "Pasted image 20230301195637.png",
+    "assets/partition_placement_group.png",
+    "assets/Pasted image 20230301195136.png",
+    "SR-IOV.md",
+    "README.md",
+    "Access Advisor.md",
+    "VPN.md",
+    "Gateways.md",
     "Global Infrastructure.md",
-    "02-Networking/IPSEC.md",
-    "02-Networking/Hybrid Cloud Architecture.md",
-    "02-Networking/Gateways.md",
-    "RPO.md"
+    "Security Group.md",
+    "Auto Scaling.md",
+    "AWS Certificate Manager.md",
+    "Credentials Report.md",
+    "IAM.md",
+    "Disaster Recovery.md",
+    "assets/spot-instance-state-diagram.png",
+    "references/AWS_Whitepapers.md",
+    "assets",
+    "cr.csv",
+    "Subnet.md",
+    "SCP.md"
   ]
 }

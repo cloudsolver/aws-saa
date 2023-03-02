@@ -32,7 +32,7 @@ Design Architectures that are:
 	5. Security services with appropriate use cases (for example, Amazon Cognito, Amazon Guard Duty, Amazon Macie).
 	6. Threat vectors external to AWS (for example, DDoS, SQL injection)
 	2. Skills:
-		1. Designing VPC architectures with security components (for example, security groups, route tables, NACL, NAT gateways).
+		1. Designing [[VPC]] architectures with security components (for example, security groups, route tables, NACL, NAT gateways).
 		2. Determining network segmentation strategies (for exampe, using public subnets and private subnets).
 		3. Integrating AWS services to secure applications (for example, AWS Shielf, AWS WAF, AWS SSO, AWS Secrets Manager).
 		4. Securing external network connections to and from the AWS Cloud (for example, VPN, AWS Direct Connect).
@@ -46,7 +46,7 @@ Design Architectures that are:
 	2. Skills:
 		1. Aligning AWS technologies to meet compliance requirements.
 		2. Encrypting data at rest (for example, AWS Key Management Service [[KMS]])
-		3. Encrypting data in transit (for example, AWS Certificate Manager [[ACM]] using TLS)
+		3. Encrypting data in transit (for example, AWS Certificate Manager [[AWS Certificate Manager]] using TLS)
 		4. Implementing access policies for encryption keys.
 		5. Implementing data backups and replications.
 		6. Implementing policies for data access, lifecycle, and protection.
@@ -112,7 +112,7 @@ Design Architectures that are:
 	1. AWS compute services with appropriate use cases: AWS Batach, EMR, Fargate.
 	2. Distributed computing concepts supported by AWS [[global infrastructure]] and edge services.
 	3. Queuing and messaging concepts: Pub-sub.
-	4. Scalability capabilities with appropriate use cases: [[EC2 Auto Scaling]] AWS Auto Scaling.
+	4. Scalability capabilities with appropriate use cases: [[Auto Scaling]] AWS Auto Scaling.
 	5. Serverless technologoes and patterns: Lambda, Fargate.
 	6. Orchestration of containers: ECS, EKS.
 	7. Skills:
@@ -196,8 +196,8 @@ Design Architectures that are:
 	9. Scaling strategies: Auto scaling, hibernation.
 	10. Skills:
 		1. Determining an appropriate load balancing strategy: ALB (Layer 7) , Network Load Balancer (Layer 4) compared with Gateway Load Balancer.
-		2. Determining appropriate scaling methods and strategies for elastic workloads (Horizontal compared with Vertical, EC2 Hibernation).
-		3. Determining cost-effective AWS compute services with appropriate use cases: Lambda, EC2, Fargate.
+		2. Determining appropriate scaling methods and strategies for elastic workloads (Horizontal compared with Vertical, [EC2](EC2.md) Hibernation).
+		3. Determining cost-effective AWS compute services with appropriate use cases: Lambda, [EC2](EC2.md), Fargate.
 		4. Determining the required availability for different classes of workloads: production workloads, non-production workloads.
 		5. Selecting the appropriate instance family and size for a workload.
 3. Design cost-optimized database solutions.
@@ -222,12 +222,12 @@ Design Architectures that are:
 	2. Load balancing concepts: ALB.
 	3. NAT gateways: NAT instnace costs compared with NAT gateway costs.
 	4. Network connectivity: Private lines, dedicated lines, VPNs.
-	5. Network routing, topology, and peering: AWS Transit Gateway, VPC peering.
+	5. Network routing, topology, and peering: AWS Transit Gateway, [[VPC]] peering.
 	6. Network services with appropriate use cases: DNS.
 	7. Skills:
 		1. Configuring appropriate NAT gateway types for a network: Single shared NAT gateway compared with NAT gateways for each AZ.
 		2. Configuring appropriate network connections: Direct Connect compared with VPN compared with Internet.
-		3. Configuring appropriate network routes to minimize transfer costs: Region to Region, AZ to AZ, private to public, Global Accelerator, VPC endpoints.
+		3. Configuring appropriate network routes to minimize transfer costs: Region to Region, AZ to AZ, private to public, Global Accelerator, [[VPC]] endpoints.
 		4. Determining strategic needs for content delivery networks and edge caching.
 		5. Reviewing existing workloads for network optimizations.
 		6. Selecting an appropriate throttling strategy.
