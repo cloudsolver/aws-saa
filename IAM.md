@@ -1,17 +1,32 @@
 Identity and Access Management is a core #awsservice  Global Service.
 
-* Users: mapped to a physical user, has a password for AWS Console.
-* Groups: contains users only.
-* Policies: JSON document that outlines permissions for users or groups.
-	* *Users or Groups can be assigned JSON documents called Policies.*
+### IAM User
+- Users: mapped to a physical user, has a password for AWS Console
+-  Many users can be created. 
+- Principle of least privilege: give users only rights they need to do their job. #wellarchitected
+Changes to IAM groups are live immediately. Policy can be attached directly, and by groups.
+### IAM Group
+- Groups: contains users only.
+- Groups can be given permissions via IAM Policy.
+### IAM Policy
+- An IAM Policy is a JSON document that outlines permissions for users or groups.
+	* Users or Groups can be assigned JSON documents called Policies.
 	* Policies declare permissions. You can inherit policies, but not roles.
 	* IAM Policy contains 'version'
 	* IAM Policy Statement contains Sid, Effect, Principal, Action, Resources, and Condition.
 	* `sid` is the statement identifier that describes the policy statement.
-* Roles: for [EC2](EC2.md) instnace or AWS Services.
+	#Q An IAM policy consists of one or more statements. A statement in an IAM policy consists of the following, EXCEPT:
+	1. Effect
+	2. Principal
+	3. Version
+	4. Action
+	5. Resource
+	Answer: This is a tricky question because the JSON contains everything listed. However, the version is at a higher level than the statement itself.
+### IAM Role
+IAM Roles for [EC2](EC2.md) instance or AWS Services.
 	* IAM Role for Services:
 	* Perform actions on your behalf 
-	* Assign persmissions to AWS services with IAM Roles e.g. [EC2](EC2.md) Instnace, Lambda, etc.
+	* Assign permissions to AWS services with IAM Roles e.g. [EC2](EC2.md) Instnace, Lambda, etc.
 * Security: MFA + Password policy.
 	* IAM password policies can be protected by requiring
 	* Complexity: min length, specific character types, numbers, non-alphanumeric characters, expiration, prevent reuse and change password by user.
@@ -19,8 +34,7 @@ Identity and Access Management is a core #awsservice  Global Service.
 * Access Keys: CLI or SDK
 * [[Audit]]: [[Credentials Report]] and [[Access Advisor]] 
 
-Principle of least privilege: give users only rights they need to do their job. #wellarchitected
-Changes to IAM groups are live immediately. Policy can be attached directly, and by groups.
+
 
 
 
@@ -33,13 +47,7 @@ Changes to IAM groups are live immediately. Policy can be attached directly, and
 3. IAM Services Report
 4. IAM Security Advisor
 Answer: This is a tricky question because when the question is framed like a 'tool' you would want to pick IAM Securtiy Advisor thinking it is the IAM Access Advisor. However, that would be incorrect becauser there is no Security Advisor within IAM. There is a report that comes out of IAM i.e. [[Credentials Report]] - but it is not a tool. Is it? Well, I guess that's the answer for this question.
-An IAM policy consists of one or more statements. A statement in an IAM policy consists of the following, EXCEPT:
-1. Effect
-2. Principal
-3. Version
-4. Action
-5. Resource
-Answer: This is a tricky question because the JSON contains everything listed. However, the version is at a higher level than the statement itself.
+
 
 
 [[Cloud Shell]] is handy.
