@@ -1,11 +1,12 @@
 https://infrastructure.aws
-
+### Region
 * How to choose an [[AWS Region]]? 
 	Compliance: regulations.
 	Proximity to reduce latency.
 	Available Services: Feature vary by region.
 	Pricing: Prices vary from region to region.
-* [[Availability Zones]]
+### AZ
+* [[Availability Zones]] are a virtual or logical data center.
 	* Usually 3, maximum is 6.
 	* Each AZ is one or more discrete data centers with redundant power, networking and connectivity.
 	* They're separate from each other, so taht they're isolate from disaster.

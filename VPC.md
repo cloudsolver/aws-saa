@@ -2,9 +2,17 @@
 
 A [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-your-vpc.html) is a virtual network that closely resembles a traditional network that you'd operate in your own data center. After you create a VPC, you can add subnets.
 
-**Subnets**
+1. [Virtual Private Cloud (VPC)](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html): Slice of the cloud
 
-A [subnet](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html) is a range of IP addresses in your [[VPC]]. A [[Subnet]] must reside in a single [[Availability Zone]]. After you add subnets, you can deploy AWS resources in your [[VPC]].
+* Foundational service that creates a private virtual network to launch resources.
+* Spans AZs in a region.
+* VPC A and VPC B can be [peered](https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html) so they act as one logical VPC.You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different Regions (also known as an inter-Region VPC peering connection).
+
+* The default VPC always exists in every region. But all new VPCs are region specific.
+
+**Subnet**
+
+A [subnet](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html) is a range of IP addresses in your [[VPC]]. A [[Subnet]] must reside in a single [[AZ]]. After you add subnets, you can deploy AWS resources in your [[VPC]].
 
 **IP addressing**
 
@@ -34,8 +42,10 @@ Use a [transit gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-
 
 A [flow log](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) captures information about the IP traffic going to and from network interfaces in your VPC.
 
-**VPN connections**
+**[[VPN]] connections**
 
 Connect your VPCs to your on-premises networks using [AWS Virtual Private Network (AWS VPN)](https://docs.aws.amazon.com/vpc/latest/userguide/vpn-connections.html).
 
-[[ENI]] is a logical component of a VPC that representes a virtual network card.
+[[ENI]] is a logical component of a VPC that represents a virtual network card.
+
+[[ELB]] on AWS is at the edge of the VPC architecture
