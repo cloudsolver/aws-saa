@@ -1,5 +1,7 @@
 Elastic Block Storage is an attached #awsservice storage service for EC2; store up to 16 TiB and supply up to 64,000 IOPS.
+
 It is locked to an Availability Zone (AZ). The volume and instance must be in the same AZ. In order to move the volume it needs to be snapshot first. Two EBS volumes can be attached to an EC2 instance in the same AZ.
+
 The root EBS volume is deleted. #usecase You can preserve root volume when an instance is terminated but checking `preserve root volume on termination` 
 
 ### [[EBS Snapshots]]
