@@ -13,14 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EBS.md",
+                "file": "Arch Cost-Optimized.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "90a2e29de7c676b3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "glo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 236.5,
+    "collapsed": true
   },
   "right": {
     "id": "2b2cdcb0db6ca449",
@@ -86,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EBS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EBS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "EBS.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,41 +152,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f8b6a61ac40297e",
+  "active": "90a2e29de7c676b3",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Global Infrastructure.md",
+    "Data Center.md",
+    "AZ.md",
+    "AWS Region.md",
+    "Arch Cost-Optimized.md",
+    "VPC.md",
+    "EC2.md",
+    "Security Group.md",
+    "EBS.md",
+    "assets/spot-instance-state-diagram.png",
+    "assets/spead_placement_group.png",
+    "assets/osi_model.png",
+    "assets/gwlb.png",
+    "assets/cluster_placement_group.png",
+    "SAA-C03.md",
+    "ACM.md",
+    "Access Advisor.md",
+    "IAM.md",
+    "EC2 Instance Connect.md",
+    "RDS.md",
     "High Performing Architectures.md",
     "Secure Architectures.md",
     "Resilient Architectures.md",
     "Gateways.md",
-    "Arch Cost-Optimized.md",
     "VPN.md",
     "HA.md",
-    "SAA-C03.md",
-    "EC2.md",
     "ELB.md",
     "Placement Groups.md",
     "SR-IOV.md",
-    "AZ.md",
-    "Global Infrastructure.md",
     "SNI.md",
-    "ACM.md",
-    "assets/gwlb.png",
-    "GENEVE.md",
-    "OSI.md",
-    "assets/osi_model.png",
-    "assets/spead_placement_group.png",
-    "assets/cluster_placement_group.png",
     "assets/partition_placement_group.png",
-    "assets/spot-instance-state-diagram.png",
-    "VPC.md",
-    "EFS.md",
-    "TCP-IP.md",
     "TCP",
-    "EBS.md",
-    "AMI.md",
-    "IAM.md",
-    "Availability Zones.md",
-    "AWS Region.md",
     "Pasted image 20230301195314.png",
     "Pasted image 20230301195618.png",
     "Pasted image 20230301195636.png",

@@ -5,5 +5,8 @@
   "showFrontmatter": false,
   "showLineNumber": true,
   "vimMode": false,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "/info",
+  "attachmentFolderPath": "assets"
 }
