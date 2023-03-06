@@ -6,7 +6,7 @@ A [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-your-vpc.html
 
 * Foundational service that creates a private virtual network to launch resources.
 * Spans AZs in a region.
-* VPC A and VPC B can be [peered](https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html) so they act as one logical VPC.You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different Regions (also known as an inter-Region VPC peering connection).
+* VPC A and VPC B can be [peered](https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html) so they act as one logical VPC.You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different Regions (also known as an inter-[Region](Region.md) VPC peering connection).
 
 * The default VPC always exists in every region. But all new VPCs are region specific.
 

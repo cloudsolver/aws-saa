@@ -21,7 +21,7 @@
 		7. Selecting the appropriate services for data migration to storage services
 		8. Selecting the appropriate storage tier
 		9. Selecting the correct data lifecycle for storage.
-		10. Selecting the mnost cost-effective storage service for a workload.
+		10. Selecting the most cost-effective storage service for a workload.
 2. Design cost-optimized compute solutions.
 	1. AWS cost management service features: Cost Allocation Tags, Multi-Account Billing.
 	2. AWS Cost Management tools with appropriate use cases: Cost Explorer, AWS Budgets, AWS Cost and Usage Report.
@@ -65,7 +65,7 @@
 	7. Skills:
 		1. Configuring appropriate NAT gateway types for a network: Single shared NAT gateway compared with NAT gateways for each AZ.
 		2. Configuring appropriate network connections: Direct Connect compared with VPN compared with Internet.
-		3. Configuring appropriate network routes to minimize transfer costs: Region to Region, AZ to AZ, private to public, Global Accelerator, [[VPC]] endpoints.
+		3. Configuring appropriate network routes to minimize transfer costs: [Region](Region.md) to [Region](Region.md), AZ to AZ, private to public, Global Accelerator, [[VPC]] endpoints.
 		4. Determining strategic needs for content delivery networks and edge caching.
 		5. Reviewing existing workloads for network optimizations.
 		6. Selecting an appropriate throttling strategy.

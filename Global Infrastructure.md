@@ -14,15 +14,15 @@ AWS Points of Presence
 
 1. [Local Zones](https://aws.amazon.com/about-aws/global-infrastructure/localzones/)
 
-* A Local Zone is an extension of an AWS Region in geographic proximity to your users.
+* A Local Zone is an extension of an AWS [Region](Region.md) in geographic proximity to your users.
 * Local Zones have their own connections to the internet and support AWS Direct Connect, so that resources created in a Local Zone can serve local users with low-latency communications.
 * Local Zones provide you the ability to place resources, such as compute and storage, in multiple locations closer to your end users.
 * Use case: Run latency sensitive applications closer to the end users.
 
 1. [Wavelength Zone](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-wavelength-zones)
 
-* A Wavelength Zone is an isolated zone in the carrier location where the Wavelength infrastructure is deployed. Wavelength Zones are tied to a Region.
-* A Wavelength Zone is a logical extension of a Region, and is managed by the control plane in the Region.
+* A Wavelength Zone is an isolated zone in the carrier location where the Wavelength infrastructure is deployed. Wavelength Zones are tied to a [Region](Region.md).
+* A Wavelength Zone is a logical extension of a [Region](Region.md), and is managed by the control plane in the [Region](Region.md).
 
 1. [Global Edge Network](https://aws.amazon.com/cloudfront/features/?p=ugi&l=na&whats-new-cloudfront.sort-by=item.additionalFields.postDateTime&whats-new-cloudfront.sort-order=desc)
 

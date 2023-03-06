@@ -85,7 +85,7 @@
 	7. Skills:
 		1. Configuring appropriate NAT gateway types for a network: Single shared NAT gateway compared with NAT gateways for each AZ.
 		2. Configuring appropriate network connections: Direct Connect compared with VPN compared with Internet.
-		3. Configuring appropriate network routes to minimize transfer costs: Region to Region, AZ to AZ, private to public, Global Accelerator, [[VPC]] endpoints.
+		3. Configuring appropriate network routes to minimize transfer costs: [Region](Region.md) to Region, AZ to AZ, private to public, Global Accelerator, [[VPC]] endpoints.
 		4. Determining strategic needs for content delivery networks and edge caching.
 		5. Reviewing existing workloads for network optimizations.
 		6. Selecting an appropriate throttling strategy.
