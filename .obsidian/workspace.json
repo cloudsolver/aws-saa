@@ -4,32 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "53738cd9f637b251",
+        "id": "d07a570a83995d8d",
         "type": "tabs",
         "children": [
           {
-            "id": "6f8b6a61ac40297e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arch Cost-Optimized.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90a2e29de7c676b3",
+            "id": "6d9e9ec855261148",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "glo",
+                "query": "EBS Volume",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
-    "collapsed": true
+    "width": 236.5
   },
   "right": {
     "id": "2b2cdcb0db6ca449",
@@ -152,39 +137,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90a2e29de7c676b3",
+  "active": "6d9e9ec855261148",
   "lastOpenFiles": [
+    "atoms/Physical Health.md",
+    "atoms/Health.md",
+    "EBS.md",
+    "EBS Snapshots.md",
+    "atoms/KMS.md",
+    "atoms/RDS Read Replicas.md",
+    "atoms/EBS Volume Types.md",
+    "atoms/Principal.md",
+    "atoms/Snapshots.md",
+    "atoms/Crash Consistent Backup.md",
+    "Arch Cost-Optimized.md",
+    "atoms/Application Consistent Backup.md",
+    "RDS.md",
+    "SAA-C03 Exam.md",
+    "Access Advisor.md",
+    "atoms/AWS Backup.md",
+    "EC2.md",
+    "Region.md",
+    "AMI.md",
+    "ACM.md",
+    "ELB.md",
     "Untitled.md",
+    "atoms",
     "Global Infrastructure.md",
     "Data Center.md",
     "AZ.md",
     "AWS Region.md",
-    "Arch Cost-Optimized.md",
-    "VPC.md",
-    "EC2.md",
-    "Security Group.md",
-    "EBS.md",
     "assets/spot-instance-state-diagram.png",
     "assets/spead_placement_group.png",
     "assets/osi_model.png",
     "assets/gwlb.png",
     "assets/cluster_placement_group.png",
-    "SAA-C03.md",
-    "ACM.md",
-    "Access Advisor.md",
-    "IAM.md",
-    "EC2 Instance Connect.md",
-    "RDS.md",
-    "High Performing Architectures.md",
-    "Secure Architectures.md",
-    "Resilient Architectures.md",
-    "Gateways.md",
-    "VPN.md",
-    "HA.md",
-    "ELB.md",
-    "Placement Groups.md",
-    "SR-IOV.md",
-    "SNI.md",
     "assets/partition_placement_group.png",
     "TCP",
     "Pasted image 20230301195314.png",

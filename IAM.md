@@ -46,7 +46,7 @@ IAM Roles for [EC2](EC2.md) instance or AWS Services.
 2. IAM Root Account Manager
 3. IAM Services Report
 4. IAM Security Advisor
-Answer: This is a tricky question because when the question is framed like a 'tool' you would want to pick IAM Securtiy Advisor thinking it is the IAM Access Advisor. However, that would be incorrect becauser there is no Security Advisor within IAM. There is a report that comes out of IAM i.e. [[Credentials Report]] - but it is not a tool. Is it? Well, I guess that's the answer for this question.
+Answer: This is a tricky question because when the question is framed like a 'tool' you would want to pick IAM Securtiy Advisor thinking it is the IAM [Access Advisor](Access%20Advisor.md). However, that would be incorrect becauser there is no Security Advisor within IAM. There is a report that comes out of IAM i.e. [[Credentials Report]] - but it is not a tool. Is it? Well, I guess that's the answer for this question.
 
 
 
@@ -62,5 +62,5 @@ Answer: This is a tricky question because when the question is framed like a 'to
 6. Use Roles for permissions to AWS services
 7. Use Access Keys for CLI SDK
 8. [[Credentials Report]] for audit.
-9. Use Access Advisor to review policies and least priviledge adjustments. [[Access Advisor]] shows the services permissions granted to the user and when those services were last accessed. You can use this information to review your policies later.
+9. Use [Access Advisor](Access%20Advisor.md) to review policies and least priviledge adjustments. [[Access Advisor]] shows the services permissions granted to the user and when those services were last accessed. You can use this information to review your policies later.
 10. AWS documented IAM best practices: [Click Here](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)

@@ -17,3 +17,5 @@ Design Architectures that are:
 1. Exam Guide: [Click Here](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ### Video Coursework 
+1. Udemy
+2. YouTube

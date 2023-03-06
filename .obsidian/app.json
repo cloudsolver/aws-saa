@@ -7,6 +7,6 @@
   "vimMode": false,
   "useMarkdownLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "/info",
+  "newFileFolderPath": "atoms",
   "attachmentFolderPath": "assets"
 }

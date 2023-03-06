@@ -18,7 +18,7 @@
 * EC2 Reserved Instance
 	* Reserved Instance: 72% discount. 
 		* 1 year or 3 year
-		* Instance Type, Region, Tenancy, OS
+		* Instance Type, [Region](Region.md), Tenancy, OS
 	* Convertible Reserved Instance
 		* Can change the EC2 instance type, instance family, OS, scope and tenancy.
 		* Up to 66% discount.
@@ -64,14 +64,14 @@ Automatically registers new instances to a load balancer.
 Recreate an EC2 instance if one is terminated or unhealthy.
 There is no cost for ASG itself.
 A Launch Template is required for an ASG.
-	- AMI + Instance Type
+	- [AMI](AMI.md) + Instance Type
 	- EC2 User Data
 	- EBS Volumes
 	- Security Groups
 	- SSH Key Pai
 	- IAM Roles for EC2 Instances
 	- Network + Subnet 
-	- ELB Info
+	- [ELB](ELB.md) Info
 	- Initial Capacity, Min and Max Size.
 	- Scaling Policies.
 [[CloudWatch ]] Alarms can trigger a scaling request to ASG.
