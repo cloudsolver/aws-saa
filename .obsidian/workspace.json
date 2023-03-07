@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fe207ecdcff4b808",
+        "id": "4aa3298ffb95a8f2",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe549c54d0b7407",
+            "id": "6c8138be5bad40a7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Solution Architectures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "atoms/Solution Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "atoms/Solution Architectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "atoms/Solution Architectures.md"
+              }
             }
           }
         ]
@@ -136,8 +144,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fe549c54d0b7407",
+  "active": "6c8138be5bad40a7",
   "lastOpenFiles": [
+    "Resilient Architectures.md",
+    "atoms/Solution Architectures.md",
+    "atoms/Well Architected Framework.md",
+    "High Performing Architectures.md",
+    "Secure Architectures.md",
+    "SAA-C03 Exam.md",
+    "atoms/Resilient Architectures.md",
+    "Access Advisor.md",
     "atoms/Route 53.md",
     "atoms/Disaster Recovery.md",
     "Disaster Recovery.md",
@@ -145,16 +161,11 @@
     "atoms/sedn9Cjgj",
     "atoms/sedVkI0Cz",
     "atoms/AWS Backup.md",
-    "ResilientArchitectures.md",
-    "Secure Architectures.md",
-    "Resilient Architectures.md",
     "ResilientArchitecture.md",
-    "SAA-C03 Exam.md",
     "AZ.md",
     "atoms/DNS.md",
     "AMI.md",
     "templates/atom.md",
-    "Access Advisor.md",
     "assets/dns-settings.png",
     "atoms/SSH.md",
     "EC2.md",
@@ -165,9 +176,6 @@
     "atoms/Aurora.md",
     "atoms/RDS Custom.md",
     "Elastic IP.md",
-    "atoms/RDS Cross Region Replication.md",
-    "RDS.md",
-    "Ports.md",
     "templates",
     "atoms",
     "assets/spot-instance-state-diagram.png",
