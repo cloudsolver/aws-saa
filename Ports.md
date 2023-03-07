@@ -1,3 +1,9 @@
+## Ports
+
+## Summary
+
+## About
+
 Priviledged ports are:
 22 [[SSH]]
 21 [[FTP]]
@@ -5,4 +11,7 @@ Priviledged ports are:
 80 [[HTTP]]
 443 [[HTTPS]]
 3389 [[RDP]]
+5432 PostgreSQL
+## References
+
 

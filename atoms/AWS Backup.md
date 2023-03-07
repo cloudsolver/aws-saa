@@ -1,6 +1,13 @@
-## Introduction
-[AWS Backup](https://aws.amazon.com/backup/) is an #awsservice that centrally manages and automates data protection.
+## AWS Backup Summary
+[AWS Backup](https://aws.amazon.com/backup/) centrally manages and automates data protection. #awsservice 
+## About
+### Features
+- Supports [Crash Consistent Backup](Crash%20Consistent%20Backup.md) of EBS volumes that are attached to EC2 Instances. #reliable 
+- Multiple EBS volumes attached to the same EC2 instance can be backed up with crash-consistency. #reliable 
+- Support Backup plans for Compute, Storage and Database.
+![RDS Backup](RDS%20Backup.md)
 
-## Features
-- Supports [Crash Consistent Backup](Crash%20Consistent%20Backup.md) of EBS volumes that are attached to EC2 Instances.
-- Multiple EBS volumes attached to the same EC2 instance can be backed up with crash-consistency.
+## References
+1. https://aws.amazon.com/backup/
+
+
