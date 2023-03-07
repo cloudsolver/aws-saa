@@ -22,12 +22,15 @@
 - Applying security groups to EC2 to reference ELB, and ElastiCache to EC2, and RDS to EC2 will provide an additional layer of security. #secure  
 ### Wordpress scalability
  - EC2 Instance with an EBS volume can be used for images, but it won't scale horizontally.
- - Instead of EBS, use ENI that points to an EFS where multiple EC2 instances can read and write files.
+ - Instead of EBS, use [[ENI]] that points to an EFS where multiple EC2 instances can read and write files.
 - You could also use S3 Buckets (I think)
 ### Elastic Beanstalk
-- Web Server Tier
-	- ASG with EC2 across Two AZs fronted by an ELB. 
-	- ELB has Worker Tier
+- Web Server Environment Tier connects to the Worker Environment Tier
+	- Both have different ASGs that span AZs. 
+	- Route53 points to the ELB, which then sends traffic to the healthy members of the ASG.
+	- SQS Queue in the Worker Environment Tier takes work requests from the web server to complete tasks. The ASG scales instances based on the messages. Each tier is decoupled from the other.
+	![](elastic_beanstalk_arch.png)
+	- Use a Golden AMI to speed up deployments, and dependencies. This can also help scale much faster.
 ## References
 
 1. [Elastic BeanStalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.html)

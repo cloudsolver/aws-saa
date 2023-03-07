@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "atoms/Solution Architectures.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -146,8 +146,10 @@
   },
   "active": "6c8138be5bad40a7",
   "lastOpenFiles": [
-    "Resilient Architectures.md",
+    "ENI.md",
     "atoms/Solution Architectures.md",
+    "assets/elastic_beanstalk_arch.png",
+    "Resilient Architectures.md",
     "atoms/Well Architected Framework.md",
     "High Performing Architectures.md",
     "Secure Architectures.md",
@@ -175,7 +177,6 @@
     "ACM.md",
     "atoms/Aurora.md",
     "atoms/RDS Custom.md",
-    "Elastic IP.md",
     "templates",
     "atoms",
     "assets/spot-instance-state-diagram.png",
@@ -187,7 +188,6 @@
     "TCP",
     "Pasted image 20230301195314.png",
     "Pasted image 20230301195618.png",
-    "Pasted image 20230301195636.png",
     "assets",
     "cr.csv"
   ]
