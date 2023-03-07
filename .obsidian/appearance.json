@@ -1,5 +1,8 @@
 {
-  "accentColor": "",
-  "cssTheme": "Minimal",
-  "theme": "moonstone"
+  "accentColor": "#09a0be",
+  "cssTheme": "Prism",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "red_tag"
+  ]
 }

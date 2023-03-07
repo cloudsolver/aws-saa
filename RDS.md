@@ -29,7 +29,7 @@ Amazon RDS is a managed RDBMS service that supports various relational database 
 	- Low-storage lasts at least 5 mins.
 	- 6 hours have passed since last modification.
 ### Constraints
-- No SSH access to the database engine.
+- No [SSH](SSH.md) access to the database engine.
 	- Unless you opt for [[RDS Custom]] where you get access to EC2 instance.
 
 ### RDS Read Replica

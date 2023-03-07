@@ -68,7 +68,7 @@ A Launch Template is required for an ASG.
 	- EC2 User Data
 	- EBS Volumes
 	- Security Groups
-	- SSH Key Pai
+	- [SSH](SSH.md) Key Pair
 	- IAM Roles for EC2 Instances
 	- Network + Subnet 
 	- [ELB](ELB.md) Info
