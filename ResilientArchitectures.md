@@ -1,12 +1,12 @@
-## Resilient #reliable 
+## Resilient #resilient 
 1. Design scalable and loosely coupled architectures
-	1. API creation and management : API Gateway, REST API
-	2. AWS managed services with appropriate use cases: AWS Transfer Family, Amazon SQS, Secrets Manager.
-	3. Caching Strategies
+	1. API creation and management : [[API Gateway]], REST API
+	2. AWS managed services with appropriate use cases: AWS Transfer Family, Amazon [[SQS]], [[Secrets Manager]].
+	3. [[Caching]] Strategies
 	4. Design principles for microservices: stateless workloads compared with stateful workloads.
 	5. Event-driven architectures.
 	6. Horizontal scaling and vertical scaling.
-	7. How to appropriately use edge accelerators: CloudFront CDN.
+	7. How to appropriately use edge accelerators: CloudFront [[CDN]].
 	8. Load Balancing Concepts. 
 	9. Multi-tier architectures.
 	10. Queuing and messaging concepts: publish-subscribe.
@@ -46,3 +46,6 @@
 			6. Selecting an appropriate DR strategy to meet business requirements.
 			7. Using AWS services that improve the reliability of legacy applications and applications not built for the cloud.
 			8. Using purpose-built AWS services for workloads.
+
+### Availability
+Availability quantitatively measure resiliency.

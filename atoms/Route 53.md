@@ -3,7 +3,7 @@ Highly scalable and highly available [[DNS]] service that supports various recor
 ## Route 53 Details
 
 ### Record Type
-- A => IPv4, supports multiple IP addresses. #reliable 
+- A => IPv4, supports multiple IP addresses. #resilient 
 	- Alias (AWS Extension) Records are used to point a hostname to an AWS Resource such as CloudFront distribution (rohitsood.com => d2ysinytc0i3i0.cloudfront.net.). This is how you point your zone apex to an Amazon Resource such as ELB. There is no additional charge. #cost-optimize 
 	- You cannot use an Alias for an EC2 DNS name or S3 Buckets! You can however use it for an ELB, VPC Interface Endpoints, S3 Websites, Elastic Beanstalk infrastructure, .
 	- AWS Resources expose an AWS Hostname that can be used with an A record (alias) - free and has health check.
@@ -27,7 +27,7 @@ Route 53 supports the following Routing Policies
 - Weighted Routing Policy
 	- Routes to multiple resources based on specified weights. 
 - Failover Routing Policy
-	- Routes to primary resource, then fails over to secondary resource if health deteriorates. High availability with an active-passive architecture. #availability
+	- Routes to primary resource, then fails over to secondary resource if health deteriorates. High availability with an active-passive architecture. #resilient
 	- Create a Failover group within the records with the same name. Use a primary and secondary resources for the failover. "You must create one primary and one secondary failover record." 
 - Latency Based Routing Policy
 	- By using `latency records` it routes to primary resources, then switches to secondary resource if the latency criteria is not met. Typically, useful when multiple regions have hosted the resources.
@@ -38,7 +38,7 @@ Route 53 supports the following Routing Policies
 	- You can use localization and i18n for users by routing with this policy. #usecase 
 - Multi-Value Answer Routing Policy
 	- Route 53 returns multiple values for the request at random and based on health. 
-	- Ability to return multiple health-checkable IP addresses is a way to use DNS to improve availability and load balancing. #availability #performant #reliable 
+	- Ability to return multiple health-checkable IP addresses is a way to use DNS to improve availability and load balancing. #resilient #performant #resilient 
 - Geo-proximity Routing Policy
 	- By using Route 53 `traffic flow` it routes to resources closest to the request. Shift requests from one location to another.
 ## References

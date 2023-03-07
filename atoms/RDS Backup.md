@@ -3,7 +3,7 @@ RDS offers snapshot backup and restore from S3, Aurora offers Database cloning t
 ## About
 ### Automated Backups and Point-in-time Restores
 - 5 Minutes RPO - data is backed up every 5 minutes. Can be retained from 0-35 days.
-- Daily full backups of the database. #reliable 
+- Daily full backups of the database. #resilient 
 - Snapshot a database that you don't want to use for a long period and then restore when you need it - because RDS will charge you for storage. #tip #cost-optimize
 - Snapshots can be copied across Amazon accounts, regions and and within a region. 
 - Restore a full database from a snapshot.
