@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e83b01e75fdb125",
+        "id": "a9b2f553ca9b7c3e",
         "type": "tabs",
         "children": [
           {
-            "id": "441f12d3bd83de2c",
+            "id": "fd96597978afeeed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Route 53",
+                "query": "Simple Routin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,16 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "441f12d3bd83de2c",
+  "active": "fd96597978afeeed",
   "lastOpenFiles": [
+    "AZ.md",
+    "Resilient Architectures.md",
+    "atoms/Route 53.md",
+    "atoms/DNS.md",
+    "AMI.md",
+    "templates/atom.md",
+    "Access Advisor.md",
+    "assets/dns-settings.png",
     "atoms/SSH.md",
     "EC2.md",
-    "atoms/DNS.md",
     "atoms/SageMaker.md",
-    "atoms/Route 53.md",
     "atoms/Application Consistent Backup.md",
     "Placement Groups.md",
-    "Access Advisor.md",
     "ACM.md",
     "atoms/Aurora.md",
     "atoms/RDS Custom.md",
@@ -164,17 +169,13 @@
     "RDS.md",
     "Ports.md",
     "atoms/ElastiCache.md",
-    "templates/atom.md",
     "atoms/SASL.md",
     "atoms/Disaster Recovery.md",
     "atoms/RDS Backup.md",
     "atoms/AWS Backup.md",
     "atoms/Well Architected Framework.md",
     "atoms/RTO.md",
-    "references/AWS_Whitepapers.md",
-    "atoms/RDS Read Replicas.md",
     "templates",
-    "atoms/RDS Multi-AZ deployments.md",
     "atoms",
     "assets/spot-instance-state-diagram.png",
     "assets/spead_placement_group.png",
@@ -186,7 +187,6 @@
     "Pasted image 20230301195314.png",
     "Pasted image 20230301195618.png",
     "Pasted image 20230301195636.png",
-    "Pasted image 20230301195637.png",
     "assets",
     "cr.csv"
   ]

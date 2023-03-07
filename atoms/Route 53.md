@@ -1,5 +1,5 @@
 ## Summary
-Highly scalable and highly available DNS service that supports various record types, routing policies and domain registration. #awsservice A hosted zone is analogous to a traditional DNS zone file, and Alias records are an extension to DNS that is AWS specific.
+Highly scalable and highly available [[DNS]] service that supports various record types, routing policies and domain registration. #awsservice A hosted zone is analogous to a traditional DNS zone file, and Alias records are an extension to DNS that is AWS specific.
 ## Route 53 Details
 
 ### Record Type
@@ -20,14 +20,26 @@ Highly scalable and highly available DNS service that supports various record ty
 
 ### Routing Policy
 Route 53 supports the following Routing Policies
-- Simple
-	- Typoi
-- Weighted
-- Failover
-- Latency Based
-- Geo-location
-- Multi-Value Answer
-- Geo-proximity
+- Simple Routing Policy
+	- Single resource that typically serves a single function.
+	- Only option is to have multiple IPs in the same record because multiple records with the same name are not possible.
+	- R53 will return the records to the resolver in random order.
+- Weighted Routing Policy
+	- Routes to multiple resources based on specified weights. 
+- Failover Routing Policy
+	- Routes to primary resource, then fails over to secondary resource if health deteriorates. High availability with an active-passive architecture. #availability
+	- Create a Failover group within the records with the same name. Use a primary and secondary resources for the failover. "You must create one primary and one secondary failover record." 
+- Latency Based Routing Policy
+	- Routes to primary resources, then switches to secondary resource if the latency parameters get flagged. Typically, useful when multiple regions have hosted the resources.
+- Geo-location Routing Policy
+	- Routes to resources that are based on the region of the request. Based on where users are their requests can be routed.
+- Multi-Value Answer Routing Policy
+- Geo-proximity Routing Policy
+	- Routes to resources closest to the request. Shift requests from one location to another.
 ## References
+
 1.  https://aws.amazon.com/route53/
 2. https://aws.amazon.com/route53/faqs/
+3. https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-edns0.html
+4. https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html
+5. https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-values-failover.html

@@ -1,12 +1,20 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "Route",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#Q",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +25,6 @@
   "repelStrength": 12.2916666666667,
   "linkStrength": 0.5078125,
   "linkDistance": 293,
-  "scale": 1,
-  "close": true
+  "scale": 1.2668345554572222,
+  "close": false
 }

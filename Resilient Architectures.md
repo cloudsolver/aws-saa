@@ -1,4 +1,4 @@
-## Resilient
+## Resilient #reliable 
 1. Design scalable and loosely coupled architectures
 	1. API creation and management : API Gateway, REST API
 	2. AWS managed services with appropriate use cases: AWS Transfer Family, Amazon SQS, Secrets Manager.
@@ -10,14 +10,14 @@
 	8. Load Balancing Concepts. 
 	9. Multi-tier architectures.
 	10. Queuing and messaging concepts: publish-subscribe.
-	11. Serverless technologies and patterns: AWS Lambda and AWS Fargate.
+	11. Serverless technologies and patterns: AWS [[Lambda]] and AWS [[Fargate]].
 	12. Storage types with associated characteristics: Object, File, Block.
-	13. The orchestration of containers: ECS, EKS.
+	13. The orchestration of containers: [[ECS]], [[EKS]].
 	14. When to use read replicas.
 	15. Workflow orchestration: AWS Step Functions.
 	16. Skills:
 		1. Designing event-driven, microservices, and multi-tier architectures based on requirements.
-		2. Determining scalaing strategies for components used in an architectural design.
+		2. Determining scaling strategies for components used in an architectural design.
 		3. Determining the AWS services for components used in an architecture design.
 		4. Determining the AWS services required to achieve loose coupling based on requirements.
 		5. Determining when to use containers.
@@ -25,8 +25,8 @@
 		7. Recommending appropriate compute, storage, networking, and database technologies based on requirements.
 		8. Using purpose-built AWS services for workloads.
 2. Design highly available and fault tolerant architectures 
-	1. AWS [[global infrastructure]]: AZ, Regions, Route 53.
-	2. AWS managed services with appropriate use cases: Comprehend, Polly.
+	1. AWS [[global infrastructure]]: [[AZ]], Regions, Route 53.
+	2. AWS managed services with appropriate use cases: [[Comprehend]], [[Polly]].
 	3. Basic networking concepts: Route tables.
 	4. Disaster Recovery strategies: Backup and restore, pilot light, warm standby, active-active failover, recovery point objective [[RPO]], recovery time objective [[RTO]]
 	5. Distributed design patterns.
