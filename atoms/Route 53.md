@@ -30,12 +30,17 @@ Route 53 supports the following Routing Policies
 	- Routes to primary resource, then fails over to secondary resource if health deteriorates. High availability with an active-passive architecture. #availability
 	- Create a Failover group within the records with the same name. Use a primary and secondary resources for the failover. "You must create one primary and one secondary failover record." 
 - Latency Based Routing Policy
-	- Routes to primary resources, then switches to secondary resource if the latency parameters get flagged. Typically, useful when multiple regions have hosted the resources.
+	- By using `latency records` it routes to primary resources, then switches to secondary resource if the latency criteria is not met. Typically, useful when multiple regions have hosted the resources.
+	- Latency based routing selects the path of least latency.
 - Geo-location Routing Policy
-	- Routes to resources that are based on the region of the request. Based on where users are their requests can be routed.
+	- By mapping IP addresses to locations it routes to resources that are based on the region of the request. Based on where users are their requests can be routed.
+	- You can also use geolocation routing to restrict distribution of content to only the locations in which you have distribution rights. #usecase 
+	- You can use localization and i18n for users by routing with this policy. #usecase 
 - Multi-Value Answer Routing Policy
+	- Route 53 returns multiple values for the request at random and based on health. 
+	- Ability to return multiple health-checkable IP addresses is a way to use DNS to improve availability and load balancing. #availability #performant #reliable 
 - Geo-proximity Routing Policy
-	- Routes to resources closest to the request. Shift requests from one location to another.
+	- By using Route 53 `traffic flow` it routes to resources closest to the request. Shift requests from one location to another.
 ## References
 
 1.  https://aws.amazon.com/route53/
@@ -43,3 +48,4 @@ Route 53 supports the following Routing Policies
 3. https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-edns0.html
 4. https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html
 5. https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-values-failover.html
+	1. https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-latency.html
