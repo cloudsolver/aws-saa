@@ -9,6 +9,7 @@ Right to left: com is the tld.
 rohitsood.com is the sld (second leve)
 
 ## Browser access example.com
+_This is what happens when you want to visit a website_
 1. Browser connects to a local DNS server
 	1. This is managed or assigned by ISP
 2. Root Name Server
