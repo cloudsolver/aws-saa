@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d07a570a83995d8d",
+        "id": "4e0edf9eaf8e01b9",
         "type": "tabs",
         "children": [
           {
-            "id": "6d9e9ec855261148",
+            "id": "7e3b34e4a423fa05",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "atoms/DNS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "EBS Volume",
+                "query": "DNS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "atoms/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "atoms/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,11 +126,12 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "atoms/DNS.md"
+              }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,35 +146,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d9e9ec855261148",
+  "active": "7e3b34e4a423fa05",
   "lastOpenFiles": [
+    "atoms/RDS Custom.md",
+    "atoms/DNS.md",
+    "Elastic IP.md",
+    "atoms/RDS Cross Region Replication.md",
+    "RDS.md",
+    "Ports.md",
+    "atoms/ElastiCache.md",
+    "templates/atom.md",
+    "atoms/SASL.md",
+    "atoms/Disaster Recovery.md",
+    "atoms/RDS Backup.md",
+    "atoms/AWS Backup.md",
+    "atoms/Well Architected Framework.md",
+    "atoms/Aurora.md",
+    "atoms/RTO.md",
+    "references/AWS_Whitepapers.md",
+    "atoms/RDS Read Replicas.md",
+    "templates",
+    "atoms/RDS Multi-AZ deployments.md",
+    "RPO.md",
+    "atoms/EBS Volume Types.md",
+    "GENEVE.md",
     "atoms/Physical Health.md",
     "atoms/Health.md",
     "EBS.md",
     "EBS Snapshots.md",
     "atoms/KMS.md",
-    "atoms/RDS Read Replicas.md",
-    "atoms/EBS Volume Types.md",
-    "atoms/Principal.md",
-    "atoms/Snapshots.md",
-    "atoms/Crash Consistent Backup.md",
-    "Arch Cost-Optimized.md",
-    "atoms/Application Consistent Backup.md",
-    "RDS.md",
-    "SAA-C03 Exam.md",
-    "Access Advisor.md",
-    "atoms/AWS Backup.md",
-    "EC2.md",
-    "Region.md",
-    "AMI.md",
-    "ACM.md",
-    "ELB.md",
-    "Untitled.md",
     "atoms",
-    "Global Infrastructure.md",
-    "Data Center.md",
-    "AZ.md",
-    "AWS Region.md",
     "assets/spot-instance-state-diagram.png",
     "assets/spead_placement_group.png",
     "assets/osi_model.png",
