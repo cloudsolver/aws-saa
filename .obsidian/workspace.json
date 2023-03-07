@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5e83b01e75fdb125",
+        "id": "fe207ecdcff4b808",
         "type": "tabs",
         "children": [
           {
-            "id": "441f12d3bd83de2c",
+            "id": "3fe549c54d0b7407",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/Route 53.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Route 53",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,14 +82,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Route 53.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -104,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Route 53.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,17 +119,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "atoms/Route 53.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,16 +136,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "441f12d3bd83de2c",
+  "active": "3fe549c54d0b7407",
   "lastOpenFiles": [
+    "atoms/Route 53.md",
+    "atoms/Disaster Recovery.md",
+    "Disaster Recovery.md",
+    "templates/sed54J1gs",
+    "atoms/sedn9Cjgj",
+    "atoms/sedVkI0Cz",
+    "atoms/AWS Backup.md",
+    "ResilientArchitectures.md",
+    "Secure Architectures.md",
+    "Resilient Architectures.md",
+    "ResilientArchitecture.md",
+    "SAA-C03 Exam.md",
+    "AZ.md",
+    "atoms/DNS.md",
+    "AMI.md",
+    "templates/atom.md",
+    "Access Advisor.md",
+    "assets/dns-settings.png",
     "atoms/SSH.md",
     "EC2.md",
-    "atoms/DNS.md",
     "atoms/SageMaker.md",
-    "atoms/Route 53.md",
     "atoms/Application Consistent Backup.md",
     "Placement Groups.md",
-    "Access Advisor.md",
     "ACM.md",
     "atoms/Aurora.md",
     "atoms/RDS Custom.md",
@@ -163,18 +168,7 @@
     "atoms/RDS Cross Region Replication.md",
     "RDS.md",
     "Ports.md",
-    "atoms/ElastiCache.md",
-    "templates/atom.md",
-    "atoms/SASL.md",
-    "atoms/Disaster Recovery.md",
-    "atoms/RDS Backup.md",
-    "atoms/AWS Backup.md",
-    "atoms/Well Architected Framework.md",
-    "atoms/RTO.md",
-    "references/AWS_Whitepapers.md",
-    "atoms/RDS Read Replicas.md",
     "templates",
-    "atoms/RDS Multi-AZ deployments.md",
     "atoms",
     "assets/spot-instance-state-diagram.png",
     "assets/spead_placement_group.png",
@@ -186,7 +180,6 @@
     "Pasted image 20230301195314.png",
     "Pasted image 20230301195618.png",
     "Pasted image 20230301195636.png",
-    "Pasted image 20230301195637.png",
     "assets",
     "cr.csv"
   ]
