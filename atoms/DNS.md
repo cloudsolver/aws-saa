@@ -8,7 +8,7 @@ https://www.resume.rohitsood.com
 Right to left: com is the tld.
 rohitsood.com is the sld (second leve)
 
-### Browser access example.com
+## Browser access example.com
 1. Browser connects to a local DNS server
 	1. This is managed or assigned by ISP
 2. Root Name Server
@@ -16,27 +16,26 @@ rohitsood.com is the sld (second leve)
 4. SLD Name Server
 5. Browser gets IP Address
 6. Sends request to IP Address
-### Domain Registrar
+## Domain Registrar
+- Registers Second Level Domain
 ### DNS Records
 * Each record contains domain / sub-domain name.
-- Record Type
-	- A => IPv4, 
-	- AAAA=>IPv6,
-	- CNAME=>name mapped to another name that has an A record - cannot be an apex, [RFC 1034](https://tools.ietf.org/html/rfc1034) states that the zone apex must be an A Record, and not a CNAME record. You can create a CNAME for `www.rohitsood.com` but not `rohitsood.com`.
-	- NS
-- Value
-- Routing Policy
-- TTL - time to live for cache
+[Route 53](Route%2053.md)
 ### Zone File
+### Hosted Zones
+- Container for records that define how to route traffic to a domain and sub-domains.
+- *Public Hosted Zones* contain records for public domain names.
+- _Private Hosted Zone_ contains records for private domain names (e.g. intranet names). $0.50 per month.
+- 
 ### Name Server
 - Authoritative or Non-Authoritative
-### Top Level Domain (TLD)
+- `dig` and `nslookup` can provide information on the domain name to IP mapping.
+#### Top Level Domain (TLD)
 - com is the top level domain
-### Second Level Domain (SLD)
+#### Second Level Domain (SLD)
 - rohitsood.com
 - resume is sub-domain
-
-### URI, URC, URL and URN
+#### URI, URC, URL and URN
 
 All URLs, URCs and URNs are types of URIs.
 

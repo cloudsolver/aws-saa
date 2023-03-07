@@ -1,0 +1,12 @@
+h1, .cm-header-1, .markdown-preview-view h1 {
+	color: blue;
+}
+h2, .cm-header-2, .markdown-preview-view h2 {
+	color: brown;
+}
+h3, .cm-header-3, .markdown-preview-view h3 {
+	color: indigo ;
+}
+h4, .cm-header-4, .markdown-preview-view h4{
+	color: mediumpurple;
+}
