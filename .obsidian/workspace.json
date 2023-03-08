@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,8 +146,9 @@
   },
   "active": "3431a098dd12497b",
   "lastOpenFiles": [
-    "Disaster Recovery.md",
+    "atoms/Event Bridge.md",
     "atoms/S3.md",
+    "Disaster Recovery.md",
     "atoms/S3 Security.md",
     "assets/s3-storage-classes.png",
     "atoms/Solution Architectures.md",
