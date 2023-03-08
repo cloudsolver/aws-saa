@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a5a4cf593508aa7e",
+        "id": "bb430a11d2530ee4",
         "type": "tabs",
         "children": [
           {
-            "id": "8b39778c0b5760cd",
+            "id": "670f7263266c410b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/S3 Website.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a60fbad46f9fc97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/S3.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "S3",
+                "query": "s3",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "assets/s3-storage-classes.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "assets/s3-storage-classes.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/S3.md"
+                "file": "assets/s3-storage-classes.png"
               }
             }
           }
@@ -159,15 +139,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a60fbad46f9fc97",
+  "active": "1b7450e3aee92ce1",
   "lastOpenFiles": [
-    "atoms/MFA.md",
     "atoms/S3.md",
+    "assets/s3-storage-classes.png",
+    "atoms/Solution Architectures.md",
     "atoms/S3 Website.md",
     "atoms/S3 Security.md",
-    "atoms/RDS Backup.md",
-    "templates/atom.md",
-    "atoms/Solution Architectures.md",
+    "atoms/MFA.md",
+    "ENI.md",
     "assets/elastic_beanstalk_arch.png",
     "Resilient Architectures.md",
     "atoms/Well Architected Framework.md",
@@ -187,11 +167,11 @@
     "AZ.md",
     "atoms/DNS.md",
     "AMI.md",
+    "templates/atom.md",
     "assets/dns-settings.png",
     "atoms/SSH.md",
     "EC2.md",
     "atoms/SageMaker.md",
-    "atoms/Application Consistent Backup.md",
     "templates",
     "atoms",
     "assets/spot-instance-state-diagram.png",
@@ -202,7 +182,6 @@
     "assets/partition_placement_group.png",
     "TCP",
     "Pasted image 20230301195314.png",
-    "Pasted image 20230301195618.png",
     "assets",
     "cr.csv"
   ]
