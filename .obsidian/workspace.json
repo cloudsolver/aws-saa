@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "49713e719233b74b",
+        "id": "99adcfb96c0e8cdf",
         "type": "tabs",
         "children": [
           {
-            "id": "80e6ffa86856b360",
+            "id": "3431a098dd12497b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "atoms/S3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -61,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "atoms/S3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "atoms/S3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "atoms/S3.md"
+              }
             }
           }
         ]
@@ -135,11 +145,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80e6ffa86856b360",
+  "active": "3431a098dd12497b",
   "lastOpenFiles": [
+    "Disaster Recovery.md",
+    "atoms/S3.md",
     "atoms/S3 Security.md",
     "assets/s3-storage-classes.png",
-    "atoms/S3.md",
     "atoms/Solution Architectures.md",
     "atoms/S3 Website.md",
     "atoms/MFA.md",
@@ -154,7 +165,6 @@
     "Access Advisor.md",
     "atoms/Route 53.md",
     "atoms/Disaster Recovery.md",
-    "Disaster Recovery.md",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",
     "atoms/sedVkI0Cz",
