@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb430a11d2530ee4",
+        "id": "49713e719233b74b",
         "type": "tabs",
         "children": [
           {
-            "id": "670f7263266c410b",
+            "id": "80e6ffa86856b360",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/s3-storage-classes.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/s3-storage-classes.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "assets/s3-storage-classes.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -139,13 +135,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b7450e3aee92ce1",
+  "active": "80e6ffa86856b360",
   "lastOpenFiles": [
-    "atoms/S3.md",
+    "atoms/S3 Security.md",
     "assets/s3-storage-classes.png",
+    "atoms/S3.md",
     "atoms/Solution Architectures.md",
     "atoms/S3 Website.md",
-    "atoms/S3 Security.md",
     "atoms/MFA.md",
     "ENI.md",
     "assets/elastic_beanstalk_arch.png",

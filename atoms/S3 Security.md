@@ -30,6 +30,13 @@ The policy below has  a Version, and Statement (array). Each Statement has a sta
 ]
 }
 ```
+
+## Quiz
+You have updated an S3 bucket policy to allow IAM users to read/write files in the S3 bucket, but one of the users complain that he can't perform a `PutObject` API call. What is a possible cause for this?
+(a) S3 bucket policy must be wrong.
+(b) The user lacks permissions.
+(c) IAM user must have an explicit DENY in the attached IAM policy.
+Answer: This is tricky. It is definitely a permissions issue. But where? Well, if the answer is a typo or a mistake then d-uh. But it is a trick question as we must assume that the Bucket Policy is correct. Therefore, the question is trying to test the understanding of the student between what's in the bucket policy versus IAM policy. So (c) Explicit DENY in an IAM Policy will take precedence over an S3 bucket policy.
 ## References
 
 1. [S3 Security Best Practices](https://docs.aws.amazon.com/AmazonS3/latest/userguide/security-best-practices.html)
