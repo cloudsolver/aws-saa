@@ -23,7 +23,7 @@
 ### Wordpress scalability
  - EC2 Instance with an EBS volume can be used for images, but it won't scale horizontally.
  - Instead of EBS, use [[ENI]] that points to an EFS where multiple EC2 instances can read and write files.
-- You could also use S3 Buckets (I think)
+- You could also use [[S3]] Buckets (I think)
 ### Elastic Beanstalk
 - Web Server Environment Tier connects to the Worker Environment Tier
 	- Both have different ASGs that span AZs. 

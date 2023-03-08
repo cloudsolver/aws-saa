@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "4aa3298ffb95a8f2",
+        "id": "a5a4cf593508aa7e",
         "type": "tabs",
         "children": [
           {
-            "id": "6c8138be5bad40a7",
+            "id": "8b39778c0b5760cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Solution Architectures.md",
-                "mode": "preview",
+                "file": "atoms/S3 Website.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a60fbad46f9fc97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/S3.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "S3",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Solution Architectures.md",
+                "file": "atoms/S3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Solution Architectures.md",
+                "file": "atoms/S3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/Solution Architectures.md"
+                "file": "atoms/S3.md"
               }
             }
           }
@@ -144,9 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c8138be5bad40a7",
+  "active": "4a60fbad46f9fc97",
   "lastOpenFiles": [
-    "ENI.md",
+    "atoms/MFA.md",
+    "atoms/S3.md",
+    "atoms/S3 Website.md",
+    "atoms/S3 Security.md",
+    "atoms/RDS Backup.md",
+    "templates/atom.md",
     "atoms/Solution Architectures.md",
     "assets/elastic_beanstalk_arch.png",
     "Resilient Architectures.md",
@@ -167,16 +187,11 @@
     "AZ.md",
     "atoms/DNS.md",
     "AMI.md",
-    "templates/atom.md",
     "assets/dns-settings.png",
     "atoms/SSH.md",
     "EC2.md",
     "atoms/SageMaker.md",
     "atoms/Application Consistent Backup.md",
-    "Placement Groups.md",
-    "ACM.md",
-    "atoms/Aurora.md",
-    "atoms/RDS Custom.md",
     "templates",
     "atoms",
     "assets/spot-instance-state-diagram.png",
