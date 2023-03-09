@@ -10,7 +10,7 @@
 	1. AWS compute services with appropriate use cases: AWS Batch, EMR, Fargate.
 	2. Distributed computing concepts supported by AWS [[global infrastructure]] and edge services.
 	3. Queuing and messaging concepts: Pub-sub.
-	4. Scalability capabilities with appropriate use cases: [[Auto Scaling]] AWS Auto Scaling.
+	4. Scalability capabilities with appropriate use cases: [[Auto_Scaling]] AWS Auto Scaling.
 	5. Serverless technologoes and patterns: Lambda, Fargate.
 	6. Orchestration of containers: ECS, EKS.
 	7. Skills:
