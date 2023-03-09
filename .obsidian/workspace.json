@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fe207ecdcff4b808",
+        "id": "35c3e0118bb9b4e1",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe549c54d0b7407",
+            "id": "f39e6f96541623af",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "atoms/S3_Access_Points.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "WORM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "atoms/S3_Access_Points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "atoms/S3_Access_Points.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "atoms/S3_Access_Points.md"
+              }
             }
           }
         ]
@@ -136,38 +144,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fe549c54d0b7407",
+  "active": "f39e6f96541623af",
   "lastOpenFiles": [
-    "atoms/Route 53.md",
-    "atoms/Disaster Recovery.md",
-    "Disaster Recovery.md",
+    "assets/Pasted image 20230308215302.png",
+    "molecules/S3.md",
+    "Cloud_Shell.md",
+    "atoms/AZ.md",
+    "atoms/Auto_Scaling.md",
+    "molecules/Arch Cost-Optimized.md",
+    "atoms/AMI.md",
+    "atoms/ACM.md",
+    "atoms/Access Advisor.md",
+    "atoms/S3_Access_Points.md",
+    "molecules/High-Performing_Architectures.md",
+    "atoms/S3_Website.md",
+    "atoms/S3_Security.md",
+    "atoms/Well-Architected_Framework.md",
+    "molecules/Solution-Architectures.md",
+    "atoms/S3_Storage_Class.md",
+    "molecules/SAA-C03 Exam.md",
+    "molecules/ResilientArchitectures.md",
+    "molecules/Hybrid Cloud Architecture.md",
+    "molecules/EBS.md",
+    "molecules/ELB.md",
+    "atoms/Elastic IP.md",
+    "atoms/EC2 Instance Connect.md",
+    "molecules/EC2.md",
+    "atoms/EBS Snapshots.md",
+    "molecules",
+    "templates/atom.md",
+    "assets/s3-storage-classes.png",
+    "assets/elastic_beanstalk_arch.png",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",
     "atoms/sedVkI0Cz",
-    "atoms/AWS Backup.md",
-    "ResilientArchitectures.md",
-    "Secure Architectures.md",
-    "Resilient Architectures.md",
-    "ResilientArchitecture.md",
-    "SAA-C03 Exam.md",
-    "AZ.md",
-    "atoms/DNS.md",
-    "AMI.md",
-    "templates/atom.md",
-    "Access Advisor.md",
     "assets/dns-settings.png",
-    "atoms/SSH.md",
-    "EC2.md",
-    "atoms/SageMaker.md",
-    "atoms/Application Consistent Backup.md",
-    "Placement Groups.md",
-    "ACM.md",
-    "atoms/Aurora.md",
-    "atoms/RDS Custom.md",
-    "Elastic IP.md",
-    "atoms/RDS Cross Region Replication.md",
-    "RDS.md",
-    "Ports.md",
     "templates",
     "atoms",
     "assets/spot-instance-state-diagram.png",
@@ -178,8 +189,6 @@
     "assets/partition_placement_group.png",
     "TCP",
     "Pasted image 20230301195314.png",
-    "Pasted image 20230301195618.png",
-    "Pasted image 20230301195636.png",
     "assets",
     "cr.csv"
   ]

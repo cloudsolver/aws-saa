@@ -10,7 +10,7 @@
 	1. AWS compute services with appropriate use cases: AWS Batch, EMR, Fargate.
 	2. Distributed computing concepts supported by AWS [[global infrastructure]] and edge services.
 	3. Queuing and messaging concepts: Pub-sub.
-	4. Scalability capabilities with appropriate use cases: [[Auto Scaling]] AWS Auto Scaling.
+	4. Scalability capabilities with appropriate use cases: [[Auto_Scaling]] AWS Auto Scaling.
 	5. Serverless technologoes and patterns: Lambda, Fargate.
 	6. Orchestration of containers: ECS, EKS.
 	7. Skills:
@@ -90,8 +90,8 @@
 		5. Reviewing existing workloads for network optimizations.
 		6. Selecting an appropriate throttling strategy.
 		7. Selecting the appropriate bandwidth allocation for a network device: single VPN compared with multiple VPN, Direct Connect speed.
- high-performing database solutions.
-	1. Caching strategies and services: ElastiCache.
+ High-performing database solutions.
+	1. Caching strategies and services: [[ElastiCache]].
 	2. Data access patterns: Read-intensive compared to write-intensive.
 	3. Database capacity planning: Capacity Units, Instance Types, Provisioned IOPS.
 	4. Database connections and proxies.
