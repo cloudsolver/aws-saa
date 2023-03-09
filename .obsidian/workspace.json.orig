@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a56740dffe5925c1",
+        "id": "9a316a0edc75fd7c",
         "type": "tabs",
         "children": [
           {
-            "id": "e0c8ea21d2415902",
+            "id": "600fc94b33dde4a6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Cloud Front",
+                "query": "tag:#usecase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -136,22 +137,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0c8ea21d2415902",
+  "active": "600fc94b33dde4a6",
   "lastOpenFiles": [
-    "molecules/SAA-C03 Exam.md",
-    "molecules/Secure-Architectures.md",
-    "Global Infrastructure.md",
     "atoms/Global_Accelerator.md",
-    "atoms/Cloud_Front.md",
-    "atoms/S3_Website_Hosting.md",
-    "atoms/ElastiCache.md",
-    "molecules/S3.md",
-    "atoms/S3_Security.md",
-    "atoms/S3_REMOTE_30526.md",
-    "atoms/S3_LOCAL_30526.md",
-    "atoms/S3_BASE_30526.md",
-    "atoms/S3_BACKUP_30526.md",
     "molecules/Solution-Architectures.md",
+    "molecules/Secure-Architectures.md",
+    "molecules/SAA-C03 Exam.md",
+    "molecules/S3.md",
     "molecules/ResilientArchitectures.md",
     "molecules/Hybrid Cloud Architecture.md",
     "molecules/High-Performing_Architectures.md",
@@ -162,9 +154,18 @@
     "molecules/Arch Cost-Optimized.md",
     "molecules",
     "atoms/Well-Architected_Framework.md",
+    "atoms/S3_Website.md",
     "atoms/S3_Storage_Class.md",
+    "atoms/S3_Security.md",
     "atoms/S3_Access_Points.md",
     "atoms/Event Bridge.md",
+    "atoms/Elastic IP.md",
+    "atoms/EC2 Instance Connect.md",
+    "atoms/EBS Snapshots.md",
+    "atoms/Auto_Scaling.md",
+    "atoms/Access Advisor.md",
+    "atoms/AZ.md",
+    "atoms/AWS Region.md",
     "assets/Pasted image 20230308215302.png",
     "assets/s3-storage-classes.png",
     "assets/elastic_beanstalk_arch.png",
