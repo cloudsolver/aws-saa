@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "disaster",
+  "search": "Global",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 12.2916666666667,
   "linkStrength": 0.5078125,
   "linkDistance": 293,
-  "scale": 1.2668345554572222,
+  "scale": 0.9206455041400338,
   "close": false
 }

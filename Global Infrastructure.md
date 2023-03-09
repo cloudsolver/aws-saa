@@ -31,3 +31,9 @@ AWS Points of Presence
 * CloudFront edge locations are connected to the AWS Regions through the AWS network backbone - fully redundant, multiple 100GbE parallel fiber that circles the globe and links with tens of thousands of networks for improved origin fetches and dynamic content acceleration.these are cached closest to audience.
 * Mini-data centers created for low latency between applications and users.
 * There are many more edge locations than AZs or regions.	
+
+## Cloud Front
+[[Cloud_Front]]
+
+## Global Accelerator
+[[Global_Accelerator]]

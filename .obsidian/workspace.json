@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "bb430a11d2530ee4",
+        "id": "ba4c3027590b12c7",
         "type": "tabs",
         "children": [
           {
-            "id": "670f7263266c410b",
+            "id": "51b0fcc4a30d1854",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "High Performing Architectures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8238dc0ebbc04eca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Global_Accelerator.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "s3",
+                "query": "tag:#usecase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/s3-storage-classes.png",
+                "file": "atoms/Global_Accelerator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/s3-storage-classes.png",
+                "file": "atoms/Global_Accelerator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/s3-storage-classes.png"
+                "file": "atoms/Global_Accelerator.md"
               }
             }
           }
@@ -129,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,19 +160,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b7450e3aee92ce1",
+  "active": "8238dc0ebbc04eca",
   "lastOpenFiles": [
+    "High Performing Architectures.md",
+    "atoms/Global_Accelerator.md",
+    "Global Infrastructure.md",
+    "atoms/Cloud_Front.md",
+    "AWS Region.md",
+    "atoms/S3 Security.md",
+    "atoms/S3 Website.md",
     "atoms/S3.md",
     "assets/s3-storage-classes.png",
-    "atoms/Solution Architectures.md",
-    "atoms/S3 Website.md",
-    "atoms/S3 Security.md",
     "atoms/MFA.md",
-    "ENI.md",
+    "atoms/RDS Backup.md",
+    "templates/atom.md",
+    "atoms/Solution Architectures.md",
     "assets/elastic_beanstalk_arch.png",
     "Resilient Architectures.md",
     "atoms/Well Architected Framework.md",
-    "High Performing Architectures.md",
     "Secure Architectures.md",
     "SAA-C03 Exam.md",
     "atoms/Resilient Architectures.md",
@@ -167,11 +193,7 @@
     "AZ.md",
     "atoms/DNS.md",
     "AMI.md",
-    "templates/atom.md",
     "assets/dns-settings.png",
-    "atoms/SSH.md",
-    "EC2.md",
-    "atoms/SageMaker.md",
     "templates",
     "atoms",
     "assets/spot-instance-state-diagram.png",
