@@ -8,7 +8,7 @@ S3 offers Access Points as a mechanism to consolidate and decouple bucket polici
 
 ### S3 Object Lambda Access Point
 An Object Lambda access point is associated with exactly one standard access point and thus one Amazon S3 bucket
-![](Pasted%20image%2020230308215302.png)
+![](lambda_access_point_arch.png)
 The Redacting Lambda Function as well as the Enriching Lambda Function will sit between the S3 Object Lambda Access Point and the Supporting S3 Access Point. 
 - Data transformation of formats e.g. JSON to XML.
 - Watermarking images with personalization or redacting documents e.g. PII.

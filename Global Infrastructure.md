@@ -1,7 +1,7 @@
 https://infrastructure.aws
 
 Amazon services are hosted in multiple locations world-wide. These locations are composed of AWS Regions, Availability Zones, Local Zones, AWS Outposts, and Wavelength Zones.
-AWS Points of Presence
+AWS Points of Presence (POP)
 	  * 216 Points of Presence
 	  * 205 Edge Locations
 	  * 11 Regional Caches

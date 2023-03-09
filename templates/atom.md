@@ -1,7 +1,10 @@
-## Summary
 
-## {{title}} Details
+### Summary of {{title}}
 
-## References
+### {{title}} Details
 
+#### References for {{title}}
 1.
+###### Records
+---
+Created on {{date}} {{time}}

@@ -28,10 +28,10 @@ Resilient Architectures are resilient when t
 		7. Recommending appropriate compute, storage, networking, and database technologies based on requirements.
 		8. Using purpose-built AWS services for workloads.
 ### Design highly available and fault tolerant architectures 
-	1. AWS [[[[global infrastructure](Global%20Infrastructure.md)](Global%20Infrastructure.md)]]: [[AZ]], Regions, [Route 53](Route%2053.md).
-	2. AWS managed services with appropriate use cases: [[Comprehend]], [[Polly]].
-	3. Basic networking concepts: Route tables.
-	4. Disaster Recovery strategies: Backup and restore, pilot light, warm standby, active-active failover, recovery point objective [[RPO]], recovery time objective [[RTO]]
+1. AWS [Global Infrastructure](Global%20Infrastructure.md): [[AZ]], Regions, [Route 53](Route%2053.md).
+2. AWS managed services with appropriate use cases: [[Comprehend]], [[Polly]].
+3. Basic networking concepts: Route tables.
+4. Disaster Recovery strategies: Backup and restore, pilot light, warm standby, active-active failover, recovery point objective [[RPO]], recovery time objective [[RTO]]
 	5. Distributed design patterns.
 	6. Failover strategies.
 	7. Immutable infrastructure.

@@ -8,5 +8,7 @@
   "useMarkdownLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "atoms",
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "livePreview": true,
+  "defaultViewMode": "preview"
 }

@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a56740dffe5925c1",
+        "id": "f09a205a1977fc3d",
         "type": "tabs",
         "children": [
           {
-            "id": "e0c8ea21d2415902",
+            "id": "36ab789d520dcf5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "assets/FSx_table.png"
+              }
             }
           }
         ]
@@ -44,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Cloud Front",
+                "query": "FSx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +63,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "assets/FSx_table.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "assets/FSx_table.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "assets/FSx_table.png"
+              }
             }
           }
         ]
@@ -136,36 +141,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0c8ea21d2415902",
+  "active": "1b7450e3aee92ce1",
   "lastOpenFiles": [
+    "assets/FSx_file_systems.png",
+    "assets/Pasted image 20230309110256.png",
+    "assets/FSx_table.png",
+    "assets/partition_placement_group.png",
+    "assets/snowball_v_snowball_edge_table.png",
+    "assets/snowball_glacier_process.png",
+    "assets/snow_family_table.png",
+    "assets/lambda_access_point_arch.png",
+    "atoms/DFS.md",
+    "atoms/AD.md",
+    "atoms/FSx.md",
+    "atoms/ACID.md",
+    "atoms/S3_Storage_Class.md",
+    "templates/atom.md",
+    "atoms/Snow Family.md",
+    "atoms/Lustre.md",
+    "atoms/CAP_Theorem.md",
+    "molecules/S3.md",
+    "atoms/Glacier.md",
+    "molecules/ResilientArchitectures.md",
+    "Global Infrastructure.md",
     "molecules/SAA-C03 Exam.md",
     "molecules/Secure-Architectures.md",
-    "Global Infrastructure.md",
     "atoms/Global_Accelerator.md",
     "atoms/Cloud_Front.md",
     "atoms/S3_Website_Hosting.md",
     "atoms/ElastiCache.md",
-    "molecules/S3.md",
     "atoms/S3_Security.md",
     "atoms/S3_REMOTE_30526.md",
     "atoms/S3_LOCAL_30526.md",
     "atoms/S3_BASE_30526.md",
     "atoms/S3_BACKUP_30526.md",
     "molecules/Solution-Architectures.md",
-    "molecules/ResilientArchitectures.md",
-    "molecules/Hybrid Cloud Architecture.md",
-    "molecules/High-Performing_Architectures.md",
-    "molecules/ELB.md",
-    "molecules/EFS.md",
-    "molecules/EC2.md",
-    "molecules/EBS.md",
-    "molecules/Arch Cost-Optimized.md",
     "molecules",
-    "atoms/Well-Architected_Framework.md",
-    "atoms/S3_Storage_Class.md",
-    "atoms/S3_Access_Points.md",
-    "atoms/Event Bridge.md",
-    "assets/Pasted image 20230308215302.png",
     "assets/s3-storage-classes.png",
     "assets/elastic_beanstalk_arch.png",
     "templates/sed54J1gs",
@@ -174,12 +185,6 @@
     "assets/dns-settings.png",
     "templates",
     "atoms",
-    "assets/spot-instance-state-diagram.png",
-    "assets/spead_placement_group.png",
-    "assets/osi_model.png",
-    "assets/gwlb.png",
-    "assets/cluster_placement_group.png",
-    "assets/partition_placement_group.png",
     "TCP",
     "assets",
     "cr.csv"
