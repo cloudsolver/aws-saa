@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "99adcfb96c0e8cdf",
+        "id": "35c3e0118bb9b4e1",
         "type": "tabs",
         "children": [
           {
-            "id": "3431a098dd12497b",
+            "id": "f39e6f96541623af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "atoms/S3_Access_Points.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "s3",
+                "query": "WORM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "atoms/S3_Access_Points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/S3.md",
+                "file": "atoms/S3_Access_Points.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/S3.md"
+                "file": "atoms/S3_Access_Points.md"
               }
             }
           }
@@ -144,40 +144,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3431a098dd12497b",
+  "active": "f39e6f96541623af",
   "lastOpenFiles": [
-    "atoms/Event Bridge.md",
-    "atoms/S3.md",
-    "Disaster Recovery.md",
-    "atoms/S3 Security.md",
+    "assets/Pasted image 20230308215302.png",
+    "molecules/S3.md",
+    "Cloud_Shell.md",
+    "atoms/AZ.md",
+    "atoms/Auto_Scaling.md",
+    "molecules/Arch Cost-Optimized.md",
+    "atoms/AMI.md",
+    "atoms/ACM.md",
+    "atoms/Access Advisor.md",
+    "atoms/S3_Access_Points.md",
+    "molecules/High-Performing_Architectures.md",
+    "atoms/S3_Website.md",
+    "atoms/S3_Security.md",
+    "atoms/Well-Architected_Framework.md",
+    "molecules/Solution-Architectures.md",
+    "atoms/S3_Storage_Class.md",
+    "molecules/SAA-C03 Exam.md",
+    "molecules/ResilientArchitectures.md",
+    "molecules/Hybrid Cloud Architecture.md",
+    "molecules/EBS.md",
+    "molecules/ELB.md",
+    "atoms/Elastic IP.md",
+    "atoms/EC2 Instance Connect.md",
+    "molecules/EC2.md",
+    "atoms/EBS Snapshots.md",
+    "molecules",
+    "templates/atom.md",
     "assets/s3-storage-classes.png",
-    "atoms/Solution Architectures.md",
-    "atoms/S3 Website.md",
-    "atoms/MFA.md",
-    "ENI.md",
     "assets/elastic_beanstalk_arch.png",
-    "Resilient Architectures.md",
-    "atoms/Well Architected Framework.md",
-    "High Performing Architectures.md",
-    "Secure Architectures.md",
-    "SAA-C03 Exam.md",
-    "atoms/Resilient Architectures.md",
-    "Access Advisor.md",
-    "atoms/Route 53.md",
-    "atoms/Disaster Recovery.md",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",
     "atoms/sedVkI0Cz",
-    "atoms/AWS Backup.md",
-    "ResilientArchitecture.md",
-    "AZ.md",
-    "atoms/DNS.md",
-    "AMI.md",
-    "templates/atom.md",
     "assets/dns-settings.png",
-    "atoms/SSH.md",
-    "EC2.md",
-    "atoms/SageMaker.md",
     "templates",
     "atoms",
     "assets/spot-instance-state-diagram.png",

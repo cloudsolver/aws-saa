@@ -34,4 +34,5 @@
 ## References
 
 1. [Elastic BeanStalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.html)
-2. 
+2. [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/)
+3. 

@@ -50,7 +50,7 @@ Answer: This is a tricky question because when the question is framed like a 'to
 
 
 
-[[Cloud Shell]] is handy.
+[[Cloud_Shell]] is handy.
 
 
 ### IAM Guidelines & Best Practices #bestpractice
