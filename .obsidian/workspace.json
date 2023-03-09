@@ -11,8 +11,26 @@
             "id": "600fc94b33dde4a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Cloud_Front.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b438581a01eb636",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "molecules/SAA-C03 Exam.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#usecase",
+                "query": "Cloud Front",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "atoms/Cloud_Front.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "atoms/Cloud_Front.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "atoms/Cloud_Front.md"
+              }
             }
           }
         ]
@@ -139,15 +161,19 @@
   },
   "active": "600fc94b33dde4a6",
   "lastOpenFiles": [
+    "atoms/Global_Accelerator.md",
+    "atoms/S3_Website_Hosting.md",
+    "molecules/SAA-C03 Exam.md",
+    "Global Infrastructure.md",
+    "atoms/ElastiCache.md",
+    "molecules/S3.md",
+    "atoms/S3_Security.md",
     "atoms/S3_REMOTE_30526.md",
     "atoms/S3_LOCAL_30526.md",
     "atoms/S3_BASE_30526.md",
     "atoms/S3_BACKUP_30526.md",
-    "atoms/Global_Accelerator.md",
     "molecules/Solution-Architectures.md",
     "molecules/Secure-Architectures.md",
-    "molecules/SAA-C03 Exam.md",
-    "molecules/S3.md",
     "molecules/ResilientArchitectures.md",
     "molecules/Hybrid Cloud Architecture.md",
     "molecules/High-Performing_Architectures.md",
@@ -158,14 +184,10 @@
     "molecules/Arch Cost-Optimized.md",
     "molecules",
     "atoms/Well-Architected_Framework.md",
-    "atoms/S3_Website.md",
     "atoms/S3_Storage_Class.md",
-    "atoms/S3_Security.md",
     "atoms/S3_Access_Points.md",
     "atoms/Event Bridge.md",
     "atoms/Elastic IP.md",
-    "atoms/EC2 Instance Connect.md",
-    "atoms/EBS Snapshots.md",
     "assets/Pasted image 20230308215302.png",
     "assets/s3-storage-classes.png",
     "assets/elastic_beanstalk_arch.png",
