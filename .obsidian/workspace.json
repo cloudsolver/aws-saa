@@ -4,33 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9a316a0edc75fd7c",
+        "id": "a56740dffe5925c1",
         "type": "tabs",
         "children": [
           {
-            "id": "600fc94b33dde4a6",
+            "id": "e0c8ea21d2415902",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/Cloud_Front.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b438581a01eb636",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "molecules/SAA-C03 Exam.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -100,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Cloud_Front.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Cloud_Front.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,17 +119,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "atoms/Cloud_Front.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,12 +136,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "600fc94b33dde4a6",
+  "active": "e0c8ea21d2415902",
   "lastOpenFiles": [
-    "atoms/Global_Accelerator.md",
-    "atoms/S3_Website_Hosting.md",
     "molecules/SAA-C03 Exam.md",
+    "molecules/Secure-Architectures.md",
     "Global Infrastructure.md",
+    "atoms/Global_Accelerator.md",
+    "atoms/Cloud_Front.md",
+    "atoms/S3_Website_Hosting.md",
     "atoms/ElastiCache.md",
     "molecules/S3.md",
     "atoms/S3_Security.md",
@@ -173,7 +152,6 @@
     "atoms/S3_BASE_30526.md",
     "atoms/S3_BACKUP_30526.md",
     "molecules/Solution-Architectures.md",
-    "molecules/Secure-Architectures.md",
     "molecules/ResilientArchitectures.md",
     "molecules/Hybrid Cloud Architecture.md",
     "molecules/High-Performing_Architectures.md",
@@ -187,7 +165,6 @@
     "atoms/S3_Storage_Class.md",
     "atoms/S3_Access_Points.md",
     "atoms/Event Bridge.md",
-    "atoms/Elastic IP.md",
     "assets/Pasted image 20230308215302.png",
     "assets/s3-storage-classes.png",
     "assets/elastic_beanstalk_arch.png",
