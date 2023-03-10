@@ -11,7 +11,7 @@ A Recycle Bin for EBS Snapshots prevents accidental deletes.
 
 ## Fast Snapshot Restore (FSR)
 - Force full initialization of snapshot to have no latency on the first use.
-- #usecase . Faster boot times will speed up  VDI environments and allow  Auto Scaling Groups to come online and start processing traffic more quickly, even for large and/or custom AMIs. 
+- #UseCase . Faster boot times will speed up  VDI environments and allow  Auto Scaling Groups to come online and start processing traffic more quickly, even for large and/or custom AMIs. 
 - The trade off is price for performance.
 
 EBS restoration cannot be done to a size smaller, but you can restore to a larger file size.

@@ -34,10 +34,10 @@ The policy below has  a Version, and Statement (array). Each Statement has a sta
 ### S3 Encryption
 S3 Encryption is on by default, however Bucket policies are evaluated first and is always used first.
 1. SSE-S3: Encryption with Amazon managed keys.
-	1. There is no cost for this. #cost-optimized 
+	1. There is no cost for this. #CostOptimized 
 2. SSE-KMS: User must upload files with an HTTP-Header `x-header-aws-kms`
 	1. S3 will invoke KMS API to encrypt objects. Encryption and decryption is done within Amazon S3 service.
-	2. KMS produced key-encryption-keys are S3 Bucket keys that can save costs and improve performance. #bestpractice #performant #cost-optimized 
+	2. KMS produced key-encryption-keys are S3 Bucket keys that can save costs and improve performance. #BestPractice #performant #CostOptimized 
 3. SSE-C: User supplies encryption key within the header of the request. 
 	1. S3 will encrypt with this key, and never save it.
 	2. The connection to S3 must be encrypted.

@@ -1,4 +1,4 @@
-https://infrastructure.aws
+
 
 Amazon services are hosted in multiple locations world-wide. These locations are composed of AWS Regions, Availability Zones, Local Zones, AWS Outposts, and Wavelength Zones.
 AWS Points of Presence (POP)
@@ -10,7 +10,7 @@ AWS Points of Presence (POP)
 
 ![AZ](AZ.md)
 
-![Data Center](Data%20Center.md)
+![DataCenter](DataCenter.md)
 
 1. [Local Zones](https://aws.amazon.com/about-aws/global-infrastructure/localzones/)
 
@@ -33,7 +33,9 @@ AWS Points of Presence (POP)
 * There are many more edge locations than AZs or regions.	
 
 ## Cloud Front
-[[Cloud_Front]]
+[[CloudFront]]
 
 ## Global Accelerator
 [[Global_Accelerator]]
+
+https://infrastructure.aws

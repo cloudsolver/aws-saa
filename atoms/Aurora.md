@@ -25,7 +25,7 @@ Writer, Reader and Custom endpoints provide flexibility, scale and high availabi
 	* Promoting another region : [[RTO]] < 60 seconds.
 ### Machine Learning
 -  Amazon [[SageMaker]] and Amazon [[Comprehend]]
-- Fraud detection, ads targeting, sentiment analysis, product recommendations. #usecase 
+- Fraud detection, ads targeting, sentiment analysis, product recommendations. #UseCase 
 ## References
 
 1. https://aws.amazon.com/rds/aurora/

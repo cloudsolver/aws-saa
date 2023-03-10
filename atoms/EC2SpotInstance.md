@@ -3,7 +3,7 @@
 	* You will get 2-minute warning via [[EC2]] meta-data before shutdown. 
 	* Spot Block - timeframe 1-6 hours of no interruption. Only valid for `one-time` requests - cannot be used for persistent requests.
 	* Spot request: One-time or Persistent.
-	* #usecase: batch, data analysis, image processing, distributed workloads, flexible start and end times.
+	* #UseCase: batch, data analysis, image processing, distributed workloads, flexible start and end times.
 	* #antipattern Not suitable for critical jobs or databases.
 	![[spot-instance-state-diagram.png]]
 	* There are two types of spot requests: persistent and one-time. Refer to the state machine. 

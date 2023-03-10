@@ -4,5 +4,6 @@
   "theme": "moonstone",
   "enabledCssSnippets": [
     "red_tag"
-  ]
+  ],
+  "baseFontSize": 11
 }

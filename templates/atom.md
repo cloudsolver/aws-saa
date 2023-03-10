@@ -1,10 +1,9 @@
-
 ### Summary of {{title}}
 
 ### {{title}} Details
 
 #### References for {{title}}
 1.
-###### Records
+###### Timestamp
 ---
 Created on {{date}} {{time}}

@@ -14,7 +14,7 @@ Application Load Balancer
 	- hostname in URL
 	- query strings
 	- headers
-- #usecase microservices, container-based applications. Port mapping features are useful.
+- #UseCase microservices, container-based applications. Port mapping features are useful.
 - Target Groups
 	- EC2 Instances (can be managed by an ASG) - HTTP
 	- EC2 tasks (managed by ECS) - HTTP
@@ -39,7 +39,7 @@ Network Load Balancer operates at [Layer 4](OSI.md#Layer%204).
 - High throughput with millions of requests per second. 
 - Use it for extremely high performance.
 - One static IP per AZ, and supports assigning Elastic IP
-	- #usecase whitelisting specific IP
+	- #UseCase whitelisting specific IP
 - Designs
 	- NLB can front a TG consisting of an ALB.
 	- NLB can front a TG consisting of an on-prem IP and a private IP.
@@ -54,7 +54,7 @@ Gateway Load Balancer
 	- Transparent Network Gateway: Single entry/exit for all traffic.
 	- Load Balancer: distributes traffic to virtual appliances.
 	 ![Gateway Load Balancer| 200](gwlb.png)
-- #usecase Deep packet inspection, firewalls, intrusion detection and prevention systems, deep packet inspection systems, payload manipulation.
+- #UseCase Deep packet inspection, firewalls, intrusion detection and prevention systems, deep packet inspection systems, payload manipulation.
 - It maintains stickiness of flows to a specific target appliance using 5-tuple (for TCP/UDP flows) or 3-tuple (for non-TCP/UDP flows) by using the [[GENEVE]] protocol on port 6081.
 - Cross-zone load balancing distributes traffic across registered targets in all enabled AZs.
 - GWLB supports assymetric flow only when the load balancer process the initial flow packet and the response flow packet is NOT routed through the load balancer.

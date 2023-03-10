@@ -8,9 +8,9 @@ As soon as the first byte arrives from the origin, CloudFront begins to forward 
 Regional Caches are large than POPs and can hold less popular objects. This saves a trip to the origin servers and keeps objects cached closest to the customer.
 
 - You can enable geo restrictions in CloudFront. #secure 
-- You can choose **Price Class 100**, viewers in India might experience higher latency than if you choose **Price Class 200**. #cost-optimized 
-- Lambda@Edge with CloudFront enables a variety of ways to customize the content that CloudFront delivers. #usecase 
-- Accelerate static site delivery, VOD, field-level encryption are some of the usecases.
+- You can choose **Price Class 100**, viewers in India might experience higher latency than if you choose **Price Class 200**. #CostOptimized 
+- Lambda@Edge with CloudFront enables a variety of ways to customize the content that CloudFront delivers. #UseCase 
+- Accelerate static site delivery, VOD, field-level encryption are some of the UseCases.
 
 ## References
 

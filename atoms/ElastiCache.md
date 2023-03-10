@@ -3,10 +3,10 @@ A managed Redis or Memcached service.
 ## ElastiCache Detail
 - ElastiCache is a managed Redis or Memcached #awsservice 
 - In-memory databases with high performance and low latency. #performant 
-- Reduce load off of databases for read-intensive workloads. #operational-excellence 
+- Reduce load off of databases for read-intensive workloads. #OperationallyExcellent 
 - Requires application code changes to use the cache.
 ### Solution Architecture
-- Application will attempt to fetch data from the cache, if `cache miss` it will fetch from RDS, write to cache. #usecase 
+- Application will attempt to fetch data from the cache, if `cache miss` it will fetch from RDS, write to cache. #UseCase 
 - Sticky session can be eliminated from ALB by using a distributed cache - ensuring stateless infrastructure.
 ### Technology
 - Redis
@@ -15,7 +15,7 @@ A managed Redis or Memcached service.
 	- Data durability using AOF persistence #resilient 
 	- Backup and restores.
 	- Supports sets and sorted sets.
-	- Gaming Leaderboards with guaranteed uniqueness and element ordering, and real time ranking through Redis Sorted Sets. #usecase 
+	- Gaming Leaderboards with guaranteed uniqueness and element ordering, and real time ranking through Redis Sorted Sets. #UseCase 
 - MemCached
 	- No HA, non-persistent, no backup and restore.
 	- Multi-node for partitioning #performant 

@@ -4,20 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "f09a205a1977fc3d",
+        "id": "354d933515a99d0a",
         "type": "tabs",
         "children": [
           {
-            "id": "36ab789d520dcf5e",
+            "id": "e985bbe90329d56a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/FSx_table.png"
+                "file": "atoms/Snow Family.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fb5884a4e69d7ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Storage Architecture.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7852687758d9e98f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "molecules/EC2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bde00831655f256",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/atom.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -46,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "FSx",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,11 +106,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 236.5,
+    "collapsed": true
   },
   "right": {
     "id": "2b2cdcb0db6ca449",
@@ -83,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/FSx_table.png",
+                "file": "Storage Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/FSx_table.png",
+                "file": "Storage Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/FSx_table.png"
+                "file": "Storage Architecture.md"
               }
             }
           }
@@ -131,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,48 +187,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b7450e3aee92ce1",
+  "active": "5fb5884a4e69d7ae",
   "lastOpenFiles": [
+    "molecules/EC2.md",
+    "molecules/EBS.md",
+    "atoms/EBSVolumeTypes.md",
+    "Storage Architecture.md",
+    "molecules/S3.md",
+    "atoms/DataSync.md",
+    "templates/atom.md",
+    "assets/Pasted image 20230309170808.png",
+    "atoms/Snow Family.md",
+    "atoms/FIPS.md",
+    "assets/Pasted image 20230309165809.png",
+    "molecules/TransferFamily.md",
+    "atoms/ML.md",
+    "assets/Pasted image 20230309163354.png",
+    "molecules/VPC.md",
+    "atoms/S3 Security.md",
+    "molecules/CloudFront.md",
+    "GlobalInfrastructure.md",
+    "DR.md",
+    "CostOptimizedArchitecture.md",
+    "atoms/Containers.md",
+    "atoms/SMB.md",
+    "atoms/ElastiCache.md",
+    "atoms/DNS.md",
+    "atoms/EventBridge.md",
+    "atoms/ENI.md",
+    "atoms/EC2 Instance Connect.md",
+    "atoms/EC2SpotInstance.md",
+    "atoms/EBSSnapshots.md",
+    "assets/transfer_family_console.png",
+    "assets/storage_gateway_on_prem_arch.png",
+    "assets/FSx_table.png",
     "assets/FSx_file_systems.png",
     "assets/Pasted image 20230309110256.png",
-    "assets/FSx_table.png",
     "assets/partition_placement_group.png",
     "assets/snowball_v_snowball_edge_table.png",
-    "assets/snowball_glacier_process.png",
-    "assets/snow_family_table.png",
-    "assets/lambda_access_point_arch.png",
-    "atoms/DFS.md",
-    "atoms/AD.md",
-    "atoms/FSx.md",
-    "atoms/ACID.md",
-    "atoms/S3_Storage_Class.md",
-    "templates/atom.md",
-    "atoms/Snow Family.md",
-    "atoms/Lustre.md",
-    "atoms/CAP_Theorem.md",
-    "molecules/S3.md",
-    "atoms/Glacier.md",
-    "molecules/ResilientArchitectures.md",
-    "Global Infrastructure.md",
-    "molecules/SAA-C03 Exam.md",
-    "molecules/Secure-Architectures.md",
-    "atoms/Global_Accelerator.md",
-    "atoms/Cloud_Front.md",
-    "atoms/S3_Website_Hosting.md",
-    "atoms/ElastiCache.md",
-    "atoms/S3_Security.md",
-    "atoms/S3_REMOTE_30526.md",
-    "atoms/S3_LOCAL_30526.md",
-    "atoms/S3_BASE_30526.md",
-    "atoms/S3_BACKUP_30526.md",
-    "molecules/Solution-Architectures.md",
     "molecules",
-    "assets/s3-storage-classes.png",
-    "assets/elastic_beanstalk_arch.png",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",
     "atoms/sedVkI0Cz",
-    "assets/dns-settings.png",
     "templates",
     "atoms",
     "TCP",

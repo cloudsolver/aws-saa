@@ -6,10 +6,10 @@ The following are the various resources for gaining knowledge, learning the skil
 ## Domains
 
 Design Architectures that are:
-1. [[Secure-Architectures]] 0.30
+1. [[SecureArchitectures]] 0.30
 2. [[ResilientArchitectures]] 0.26
-4. [[High-Performing_Architectures]] 0.24
-5. [[Arch Cost-Optimized]] 0.20
+4. [[PerformantArchitectures]] 0.24
+5. [[CostOptimizedArchitecture]] 0.20
 
 [AWS Whitepapers](00-Resources/AWS Whitepapers.md)
 1. Exam Guide: [Click Here](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)

@@ -9,8 +9,8 @@ Snow Family of products cannot import data directly to [Glacier](S3_Storage_Clas
 - **Snowcone** –2 vCPUs, 4 GB RAM,  8 TB HDD.
 - **Snowcone SSD** – 2 vCPUs, 4 GB RAM,  14 TB SSD
 - You can run workloads on EC2 within these devices.
-- DataSync comes pre-installed.
-
+- [DataSync](DataSync.md) comes pre-installed.
+#tip 
 #### Snowball
 * < 80 PB of storage.
 * Snowball Edge can be Cluster for more storage, typically 45TB per node in a leader-less cluster. Up to 15 devices.
