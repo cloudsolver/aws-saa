@@ -9,6 +9,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "atoms",
   "attachmentFolderPath": "assets",
-  "livePreview": true,
-  "defaultViewMode": "source"
+  "livePreview": false,
+  "defaultViewMode": "preview"
 }

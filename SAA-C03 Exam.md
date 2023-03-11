@@ -6,9 +6,9 @@ The following are the various resources for gaining knowledge, learning the skil
 ## Domains
 
 Design Architectures that are:
-1. [[SecureArchitectures]] 0.30
+1. [[Secure Architectures]] 0.30
 2. [[ResilientArchitectures]] 0.26
-4. [[PerformantArchitectures]] 0.24
+4. [[Performant Architectures]] 0.24
 5. [[CostOptimizedArchitecture]] 0.20
 
 [AWS Whitepapers](00-Resources/AWS Whitepapers.md)

@@ -16,7 +16,7 @@ Application Load Balancer
 	- headers
 - #UseCase microservices, container-based applications. Port mapping features are useful.
 - Target Groups
-	- EC2 Instances (can be managed by an ASG) - HTTP
+	- EC2 Instances (can be managed by an [ASG](ASG.md)) - HTTP
 	- EC2 tasks (managed by ECS) - HTTP
 	- Lambda functions - HTTP request is translated into JSON event.
 	- IP address - must be private IPs.
@@ -25,7 +25,7 @@ Application Load Balancer
 
 A listener is a process that checks for connection requests using the port and protocol you configure. The rules that you define for a listener determine how the load balancer routes requests to its registered targets.
 
-#Q An application is deployed with an Application Load Balancer and an Auto Scaling Group. Currently, you manually scale the ASG and you would like to define a Scaling Policy that will ensure the average number of connections to your EC2 instances is around 1000. Which Scaling Policy should you use?
+#Q An application is deployed with an Application Load Balancer and an Auto Scaling Group. Currently, you manually scale the [ASG](ASG.md) and you would like to define a Scaling Policy that will ensure the average number of connections to your EC2 instances is around 1000. Which Scaling Policy should you use?
 (a) Simple Scaling Policy
 (b) Step Scaling Policy
 (c) Target Tracking Policy

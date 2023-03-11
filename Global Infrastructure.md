@@ -1,4 +1,4 @@
-
+### Summary of Global Infrastructure
 
 Amazon services are hosted in multiple locations world-wide. These locations are composed of AWS Regions, Availability Zones, Local Zones, AWS Outposts, and Wavelength Zones.
 AWS Points of Presence (POP)

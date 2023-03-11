@@ -27,8 +27,8 @@
 ### Elastic Beanstalk
 - Web Server Environment Tier connects to the Worker Environment Tier
 	- Both have different ASGs that span AZs. 
-	- Route53 points to the ELB, which then sends traffic to the healthy members of the ASG.
-	- SQS Queue in the Worker Environment Tier takes work requests from the web server to complete tasks. The ASG scales instances based on the messages. Each tier is decoupled from the other.
+	- Route53 points to the ELB, which then sends traffic to the healthy members of the [ASG](ASG.md).
+	- SQS Queue in the Worker Environment Tier takes work requests from the web server to complete tasks. The [ASG](ASG.md) scales instances based on the messages. Each tier is decoupled from the other.
 	![](elastic_beanstalk_arch.png)
 	- Use a Golden AMI to speed up deployments, and dependencies. This can also help scale much faster.
 ## References

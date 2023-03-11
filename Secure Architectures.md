@@ -3,7 +3,7 @@
 1. Design secure access to AWS resources.
 	1. Access controls and management across multiple accounts.
 	2. AWS federated access and identity services. AWS Identity and Access Managment (IAM), AWS Single-Sign-On.
-	3. AWS [[GlobalInfrastructure]] (AZ, AWS Regions).
+	3. AWS [[Global Infrastructure]] (AZ, AWS Regions).
 	4. AWS Security Best Practices (e.g. Principle of Least Privilege).
 	5. The AWS Shared Responsibility Model.
 	2. Skills

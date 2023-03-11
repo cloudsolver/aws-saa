@@ -8,9 +8,9 @@
 		2. Determining storage services that can scale to accommodate future needs.
 2. Design high-performing and elastic compute solutions.
 	1. AWS compute services with appropriate use cases: AWS Batch, EMR, Fargate.
-	2. Distributed computing concepts supported by AWS [[GlobalInfrastructure]] and edge services.
+	2. Distributed computing concepts supported by AWS [[Global Infrastructure]] and edge services.
 	3. Queuing and messaging concepts: Pub-sub.
-	4. Scalability capabilities with appropriate use cases: [[Auto_Scaling]] AWS Auto Scaling.
+	4. Scalability capabilities with appropriate use cases:  AWS Auto Scaling with [[ASG]].
 	5. Serverless technologoes and patterns: Lambda, Fargate.
 	6. Orchestration of containers: ECS, EKS.
 	7. Skills:
@@ -45,7 +45,7 @@
 2. Design cost-optimized compute solutions.
 	1. AWS cost management service features: Cost Allocation Tags, Multi-Account Billing.
 	2. AWS Cost Management tools with appropriate use cases: Cost Explorer, AWS Budgets, AWS Cost and Usage Report.
-	3. AWS [[GlobalInfrastructure]]: Availability Zone, Regions.
+	3. AWS [[Global Infrastructure]]: Availability Zone, Regions.
 	4. AWS purchasing options: Spot Instances, Reserved Instances, Savings Plans.
 	5. Distributed compute strategies: Edge processing.
 	6. Hybrid compute options: AWS Outposts, Snowball Edge.
@@ -95,23 +95,23 @@
 	2. Data access patterns: Read-intensive compared to write-intensive.
 	3. Database capacity planning: Capacity Units, Instance Types, Provisioned IOPS.
 	4. Database connections and proxies.
-	5. Database engines with appropriate use cases: Hetreogeneous migrations, homogenous migration.
+	5. Database engines with appropriate use cases: Heterogeneous migrations, homogeneous migration.
 	6. Database replication: Read replicas.
-	7. Database types and services: Serverless, relational, non-replantion and in-memory.
+	7. Database types and services: Serverless, relational, non-relational and in-memory.
 	8. Skills:
 		1. Configuring read replicas to meet business requirements.
 		2. Designing database architectures.
 		3. Determining an appropriate database engine: MySQL compared with PostgreSQL.
-		4. Determining an appropriate database type: Auroro, DynamoDB.
+		4. Determining an appropriate database type: Aurora, DynamoDB.
 		5. Integrating caching to meet business requirements.
 4. Determined high-performing and scalable network architectures.
-	1. Edge networking services weith appropriate use cases: Cloud Front, Global Accelerator.
+	1. Edge networking services with appropriate use cases: Cloud Front, Global Accelerator.
 	2. How to design network architecture: Subnet tiers, routing, IP addressing.
 	3. Load balancing concepts: Application Load Balancer [[ALB]]
-	4. Network connection options: AWS VPN, Direct Connect, AWS PrivateLink.
+	4. Network connection options: AWS [[VPN]], [[Direct Connect]], AWS [[PrivateLink]].
 	5. Skills:
 		1. Creating a network topology for various architecture: Global, Hybrid, Multi-tier.
-		2. Determining network configurations that can scale to accomodate future needs.
+		2. Determining network configurations that can scale to accommodate future needs.
 		3. Determining the appropriate placement of resoureces to meet business requirements.
 		4. Selecting the approrpriate load balancing strategy.
 5. Determine high-performing data ingestion and transformation solutions.
@@ -121,7 +121,7 @@
 	4. Data transformation services with appropriate use cases: AWS Glue.
 	5. Secure access to ingestion access points.
 	6. Sizes and speeds needed to meet business requirements.
-	7. Streaming data services with appropriate use cases: Amazone Kinesis.
+	7. Streaming data services with appropriate use cases: Amazon [[Kinesis]].
 	8. Skills:
 		1. Building and securing data lakes.
 		2. Designing data streaming architectures.

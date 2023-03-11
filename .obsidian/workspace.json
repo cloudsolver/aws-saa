@@ -4,63 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "354d933515a99d0a",
+        "id": "9ed45edb16d04018",
         "type": "tabs",
         "children": [
           {
-            "id": "e985bbe90329d56a",
+            "id": "ddedb4bcf7f67c49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atoms/Snow Family.md",
+                "file": "atoms/SQS.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "5fb5884a4e69d7ae",
+            "id": "0787c74c418e3824",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage Architecture.md",
+                "file": "atoms/SNS.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "7852687758d9e98f",
+            "id": "b7b1328b76a2492b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecules/EC2.md",
+                "file": "atoms/Kinesis.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "3bde00831655f256",
+            "id": "0b4fcfa019ffcbd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/atom.md",
+                "file": "atoms/Messaging Technologies.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9fb75adbe36381e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Amazon MQ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
-    "collapsed": true
+    "width": 236.5
   },
   "right": {
     "id": "2b2cdcb0db6ca449",
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage Architecture.md",
+                "file": "atoms/Amazon MQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage Architecture.md",
+                "file": "atoms/Amazon MQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storage Architecture.md"
+                "file": "atoms/Amazon MQ.md"
               }
             }
           }
@@ -187,44 +199,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5fb5884a4e69d7ae",
+  "active": "9fb75adbe36381e4",
   "lastOpenFiles": [
+    "assets/Pasted image 20230311000915.png",
+    "atoms/Messaging Technologies.md",
+    "atoms/Amazon MQ.md",
+    "atoms/Kinesis.md",
+    "assets/Pasted image 20230310232602.png",
+    "assets/Pasted image 20230310230955.png",
+    "assets/Pasted image 20230310230208.png",
+    "atoms/SNS.md",
+    "atoms/SQS.md",
+    "Global Infrastructure.md",
+    "Performant Architectures.md",
+    "assets/Pasted image 20230310222059.png",
+    "assets/Pasted image 20230310221856.png",
+    "atoms/CDN.md",
+    "SCP.md",
+    "Secure Architectures.md",
+    "Solution Architectures.md",
+    "Storage Architecture.md",
+    "atoms/ASG.md",
+    "atoms/scaling policy.md",
     "molecules/EC2.md",
+    "atoms/Auto_Scaling.md",
+    "assets/Pasted image 20230310215206.png",
+    "templates/atom.md",
+    "atoms/Snow Family.md",
+    "atoms/FIFO.md",
+    "assets/Pasted image 20230310075710.png",
     "molecules/EBS.md",
     "atoms/EBSVolumeTypes.md",
-    "Storage Architecture.md",
     "molecules/S3.md",
     "atoms/DataSync.md",
-    "templates/atom.md",
     "assets/Pasted image 20230309170808.png",
-    "atoms/Snow Family.md",
     "atoms/FIPS.md",
     "assets/Pasted image 20230309165809.png",
     "molecules/TransferFamily.md",
-    "atoms/ML.md",
     "assets/Pasted image 20230309163354.png",
-    "molecules/VPC.md",
-    "atoms/S3 Security.md",
-    "molecules/CloudFront.md",
-    "GlobalInfrastructure.md",
-    "DR.md",
-    "CostOptimizedArchitecture.md",
-    "atoms/Containers.md",
-    "atoms/SMB.md",
-    "atoms/ElastiCache.md",
-    "atoms/DNS.md",
-    "atoms/EventBridge.md",
-    "atoms/ENI.md",
-    "atoms/EC2 Instance Connect.md",
-    "atoms/EC2SpotInstance.md",
-    "atoms/EBSSnapshots.md",
-    "assets/transfer_family_console.png",
-    "assets/storage_gateway_on_prem_arch.png",
-    "assets/FSx_table.png",
-    "assets/FSx_file_systems.png",
-    "assets/Pasted image 20230309110256.png",
-    "assets/partition_placement_group.png",
-    "assets/snowball_v_snowball_edge_table.png",
     "molecules",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",
