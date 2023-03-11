@@ -1,7 +1,9 @@
-## Summary
+### Summary of {{title}}
 
-## {{title}} Details
+### {{title}} Details
 
-## References
-
-1.
+#### References for {{title}}
+1. 
+###### Timestamp
+---
+Created on {{date}} {{time}}

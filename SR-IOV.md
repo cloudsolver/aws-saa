@@ -1,2 +1,0 @@
-Single-Root I/O Virtualization enabled [[Enhanced Networking]]. 
-SR-IOV is a method of device virtualization that provides higher I/O performance and lower CPU utilization when compared to traditional virtualized network interfaces. Enhanced networking provides higher bandwidth, higher packet per second (PPS) performance, and consistently lower inter-instance latencies. There is no additional charge for using enhanced networking. Cluster [[placement groups]] would benefit from utilizing enhanced networking for tightly coupled workloads.

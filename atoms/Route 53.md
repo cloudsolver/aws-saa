@@ -4,7 +4,7 @@ Highly scalable and highly available [[DNS]] service that supports various recor
 
 ### Record Type
 - A => IPv4, supports multiple IP addresses. #resilient 
-	- Alias (AWS Extension) Records are used to point a hostname to an AWS Resource such as CloudFront distribution (rohitsood.com => d2ysinytc0i3i0.cloudfront.net.). This is how you point your zone apex to an Amazon Resource such as ELB. There is no additional charge. #cost-optimized 
+	- Alias (AWS Extension) Records are used to point a hostname to an AWS Resource such as CloudFront distribution (rohitsood.com => d2ysinytc0i3i0.cloudfront.net.). This is how you point your zone apex to an Amazon Resource such as ELB. There is no additional charge. #CostOptimized 
 	- You cannot use an Alias for an EC2 DNS name or S3 Buckets! You can however use it for an ELB, VPC Interface Endpoints, S3 Websites, Elastic Beanstalk infrastructure, .
 	- AWS Resources expose an AWS Hostname that can be used with an A record (alias) - free and has health check.
 - AAAA=>IPv6
@@ -35,8 +35,8 @@ Route 53 supports the following Routing Policies:
 - Latency based routing selects the path of least latency.
 #### Geo-location Routing Policy
 - By mapping IP addresses to locations it routes to resources that are based on the region of the request. Based on where users are their requests can be routed.
-- You can also use geolocation routing to restrict distribution of content to only the locations in which you have distribution rights. #usecase 
-- You can use localization and i18n for users by routing with this policy. #usecase 
+- You can also use geolocation routing to restrict distribution of content to only the locations in which you have distribution rights. #UseCase 
+- You can use localization and i18n for users by routing with this policy. #UseCase 
 #### Multi-Value Answer Routing Policy
 - Route 53 returns multiple values for the request at random and based on health. 
 - Ability to return multiple health-checkable IP addresses is a way to use DNS to improve availability and load balancing. #resilient #performant 

@@ -3,7 +3,7 @@ Amazon Machine Image is a regional image that instantiates an EC2 instance.
 ## AMI Details
 Amazon Machine Image are a customization of EC2 instance.
 - Add your own software, config, OS, monitoring...
-- #usecase pre-configured, faster initialization.
+- #UseCase pre-configured, faster initialization.
 - AMI are build for specific [region](Region.md). #tip You can copy AMI across Regions.
 
 *Process fop creating an AMI*

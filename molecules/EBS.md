@@ -3,13 +3,13 @@ Elastic Block Storage is an #awsservice attached storage service for EC2; store 
 ## Constraints
 It is locked to an Availability Zone (AZ). The volume and instance must be in the same AZ. In order to move the volume it needs to be snapshot first. Two EBS volumes can be attached to an EC2 instance in the same AZ.
 
-The root EBS volume is deleted upon termination. #usecase You can preserve root volume when an instance is terminated but checking `preserve root volume on termination`  
+The root EBS volume is deleted upon termination. #UseCase You can preserve root volume when an instance is terminated but checking `preserve root volume on termination`  
 
 ## EBS Snapshots
-![EBS Snapshots](EBS%20Snapshots.md#Summary)
-#bestpractice detach the volume to do a snapshot. 
+![EBSSnapshots](EBSSnapshots.md#Summary)
+#BestPractice detach the volume to do a snapshot. 
 ## EBS Volume Types
-![EBS Volume Types](EBS%20Volume%20Types.md#Summary)
+![EBSVolumeTypes](EBSVolumeTypes.md#Summary)
 
 #### EBS Encryption
 - Data at rest is encrypted.
