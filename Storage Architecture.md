@@ -12,8 +12,8 @@ There are various storage options.
 | Network File System for Linux with HPC | [FSx for Lustre](FSx.md#FSx%20for%20Lustre) | Lustre admin is complex |
 | High OS compatibility | [FSx for NetApp ONTAP](FSx.md#FSx%20for%20NetApp%20ONTAP) | Lower throughput compared to Lustre |
 | Managed ZFS File System | [FSx for OpenZFS](FSx.md#FSx%20for%20OpenZFS) | |
-| Hybrid Cloud Storage Architecture backed by S3 & FSx File Gateway, Volume Gateway (cache & stored), Tape Gateway  | [StorageGateway](StorageGateway.md) | Requires on-prem administration | 
-| FTP, FTPS, SFTP interface on top of Amazon S3 or Amazon EFS   | [TransferFamily](TransferFamily.md) | Costs can get high |
+| Hybrid Cloud Storage Architecture backed by S3 & FSx File Gateway, Volume Gateway (cache & stored), Tape Gateway  | [Storage Gateway](Storage%20Gateway.md) | Requires on-prem administration | 
+| FTP, FTPS, SFTP interface on top of Amazon S3 or Amazon EFS   | [Transfer Family](Transfer%20Family.md) | Costs can get high |
 | Multi-Cloud, Hybrid Cloud, Intra-AWS Data Sync with meta-data preservation | [DataSync](DataSync.md) | Setup and admin required |
 | Move large amounts of data to the cloud faster than the Internet | [Snow Family](Snow%20Family.md) | Tradeoff cost versus time  |
 

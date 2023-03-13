@@ -4,76 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "9ed45edb16d04018",
+        "id": "4a039868f9b7d394",
         "type": "tabs",
         "children": [
           {
-            "id": "ddedb4bcf7f67c49",
+            "id": "a6b5827cbbd7f3bb",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/SQS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0787c74c418e3824",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/SNS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b7b1328b76a2492b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/Kinesis.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0b4fcfa019ffcbd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/Messaging Technologies.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9fb75adbe36381e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/Amazon MQ.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,6 +40,15 @@
           {
             "id": "1b7450e3aee92ce1",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -99,10 +59,19 @@
           {
             "id": "240ccf7c20f286fa",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Cogni",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,13 +83,21 @@
           {
             "id": "54388ef6f005d98a",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "starred",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,10 +114,18 @@
           {
             "id": "b49ee81e9af3c046",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Amazon MQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,10 +139,18 @@
           {
             "id": "948788821d86d12d",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Amazon MQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +159,15 @@
           {
             "id": "c78f14ade2b3b5d6",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "tag",
               "state": {
@@ -177,11 +179,18 @@
           {
             "id": "e67c710d03fb699e",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "atoms/Amazon MQ.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -196,47 +205,49 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9fb75adbe36381e4",
+  "active": "a6b5827cbbd7f3bb",
   "lastOpenFiles": [
+    "molecules/Serverless Technologies.md",
+    "molecules/Messaging Technologies.md",
+    "atoms/Cognito.md",
+    "assets/Pasted image 20230313170412.png",
+    "assets/Pasted image 20230313170243.png",
+    "atoms/ELB.md",
+    "assets/Pasted image 20230313164452.png",
+    "atoms/API Gateway.md",
+    "atoms/Step Functions.md",
+    "atoms/ENI.md",
+    "atoms/Lambda.md",
+    "atoms/DynamoDB.md",
+    "DR.md",
+    "atoms/EventBridge.md",
+    "atoms/CloudFront.md",
+    "atoms/EBS.md",
+    "CostOptimizedArchitecture.md",
+    "atoms/ECS.md",
+    "atoms/DFS.md",
+    "atoms/RDS.md",
+    "molecules/Lambda@Edge versus CloudFront Functions.md",
+    "atoms/DLQ.md",
+    "atoms/EFS.md",
+    "atoms/EC2.md",
+    "atoms/Crash Consistent Backup.md",
+    "atoms/VPC.md",
+    "atoms/Transfer Family.md",
+    "atoms/Storage Gateway.md",
+    "atoms/OSI.md",
+    "assets/Pasted image 20230313115332.png",
+    "a",
+    "assets/Pasted image 20230311182006.png",
     "assets/Pasted image 20230311000915.png",
-    "atoms/Messaging Technologies.md",
-    "atoms/Amazon MQ.md",
-    "atoms/Kinesis.md",
     "assets/Pasted image 20230310232602.png",
     "assets/Pasted image 20230310230955.png",
     "assets/Pasted image 20230310230208.png",
-    "atoms/SNS.md",
-    "atoms/SQS.md",
-    "Global Infrastructure.md",
-    "Performant Architectures.md",
     "assets/Pasted image 20230310222059.png",
-    "assets/Pasted image 20230310221856.png",
-    "atoms/CDN.md",
-    "SCP.md",
-    "Secure Architectures.md",
-    "Solution Architectures.md",
-    "Storage Architecture.md",
-    "atoms/ASG.md",
-    "atoms/scaling policy.md",
-    "molecules/EC2.md",
-    "atoms/Auto_Scaling.md",
-    "assets/Pasted image 20230310215206.png",
-    "templates/atom.md",
-    "atoms/Snow Family.md",
-    "atoms/FIFO.md",
-    "assets/Pasted image 20230310075710.png",
-    "molecules/EBS.md",
-    "atoms/EBSVolumeTypes.md",
-    "molecules/S3.md",
-    "atoms/DataSync.md",
-    "assets/Pasted image 20230309170808.png",
-    "atoms/FIPS.md",
-    "assets/Pasted image 20230309165809.png",
-    "molecules/TransferFamily.md",
-    "assets/Pasted image 20230309163354.png",
     "molecules",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",

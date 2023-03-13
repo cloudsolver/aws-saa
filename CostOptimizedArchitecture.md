@@ -30,7 +30,7 @@
 	5. Distributed compute strategies: Edge processing.
 	6. Hybrid compute options: AWS Outposts, Snowball Edge.
 	7. Instance types, families, and sizes: Memory optimized, compute optimized, virtualization.
-	8. Optimization of compute utilization: [[Containers]], [[Serverless]] computing, [[Microservices]].
+	8. Optimization of compute utilization: [[Containers]], [[Serverless Technologies]] computing, [[Microservices]].
 	9. Scaling strategies: Auto scaling, hibernation.
 	10. Skills:
 		1. Determining an appropriate load balancing strategy: ALB (Layer 7) , Network Load Balancer (Layer 4) compared with Gateway Load Balancer.
@@ -45,14 +45,14 @@
 	4. Data retention policies.
 	5. Data capacity planning.
 	6. Data connections and proxies.
-	7. Database engines with appropriate use cases: heterogenouse migrations, homogenous migrations.
+	7. Database engines with appropriate use cases: heterogeneous migrations, homogeneous migrations.
 	8. Database replication: read replicas.
-	9. Database types and services: relational compares with non-relational, Aurora, DynamoDB.
+	9. Database types and services: relational compares with non-relational, Aurora, [[DynamoDB]].
 	10. Skills:
 		1. Designing appropriate backup and retention policies: snapshot frequency.
-		2. Determining an appropriate database engine: MySQL versus PostGres.
+		2. Determining an appropriate database engine: MySQL versus PostgreSQL.
 		3. Determining cost-effective AWS database services with appropriate use cases: DynamoDB compares with Amazon RDS, serverless.
-		4. Determining cost-effective AWS database type: time series format, columnra format.
+		4. Determining cost-effective AWS database type: time series format, columnar format.
 		5. Migrating database schemas and data to different locations and different database engines.
 		   
 1. Design cost-optimized network architectures.

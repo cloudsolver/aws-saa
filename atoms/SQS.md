@@ -1,5 +1,5 @@
 ### Summary of SQS
-Exchange messages via at-least-once delivery, best-effort ordering, low-latency, small size, [[FIFO]] messages between distributed applications that employs a polling method. #awsservice 
+Exchange messages via at-least-once delivery, best-effort ordering, low-latency, small size, [[FIFO]] messages between distributed applications that employs a polling method. #AWSService 
 ### SQS Details
 - At-least-once delivery and best-effort ordering.
 - `SendMessageAPI` to send to SQS. Default message retention period 4 days. Maximum retention is 14 days.

@@ -1,4 +1,4 @@
- [[EC2]]  Elastic Cloud Compute is a core #awsservice that runs virtual servers within a [[VPC]].
+ [[EC2]]  Elastic Cloud Compute is a core #AWSService that runs virtual servers within a [[VPC]].
 * Bootstrap with EC2 User Data - run once at instance first start.
 	* Install updates, software, download comming files etc as sudo.
 * Instance Naming Convention: m5.2xlarge m=instance class, 5=generation, 2xlarge=size of instance within class.

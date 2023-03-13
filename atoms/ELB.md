@@ -1,8 +1,10 @@
-Elastic Load Balancers is an #awsservice that can be set up externally as well as internally.
+Elastic Load Balancers is an #AWSService that can be set up externally as well as internally.
 ## CLB
 Classic Load Balancer (deprecated)
 - CLB : HTTP, HTTPS, TCP, SSL
 #### ALB
+Application Load Balancer is a layer 7 load balancer that is fully managed by AWS.
+
 ![Application Load Balancer diagram|250](https://s3.us-east-1.amazonaws.com/elb-polaris-cdk-assets-us-east-1-prod/2023-02-21T01-06-41_f711e1f2085536cdd2e5cf3814c3b7f9a49425fa46543744dace8418e82c80dc/Static/ALBdiagram.svg)
 Application Load Balancer
 

@@ -10,7 +10,7 @@ AWS Points of Presence (POP)
 
 ![AZ](AZ.md)
 
-![DataCenter](DataCenter.md)
+![Data Center](Data%20Center.md)
 
 1. [Local Zones](https://aws.amazon.com/about-aws/global-infrastructure/localzones/)
 

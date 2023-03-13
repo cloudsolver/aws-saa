@@ -7,7 +7,7 @@ The following are the various resources for gaining knowledge, learning the skil
 
 Design Architectures that are:
 1. [[Secure Architectures]] 0.30
-2. [[ResilientArchitectures]] 0.26
+2. [[Resilient Architectures]] 0.26
 4. [[Performant Architectures]] 0.24
 5. [[CostOptimizedArchitecture]] 0.20
 

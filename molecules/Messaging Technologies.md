@@ -13,9 +13,9 @@ SQS makes sense to have dynamic consumers. However, Kinesis makes sense for 1000
 
 #### SQS v SNS v Kinesis
 
-| SQS | SNS | Kinesis|
+| [[SQS]] | [[SNS]] | [[Kinesis]]|
 |---|---|---|
 | No need to provision throughput | No need to provision throughput | Must provision throughput or on-demand capacity|
-| Unlimited consumers | 100K topics 12.5M subscribers| Firehose writes data
-| Ordering guarantess only on FIFO queue | FIFO capability for SQS FIFO | FIFO per shard |
+| Unlimited consumers | 100K topics 12.5M subscribers| Kinesis Firehose writes data
+| Ordering guarantees only on FIFO queue | FIFO capability for SQS FIFO | FIFO per shard |
 | Poll | Push | Standard pull, enhanced fan-out - push|

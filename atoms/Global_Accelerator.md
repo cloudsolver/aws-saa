@@ -1,5 +1,5 @@
 ## Summary
-It directs global traffic via closest edge locations and Anycast IP through internal Amazon network to improve performance and stability.  #awsservice 
+It directs global traffic via closest edge locations and Anycast IP through internal Amazon network to improve performance and stability.  #AWSService 
 ## Global_Accelerator Details
 - Makes your application go global. #wellarchitected 
 - Enables disaster recovery and failover to another region's ALB. #resilient  

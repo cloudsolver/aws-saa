@@ -5,7 +5,7 @@
   "showFrontmatter": false,
   "showLineNumber": true,
   "vimMode": false,
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "atoms",
   "attachmentFolderPath": "assets",
