@@ -1,5 +1,5 @@
 ## Summary
-Elastic Block Storage is an #awsservice attached storage service for EC2; store up to 16 TiB and supply up to 64,000 IOPS.
+Elastic Block Storage is an #AWSService attached storage service for EC2; store up to 16 TiB and supply up to 64,000 IOPS.
 ## Constraints
 It is locked to an Availability Zone (AZ). The volume and instance must be in the same AZ. In order to move the volume it needs to be snapshot first. Two EBS volumes can be attached to an EC2 instance in the same AZ.
 

@@ -50,12 +50,12 @@
 	5. Distributed compute strategies: Edge processing.
 	6. Hybrid compute options: AWS Outposts, Snowball Edge.
 	7. Instance types, families, and sizes: Memory optimized, compute optimized, virtualization.
-	8. Optimization of compute utilization: [[Containers]], [[Serverless]] computing, [[Microservices]].
+	8. Optimization of compute utilization: [[Containers]], [[Serverless Technologies]] computing, [[Microservices]].
 	9. Scaling strategies: Auto scaling, hibernation.
 	10. Skills:
 		1. Determining an appropriate load balancing strategy: ALB (Layer 7) , Network Load Balancer (Layer 4) compared with Gateway Load Balancer.
 		2. Determining appropriate scaling methods and strategies for elastic workloads (Horizontal compared with Vertical, [EC2](EC2.md) Hibernation).
-		3. Determining cost-effective AWS compute services with appropriate use cases: Lambda, [EC2](EC2.md), Fargate.
+		3. Determining cost-effective AWS compute services with appropriate use cases: [[Lambda]], [EC2](EC2.md), Fargate.
 		4. Determining the required availability for different classes of workloads: production workloads, non-production workloads.
 		5. Selecting the appropriate instance family and size for a workload.
 3. Design cost-optimized database solutions.

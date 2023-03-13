@@ -1,5 +1,5 @@
 ### Summary of Kinesis
-Collect, process, and analyze real-time video and data streams. #awsservice 
+Collect, process, and analyze real-time video and data streams. #AWSService 
 ### Kinesis Details
 - Kinesis Data Streams: ingest and store data streams for processing.
 - Kinesis Data Firehose: extract, transform and load service for streaming data to data lakes, stores and analytics services.

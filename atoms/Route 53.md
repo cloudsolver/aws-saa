@@ -1,5 +1,5 @@
 ## Summary
-Highly scalable and highly available [[DNS]] service that supports various record types, routing policies and domain registration. #awsservice A hosted zone is analogous to a traditional DNS zone file, and Alias records are an extension to DNS that is AWS specific.
+Highly scalable and highly available [[DNS]] service that supports various record types, routing policies and domain registration. #AWSService A hosted zone is analogous to a traditional DNS zone file, and Alias records are an extension to DNS that is AWS specific.
 ## Route 53 Details
 
 ### Record Type

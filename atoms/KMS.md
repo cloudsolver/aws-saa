@@ -1,6 +1,6 @@
 ## Summary
 
-Key management system is an #awsservice that automates encryption key management.
+Key management system is an #AWSService that automates encryption key management.
 
 ## Introduction
 

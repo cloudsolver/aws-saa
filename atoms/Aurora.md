@@ -1,5 +1,5 @@
 ## Aurora Summary
-Aurora is a Cloud Optimized RDS. It is HA out of the box with read scaling, as well as offers global reads and serverless. The underlying storage volume automatically grows. #awsservice 
+Aurora is a Cloud Optimized RDS. It is HA out of the box with read scaling, as well as offers global reads and serverless. The underlying storage volume automatically grows. #AWSService 
 ## About
 Writer, Reader and Custom endpoints provide flexibility, scale and high availability.
 - 6 copies of your data across 3 AZs.

@@ -1,5 +1,5 @@
 ### Summary of Amazon MQ
-AmazonMQ is a managed message broker service for RabbitMQ and ActiveMQ. Useful for migration of messaging applications on-prem. #awsservice  
+AmazonMQ is a managed message broker service for RabbitMQ and ActiveMQ. Useful for migration of messaging applications on-prem. #AWSService  
 ### Amazon MQ Details
 - High Availability: Active, Standby - EFS is a backend storage for MQ Broker. Standby is also mounted on the same storage.
 ![](Pasted%20image%2020230311000915.png)

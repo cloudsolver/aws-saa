@@ -1,5 +1,5 @@
 ## Summary
-Amazon FSx is a managed File System service for popular clustered distributed file systems. Support FSx file systems: NetApp ONTAP, OpenZFS, Windows File Server with [[AD]] support, and [[Lustre]] for [[HPC]]. #awsservice 
+Amazon FSx is a managed File System service for popular clustered distributed file systems. Support FSx file systems: NetApp ONTAP, OpenZFS, Windows File Server with [[AD]] support, and [[Lustre]] for [[HPC]]. #AWSService 
 ## Amazon FSx Details
 ![](FSx_file_systems.png)
 

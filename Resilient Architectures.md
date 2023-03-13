@@ -1,5 +1,5 @@
 ## Summary
-Resilient Architectures are resilient when t
+Resilient Architectures are resilient when the solution has high availability, fault tolerance and MTTR and MT
 
 ## Resilient Architectures Detail
 
