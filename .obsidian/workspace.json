@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a039868f9b7d394",
+        "id": "4102ad0f499f71d2",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b5827cbbd7f3bb",
+            "id": "ccdcc7e8d246b5d7",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Cogni",
+                "query": "CLoudF",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -209,23 +210,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6b5827cbbd7f3bb",
+  "active": "ccdcc7e8d246b5d7",
   "lastOpenFiles": [
-    "molecules/Serverless Technologies.md",
+    "atoms/CloudFront.md",
+    "atoms/STS.md",
+    "molecules/Serverless Architectures.md",
+    "atoms/SQS.md",
+    "assets/Pasted image 20230313191455.png",
+    "assets/Pasted image 20230313191015.png",
+    "assets/Pasted image 20230313184908.png",
+    "atoms/API Gateway.md",
+    "README.md",
     "molecules/Messaging Technologies.md",
     "atoms/Cognito.md",
     "assets/Pasted image 20230313170412.png",
     "assets/Pasted image 20230313170243.png",
     "atoms/ELB.md",
     "assets/Pasted image 20230313164452.png",
-    "atoms/API Gateway.md",
     "atoms/Step Functions.md",
     "atoms/ENI.md",
     "atoms/Lambda.md",
     "atoms/DynamoDB.md",
     "DR.md",
     "atoms/EventBridge.md",
-    "atoms/CloudFront.md",
     "atoms/EBS.md",
     "CostOptimizedArchitecture.md",
     "atoms/ECS.md",
@@ -237,17 +244,11 @@
     "atoms/EC2.md",
     "atoms/Crash Consistent Backup.md",
     "atoms/VPC.md",
-    "atoms/Transfer Family.md",
-    "atoms/Storage Gateway.md",
-    "atoms/OSI.md",
     "assets/Pasted image 20230313115332.png",
     "a",
     "assets/Pasted image 20230311182006.png",
     "assets/Pasted image 20230311000915.png",
     "assets/Pasted image 20230310232602.png",
-    "assets/Pasted image 20230310230955.png",
-    "assets/Pasted image 20230310230208.png",
-    "assets/Pasted image 20230310222059.png",
     "molecules",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",

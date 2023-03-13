@@ -50,7 +50,7 @@
 	5. Distributed compute strategies: Edge processing.
 	6. Hybrid compute options: AWS Outposts, Snowball Edge.
 	7. Instance types, families, and sizes: Memory optimized, compute optimized, virtualization.
-	8. Optimization of compute utilization: [[Containers]], [[Serverless Technologies]] computing, [[Microservices]].
+	8. Optimization of compute utilization: [[Containers]], [[Serverless Architectures]] computing, [[Microservices]].
 	9. Scaling strategies: Auto scaling, hibernation.
 	10. Skills:
 		1. Determining an appropriate load balancing strategy: ALB (Layer 7) , Network Load Balancer (Layer 4) compared with Gateway Load Balancer.

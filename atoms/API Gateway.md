@@ -3,7 +3,7 @@ Amazon API Gateway is a fully managed service to create, publish, maintain, moni
 ### API Gateway Details
 - Expose any AWS Service via API Gateway 
 - Supports containerized and serverless workloads, as well as web applications integrates with [[ELB#ALB]], [[Lambda]]
-- #UseCase API Gateway is helpful to add features such as throttling, rate-limiting, caching, API Keys etc. to your application.
+- #UseCase API Gateway is helpful to add features such as throttling, rate-limiting, caching responses, API Keys etc. to your application.
 
 #### API Gateway Security
 -  IAM
