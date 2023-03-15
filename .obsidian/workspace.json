@@ -4,11 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "4102ad0f499f71d2",
+        "id": "fdcff04db006595d",
         "type": "tabs",
         "children": [
           {
-            "id": "ccdcc7e8d246b5d7",
+            "id": "9b6fa151d4cdf6f9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SAA-C03 Exam",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SAA-C03 Exam.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Cost Optimized Architecture",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Cost Optimized Architecture.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":80},\"to\":{\"line\":49,\"ch\":80}},\"scroll\":0.36092857943121565}"
+                },
+                {
+                  "title": "Redshift",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"atoms/Redshift.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":47},\"to\":{\"line\":15,\"ch\":47}},\"scroll\":0.7063088521470119}"
+                },
+                {
+                  "title": "Athena",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"atoms/Athena.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":128},\"to\":{\"line\":15,\"ch\":128}}}"
+                },
+                {
+                  "title": "Redshift",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"atoms/Redshift.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":79},\"to\":{\"line\":9,\"ch\":79}}}"
+                },
+                {
+                  "title": "Data and Analytics Architectures",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Data and Analytics Architectures.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}},\"scroll\":0.6912587038598177}"
+                },
+                {
+                  "title": "Storage Architecture",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Storage Architecture.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Serverless Architectures",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Serverless Architectures.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"scroll\":10.660671776369623}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Secure Architectures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "15f1161f3b699473",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -20,8 +90,97 @@
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hybrid Cloud Architecture.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9b9b316b8fca28da",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Lake Formation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d8f395f3b55374c4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Glue.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d28a14c936d8da86",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "Presto",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"atoms/Presto.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":91},\"to\":{\"line\":0,\"ch\":91}},\"scroll\":0}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "AWS Data and Analytics Architectures",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Data and Analytics Architectures.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":17},\"to\":{\"line\":0,\"ch\":17}}}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"atoms/Untitled.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Athena.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -71,7 +230,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CLoudF",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,8 +256,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -127,6 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Secure Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +311,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Secure Architectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +351,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Secure Architectures.md"
+              }
             }
           }
         ]
@@ -210,45 +372,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ccdcc7e8d246b5d7",
+  "active": "9b6fa151d4cdf6f9",
+  "ophidian:layout-settings": {
+    "pane-relief:focus-lock": false
+  },
   "lastOpenFiles": [
+    "SAA-C03 Exam.md",
+    "Cost Optimized Architecture.md",
+    "atoms/Redshift.md",
+    "assets/Pasted image 20230314170257.png",
+    "atoms/Athena.md",
+    "Data and Analytics Architectures.md",
+    "Hybrid Cloud Architecture.md",
+    "atoms/Envelope encryption.md",
+    "atoms/Glue.md",
+    "Solution Architectures.md",
+    "atoms/Lake Formation.md",
+    "atoms/QuickSight.md",
+    "Storage Architecture.md",
+    "Serverless Architectures.md",
+    "assets/Pasted image 20230314160124.png",
+    "assets/Pasted image 20230314160100.png",
+    "assets/Pasted image 20230314155418.png",
+    "assets/Pasted image 20230314153758.png",
+    "atoms/Presto.md",
+    "atoms/Untitled.md",
+    "molecules/Messaging Technologies Compared.md",
+    "molecules/Lambda@Edge versus CloudFront Functions.md",
+    "templates/molecule compare.md",
     "atoms/CloudFront.md",
     "atoms/STS.md",
-    "molecules/Serverless Architectures.md",
     "atoms/SQS.md",
     "assets/Pasted image 20230313191455.png",
     "assets/Pasted image 20230313191015.png",
     "assets/Pasted image 20230313184908.png",
     "atoms/API Gateway.md",
     "README.md",
-    "molecules/Messaging Technologies.md",
     "atoms/Cognito.md",
     "assets/Pasted image 20230313170412.png",
     "assets/Pasted image 20230313170243.png",
     "atoms/ELB.md",
-    "assets/Pasted image 20230313164452.png",
     "atoms/Step Functions.md",
-    "atoms/ENI.md",
-    "atoms/Lambda.md",
-    "atoms/DynamoDB.md",
-    "DR.md",
-    "atoms/EventBridge.md",
-    "atoms/EBS.md",
-    "CostOptimizedArchitecture.md",
-    "atoms/ECS.md",
-    "atoms/DFS.md",
-    "atoms/RDS.md",
-    "molecules/Lambda@Edge versus CloudFront Functions.md",
-    "atoms/DLQ.md",
-    "atoms/EFS.md",
-    "atoms/EC2.md",
-    "atoms/Crash Consistent Backup.md",
-    "atoms/VPC.md",
-    "assets/Pasted image 20230313115332.png",
     "a",
-    "assets/Pasted image 20230311182006.png",
-    "assets/Pasted image 20230311000915.png",
-    "assets/Pasted image 20230310232602.png",
     "molecules",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",

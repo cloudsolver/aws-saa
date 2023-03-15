@@ -7,7 +7,7 @@
 	4. AWS Security Best Practices (e.g. Principle of Least Privilege).
 	5. The AWS Shared Responsibility Model.
 	2. Skills
-		1. Applying AWS security best practices to [[IAM]] users and root users (for example, multifactor authentication [[MFA]])
+		1. Applying AWS security best practices to [[IAM]] users and root users (for example, multi-factor authentication [[MFA]])
 		2. Designing a flexible [[authorization]] model that includes [[IAM]] users, groups, roles and policies.
 		3. Designing a security strategy for multiple AWS accounts (for example, [[AWS Control Tower]], Service Control Policies [[SCP]]).
 		4. Determine the appropriate use of resource policies for AWS services.
