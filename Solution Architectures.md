@@ -2,10 +2,10 @@
 
 ## Solution Architectures Details
 - You can achieve HA  with a multi-AZ deployment but it doesn't protect against DR.
-- DR can be achieved with a multi-region architecture.
-- ELB does support sticky sessions, however it does have disadvantages.
+- [[DR]] can be achieved in a variety of ways, usually involved multiple AZ within or across regions.
+- [[ELB]] does support sticky sessions, however it does have disadvantages.
 - Web Clients can store full session data, however it makes the session large and increases network traffic and might increase latency.
-- [ElastiCache](ElastiCache.md) offers sub-milli-second latency and can be used for Shopping Carts as well DynamoDB
+- [[ElastiCache]] offers sub-milli-second latency and can be used for Shopping Carts as well DynamoDB
 
 ### Stateless Application Architecture
 * Elastic IP and DNS round-robin is not resilient. Because TTL of DNS round-robin can cause partial failure when an instance goes down.

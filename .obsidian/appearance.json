@@ -5,5 +5,6 @@
   "enabledCssSnippets": [
     "red_tag"
   ],
-  "baseFontSize": 16
+  "baseFontSize": 17,
+  "textFontFamily": "American Typewriter"
 }

@@ -9,6 +9,7 @@ Exchange messages via at-least-once delivery, best-effort ordering, low-latency,
 - Long Polling is controlled by RVPNeceive message wait time - between 0 and 20 seconds. It reduces the number of API calls and costs, but it does increase the latency.
 - FIFO - exactly once processing (delivered once and remains available until processed by consumer). Q name must end with `.fifo` . Max 300 msg/second and 3K msgs/second with batching. Max 20K in-flight messages at a time *no errors reported if quota breached - must monitor and alert* `ApproximateNumberOfMessagesNotVisible` is a available CloudWatch metric.
 ![Visibility|500](https://docs.aws.amazon.com/images/AWSSimpleQueueService/latest/SQSDeveloperGuide/images/sqs-visibility-timeout-diagram.png)
+- Amazon SQS allows you to retain messages for days and process them later, while we can take down our EC2 instances.
 #### SQS Security
 - Encryption: Supports HTTPS with TLS and encrypts message using SSE with [[KMS]] for storage before it is decrypted and sent to the requesting consumer that is authorized.
 - Access: IAM policies regulate access to SQS API. SQS Access Policies (similar to S3) are useful for cross-account access to SQS queues. Useful for allowing other services to write to an SQS Queue.

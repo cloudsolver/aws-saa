@@ -1,5 +1,5 @@
 ## Summary
-CloudFront is a Content Distribution Service offered by AWS. #AWSService 
+CloudFront is a Content Distribution Network (CDN) Service offered by AWS. #AWSService 
 ## CloudFront Details
 As soon as the first byte arrives from the origin, CloudFront begins to forward the object to the user. CloudFront also adds the object to the cache for the next time someone requests it. While this service is useful for content distribution however for UDP, and non-HTTP acceleration such IoT this won't work. Instead, we must use [Global_Accelerator](Global_Accelerator.md) if business has more advanced use-cases such as requiring whitelisting IP addresses.
 
@@ -7,7 +7,7 @@ As soon as the first byte arrives from the origin, CloudFront begins to forward 
 Fig. Conceptual Architecture
 
 Regional Caches are large than POPs and can hold less popular objects. This saves a trip to the origin servers and keeps objects cached closest to the customer.
-
+- Supports 30 GB file size [limits](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html)
 - You can enable geo restrictions in CloudFront. #secure 
 - You can choose **Price Class 100**, viewers in India might experience higher latency than if you choose **Price Class 200**. #CostOptimized 
 - Lambda@Edge with CloudFront enables a variety of ways to customize the content that CloudFront delivers. #UseCase 
@@ -17,6 +17,7 @@ Regional Caches are large than POPs and can hold less popular objects. This save
 ![[Pasted image 20230313115332.png|128]]
 Fig. Conceptual Architecture
 - Edge Locations are 255 data centers across 47 countries (2022) that run limited AWS Services e.g. S3, AWS Shield, Route 53 etc.
+- Files as large as 20 GB can be delivered.
 - CloudFront functions are constrained JavaScript functions executed before the request hits the cache. 
 ![CloudFront Functions Architecture|256](https://miro.medium.com/v2/resize:fit:1400/0*feB6kqJ_WjWbpggD)
 - Native feature of CloudFront
@@ -38,3 +39,4 @@ Some of these constraints are lifted when using [[Lambda#Lambda@Edge]]
 
 1. [CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 2. https://medium.com/trackit/cloudfront-functions-vs-lambda-edge-which-one-should-you-choose-c88527647695
+3. https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html

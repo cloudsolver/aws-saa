@@ -4,27 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "4a039868f9b7d394",
+        "id": "354d933515a99d0a",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b5827cbbd7f3bb",
+            "id": "3bde00831655f256",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "molecules/Data and Analytics Services.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "171137a7554383d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "molecules/Machine Learning Services.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,15 +50,6 @@
           {
             "id": "1b7450e3aee92ce1",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -59,19 +60,10 @@
           {
             "id": "240ccf7c20f286fa",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "search",
               "state": {
-                "query": "Cogni",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,15 +75,6 @@
           {
             "id": "54388ef6f005d98a",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "starred",
               "state": {}
@@ -114,18 +97,10 @@
           {
             "id": "b49ee81e9af3c046",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "backlink",
               "state": {
+                "file": "molecules/Machine Learning Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,18 +114,10 @@
           {
             "id": "948788821d86d12d",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "molecules/Machine Learning Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,15 +126,6 @@
           {
             "id": "c78f14ade2b3b5d6",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "tag",
               "state": {
@@ -179,18 +137,11 @@
           {
             "id": "e67c710d03fb699e",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "molecules/Machine Learning Services.md"
+              }
             }
           }
         ]
@@ -209,45 +160,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6b5827cbbd7f3bb",
+  "active": "171137a7554383d0",
   "lastOpenFiles": [
-    "molecules/Serverless Technologies.md",
-    "molecules/Messaging Technologies.md",
-    "atoms/Cognito.md",
-    "assets/Pasted image 20230313170412.png",
-    "assets/Pasted image 20230313170243.png",
-    "atoms/ELB.md",
-    "assets/Pasted image 20230313164452.png",
-    "atoms/API Gateway.md",
-    "atoms/Step Functions.md",
-    "atoms/ENI.md",
-    "atoms/Lambda.md",
-    "atoms/DynamoDB.md",
+    "molecules/Data and Analytics Services.md",
+    "molecules/Machine Learning Services.md",
+    "atoms/Glue.md",
+    "atoms/Redshift.md",
+    "atoms/OpenSearch.md",
+    "assets/Pasted image 20230315122650.png",
+    "Resilient Architectures.md",
     "DR.md",
-    "atoms/EventBridge.md",
-    "atoms/CloudFront.md",
-    "atoms/EBS.md",
-    "CostOptimizedArchitecture.md",
-    "atoms/ECS.md",
-    "atoms/DFS.md",
-    "atoms/RDS.md",
-    "molecules/Lambda@Edge versus CloudFront Functions.md",
-    "atoms/DLQ.md",
-    "atoms/EFS.md",
-    "atoms/EC2.md",
-    "atoms/Crash Consistent Backup.md",
+    "molecules/Edge Computing Services.md",
+    "molecules/Messaging Services.md",
+    "Cost Optimized Architecture.md",
+    "atoms/Data Pipeline.md",
+    "atoms/EMR.md",
+    "Serverless Architecture UseCase.md",
+    "Performant Architectures.md",
+    "templates/atom.md",
+    "atoms/Snow Family.md",
+    "templates/molecule compare.md",
+    "atoms/a-b testing.md",
     "atoms/VPC.md",
+    "atoms/Untitled.md",
     "atoms/Transfer Family.md",
     "atoms/Storage Gateway.md",
-    "atoms/OSI.md",
-    "assets/Pasted image 20230313115332.png",
-    "a",
-    "assets/Pasted image 20230311182006.png",
-    "assets/Pasted image 20230311000915.png",
-    "assets/Pasted image 20230310232602.png",
-    "assets/Pasted image 20230310230955.png",
-    "assets/Pasted image 20230310230208.png",
-    "assets/Pasted image 20230310222059.png",
+    "atoms/Step Functions.md",
+    "atoms/STS.md",
+    "atoms/SQS.md",
+    "atoms/SNS.md",
+    "assets/Pasted image 20230314170257.png",
+    "assets/Pasted image 20230314160124.png",
+    "assets/Pasted image 20230314160100.png",
+    "assets/Pasted image 20230314155418.png",
+    "assets/Pasted image 20230314153758.png",
+    "assets/Pasted image 20230313191455.png",
+    "assets/Pasted image 20230313191015.png",
+    "assets/Pasted image 20230313184908.png",
+    "assets/Pasted image 20230313170412.png",
     "molecules",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",
