@@ -28,7 +28,7 @@ AWS Lambda is a serverless, event-driven compute service that lets you run code 
 > 	These notifications are DB instance lifecycle events as opposed to business events. #UseCase 
 
 #### Lambda@Edge
-[[CloudFront#CloudFront Functions]]] and lambda@edge can be used for various scenarios and use-cases - see [[Lambda@Edge versus CloudFront Functions]].
+[[CloudFront#CloudFront Functions]]] and lambda@edge can be used for various scenarios and use-cases - see [[Edge Computing Services]].
 > #UseCase 
 >  dynamic web-applications at edge
 >  intelligent routing between origins and data centers
