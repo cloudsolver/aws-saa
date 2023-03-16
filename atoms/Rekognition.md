@@ -23,6 +23,6 @@ Fig. Content Moderation Architecture
 Amazon Rekognition is integrated with [AWS Identity and Access Management (IAM).](https://aws.amazon.com/iam) #secure 
 #### References for Rekognition
 1.  https://aws.amazon.com/rekognition/faqs/?nc=sn&loc=7
-###### Timestamp
+
 ---
 Created on 2023-03-15 15:42

@@ -5,6 +5,6 @@ Amazon STS is a Secure Tokenization Service that enables limited privilege, temp
 - STS supports AWS [[CloudTrail]] to log all access.
 #### References for STS
 1. https://docs.aws.amazon.com/STS/latest/APIReference/welcome.html
-###### Timestamp
+
 ---
 Created on 2023-03-13 18:40

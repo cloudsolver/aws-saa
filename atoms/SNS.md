@@ -25,6 +25,6 @@ SNS FIFO Fan-Out to SQS FIFO
 1. https://aws.amazon.com/sns/
 2. https://aws.amazon.com/sns/faqs/
 3. https://docs.aws.amazon.com/sns/latest/dg/sns-mobile-application-as-subscriber.html
-###### Timestamp
+
 ---
 Created on 2023-03-10 22:11

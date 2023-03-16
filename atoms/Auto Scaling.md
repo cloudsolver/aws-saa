@@ -4,6 +4,6 @@ Scale collections of related resources that support your application. #AWSServic
 
 #### References for Auto Scaling
 1. https://aws.amazon.com/autoscaling/
-###### Timestamp
+
 ---
 Created on 2023-03-11 20:33

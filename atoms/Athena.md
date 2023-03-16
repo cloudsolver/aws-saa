@@ -34,6 +34,6 @@ Fig Performance and Cost Optimization
 #### References for Athena
 1. https://aws.amazon.com/athena/features/
 2. [Athena](https://aws.amazon.com/athena/) 
-###### Timestamp
+
 ---
 Created on 2023-03-14 13:57

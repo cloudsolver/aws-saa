@@ -30,6 +30,6 @@ Amazon API Gateway is a fully managed service to create, publish, maintain, moni
 
 #### References for API Gateway
 1. https://aws.amazon.com/api-gateway/faqs/
-###### Timestamp
+
 ---
 Created on 2023-03-13 15:54

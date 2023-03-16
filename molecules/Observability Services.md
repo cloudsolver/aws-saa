@@ -11,6 +11,6 @@ AWS offers [[CloudWatch]], [[CloudTrail]] and AWS [[Config]] provide logs, metri
 
 #### References for Observability Services
 1. https://www.dynatrace.com/news/blog/what-is-observability-2/
-###### Timestamp
+
 ---
 Created on 2023-03-15 23:02

@@ -10,6 +10,6 @@ Fully managed service that makes it easy to deploy web applications and APIs at 
 - #UseCase Microservices, Web Apps with best practices implemented.
 #### References for App Runner
 1. https://aws.amazon.com/apprunner/
-###### Timestamp
+
 ---
 Created on 2023-03-11 22:01

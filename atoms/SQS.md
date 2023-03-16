@@ -25,6 +25,6 @@ The underlying databases should be able to handle the load as well or throttled 
 ![](Pasted%20image%2020230310215206.png)
 #### References for SQS
 1. https://aws.amazon.com/sqs/faqs/
-###### Timestamp
+
 ---
 Created on 2023-03-10 07:47

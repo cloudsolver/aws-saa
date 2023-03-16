@@ -34,6 +34,6 @@ ECS Deployment Configuration Application Type
 
 #### References for ECS
 1. https://aws.amazon.com/ecs/faqs/
-###### Timestamp
+
 ---
 Created on 2023-03-11 17:54

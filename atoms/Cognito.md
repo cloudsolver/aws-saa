@@ -20,6 +20,6 @@ Fig. Architecture
 Fig. Support for Row Level security for DynamoDB
 #### References for Cognito
 1. 
-###### Timestamp
+
 ---
 Created on 2023-03-13 16:36

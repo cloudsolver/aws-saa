@@ -39,6 +39,6 @@ To use Lambda@Edge, you just upload your code to AWS Lambda and associate a func
 #### References for Lambda
 1. https://aws.amazon.com/lambda/faqs/
 2. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL-Lambda.html
-###### Timestamp
+
 ---
 Created on 2023-03-13 10:33

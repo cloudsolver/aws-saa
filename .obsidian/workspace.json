@@ -8,58 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4da3fa6ba1dd9b60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/ElastiCache.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7c52826a5a8aad8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/Polly.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ef5d91995597f962",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/Transcribe.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "91fe9b0428460906",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "molecules/Data and Analytics Services.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "429e5b3e92b7a1b9",
             "type": "leaf",
             "state": {
@@ -71,8 +19,35 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "a72bb771f9700115",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Config.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a7d7504fe9a890e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/CloudWatch.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/ElastiCache.md",
+                "file": "atoms/Config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/ElastiCache.md",
+                "file": "atoms/Config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,16 +153,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atoms/ElastiCache.md"
+                "file": "atoms/Config.md"
               }
             }
+          },
+          {
+            "id": "6274431d7ccfcb3b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,30 +181,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4da3fa6ba1dd9b60",
+  "active": "a72bb771f9700115",
   "lastOpenFiles": [
+    "atoms/CloudTrail.md",
+    "atoms/CloudWatch.md",
+    "assets/Pasted image 20230316131732.png",
+    "assets/Pasted image 20230316131543.png",
+    "molecules/Observability Services.md",
+    "templates/atom.md",
+    "assets/Pasted image 20230316121238.png",
+    "assets/Pasted image 20230316115838.png",
+    "atoms/EventBridge.md",
+    "assets/Pasted image 20230316115004.png",
+    "assets/Pasted image 20230316114759.png",
+    "assets/Pasted image 20230316114151.png",
+    "assets/Pasted image 20230316114108.png",
+    "molecules/Data and Analytics Services.md",
+    "atoms/Transcribe.md",
+    "atoms/Polly.md",
+    "atoms/ElastiCache.md",
     "DR.md",
     "atoms/AWS Backup.md",
     "Resilient Architectures.md",
     "atoms/RDS.md",
     "molecules/Machine Learning Services.md",
-    "atoms/Polly.md",
-    "molecules/Observability Services.md",
     "atoms/Config.md",
-    "atoms/CloudTrail.md",
-    "molecules/Data and Analytics Services.md",
     "molecules/Edge Computing Services.md",
     "molecules/Messaging Services.md",
-    "atoms/CloudWatch.md",
     "assets/Pasted image 20230315221719.png",
-    "atoms/Transcribe.md",
     "atoms/Rekognition.md",
     "assets/Pasted image 20230315205031.png",
-    "assets/Pasted image 20230315204937.png",
-    "assets/Pasted image 20230309165809.png",
-    "assets/Pasted image 20230315204854.png",
-    "assets/Pasted image 20230315204745.png",
-    "assets/Pasted image 20230315204506.png",
     "atoms/Textract.md",
     "atoms/Personalize.md",
     "atoms/Kendra.md",
@@ -230,13 +218,6 @@
     "atoms/Comprehend.md",
     "atoms/Connect.md",
     "atoms/Lex.md",
-    "atoms/Translate.md",
-    "assets/Pasted image 20230315204158.png",
-    "assets/Pasted image 20230315203848.png",
-    "atoms/Athena.md",
-    "atoms/Glue.md",
-    "atoms/Lake Formation.md",
-    "assets/Pasted image 20230315154321.png",
     "a",
     "molecules",
     "templates/sed54J1gs",

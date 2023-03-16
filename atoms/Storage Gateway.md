@@ -34,6 +34,6 @@ Provide on-premises applications with access to virtually unlimited cloud storag
 1. https://aws.amazon.com/storagegateway/
 2. https://aws.amazon.com/storagegateway/faqs/?nc=sn&loc=6
 3. https://aws.amazon.com/storagegateway/faqs/?nc=sn&loc=6
-###### Timestamp
+
 ---
 Created on 2023-03-09 14:14

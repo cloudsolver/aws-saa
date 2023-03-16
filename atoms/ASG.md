@@ -30,6 +30,6 @@ A Launch Template is required for an ASG.
 Answer: Both answers are correct. Remember, that NLB supports HTTP health checks.
 #### References for ASG
 1. https://docs.aws.amazon.com/autoscaling/ec2/userguide/scale-your-group.html
-###### Timestamp
+
 ---
 Created on 2023-03-10 21:55

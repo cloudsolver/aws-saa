@@ -4,6 +4,6 @@ AS2 is an [[HTTP]] based protocol to transmit [[EDI]] messages safely, quickly a
 
 #### References for AS2
 1. https://www.seeburger.com/info/what-is-as2/
-###### Timestamp
+
 ---
 Created on 2023-03-09 16:23

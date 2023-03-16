@@ -20,6 +20,6 @@ Elastic Kubernetes Service is a managed service. The most trusted way to start, 
 	- Support for EBS, EFS (works with Fargate for EKS), FSx for Lustre, FSx for NetApp ONTAP.
 #### References for EKS
 1. 
-###### Timestamp
+
 ---
 Created on 2023-03-11 21:31
