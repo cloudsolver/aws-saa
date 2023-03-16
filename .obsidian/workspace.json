@@ -4,11 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "354d933515a99d0a",
+        "id": "a47e3e4769e17e91",
         "type": "tabs",
         "children": [
           {
-            "id": "3bde00831655f256",
+            "id": "4da3fa6ba1dd9b60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/ElastiCache.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7c52826a5a8aad8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Polly.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ef5d91995597f962",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atoms/Transcribe.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "91fe9b0428460906",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,25 +55,24 @@
                 "file": "molecules/Data and Analytics Services.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "171137a7554383d0",
+            "id": "429e5b3e92b7a1b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molecules/Machine Learning Services.md",
+                "file": "molecules/Observability Services.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#resilient",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +118,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "molecules/Machine Learning Services.md",
+                "file": "atoms/ElastiCache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "molecules/Machine Learning Services.md",
+                "file": "atoms/ElastiCache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molecules/Machine Learning Services.md"
+                "file": "atoms/ElastiCache.md"
               }
             }
           }
@@ -154,50 +193,51 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "171137a7554383d0",
+  "active": "4da3fa6ba1dd9b60",
   "lastOpenFiles": [
-    "molecules/Data and Analytics Services.md",
-    "molecules/Machine Learning Services.md",
-    "atoms/Glue.md",
-    "atoms/Redshift.md",
-    "atoms/OpenSearch.md",
-    "assets/Pasted image 20230315122650.png",
-    "Resilient Architectures.md",
     "DR.md",
+    "atoms/AWS Backup.md",
+    "Resilient Architectures.md",
+    "atoms/RDS.md",
+    "molecules/Machine Learning Services.md",
+    "atoms/Polly.md",
+    "molecules/Observability Services.md",
+    "atoms/Config.md",
+    "atoms/CloudTrail.md",
+    "molecules/Data and Analytics Services.md",
     "molecules/Edge Computing Services.md",
     "molecules/Messaging Services.md",
-    "Cost Optimized Architecture.md",
-    "atoms/Data Pipeline.md",
-    "atoms/EMR.md",
-    "Serverless Architecture UseCase.md",
-    "Performant Architectures.md",
-    "templates/atom.md",
-    "atoms/Snow Family.md",
-    "templates/molecule compare.md",
-    "atoms/a-b testing.md",
-    "atoms/VPC.md",
-    "atoms/Untitled.md",
-    "atoms/Transfer Family.md",
-    "atoms/Storage Gateway.md",
-    "atoms/Step Functions.md",
-    "atoms/STS.md",
-    "atoms/SQS.md",
-    "atoms/SNS.md",
-    "assets/Pasted image 20230314170257.png",
-    "assets/Pasted image 20230314160124.png",
-    "assets/Pasted image 20230314160100.png",
-    "assets/Pasted image 20230314155418.png",
-    "assets/Pasted image 20230314153758.png",
-    "assets/Pasted image 20230313191455.png",
-    "assets/Pasted image 20230313191015.png",
-    "assets/Pasted image 20230313184908.png",
-    "assets/Pasted image 20230313170412.png",
+    "atoms/CloudWatch.md",
+    "assets/Pasted image 20230315221719.png",
+    "atoms/Transcribe.md",
+    "atoms/Rekognition.md",
+    "assets/Pasted image 20230315205031.png",
+    "assets/Pasted image 20230315204937.png",
+    "assets/Pasted image 20230309165809.png",
+    "assets/Pasted image 20230315204854.png",
+    "assets/Pasted image 20230315204745.png",
+    "assets/Pasted image 20230315204506.png",
+    "atoms/Textract.md",
+    "atoms/Personalize.md",
+    "atoms/Kendra.md",
+    "atoms/Forecast.md",
+    "atoms/Comprehend.md",
+    "atoms/Connect.md",
+    "atoms/Lex.md",
+    "atoms/Translate.md",
+    "assets/Pasted image 20230315204158.png",
+    "assets/Pasted image 20230315203848.png",
+    "atoms/Athena.md",
+    "atoms/Glue.md",
+    "atoms/Lake Formation.md",
+    "assets/Pasted image 20230315154321.png",
+    "a",
     "molecules",
     "templates/sed54J1gs",
     "atoms/sedn9Cjgj",

@@ -1,14 +1,13 @@
-| Service | Purpose | Architecture|
-|---|---|---|
-|[[Rekognition]]| | |
-|[[Transcribe]]| | |
-|[[Polly]]| | |
-|[[Translate]]| | |
-|[[Lex]]| | | 
-|[[Connect]]| | |
-|[[Comprehend]]| | |
-|[[SageMaker]]| | |
-|[[Forecast]]| | |
-|[[Kendra]]| | |
-|[[Personalize]]| | |
-|[[Textract]]| | |
+| Service                 | Purpose                                                                            | Architecture                                                                                   |
+| ----------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [[Rekognition]]         | Objects, people, text, scenes in images and videos.                                | Manual Review with A2I. Set a Minimum Confidence Threshold.                                     |
+| [[Transcribe]]          | Automatic speech recognition (ASR),                                                | Multi-lingual. Configure to remove PII.                                                        |
+| [[Polly]]               | Text to voice.                                                                     | Use Pronunciation Lexicon and Speech Synthesis Markup Language.                                |
+| [[Translate]]           | Language Translation.                                                              | i18n, localization.                                                                            |
+| [[Lex]] and [[Connect]] | Lex is for chat - Alexa uses it. Connect is Contact Center                         | ![[Pasted image 20230315203848.png]]                                                           |
+| [[Comprehend]]          | Natural Language Processing (NLP) and grouping of concepts with Comprehend Medical | Detects Protected Health Information. Groups and logically connects to drive insights in text. |
+| [[SageMaker]]           | Fully managed ML models.                                                           | ![[Pasted image 20230315204158.png]]                                                           |
+| [[Forecast]]            | Forecast using ML. Product demand, financial and resource planning.                | ![[Pasted image 20230315204506.png]] From historical timeseries data in S3                     |
+| [[Kendra]]              | ML powered document search service with natural language.                          | ![[Pasted image 20230315204745.png]] NLP, ML and Full Text Search                              |
+| [[Personalize]]         | ML based real-time personalization e.g. Amazon runs on it                          | ![[Pasted image 20230315204854.png]]                                                           |
+| [[Textract]]            | Extract text from images and PDFs                                                  | ![[Pasted image 20230315204937.png]]                                                                                               |
