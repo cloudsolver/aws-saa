@@ -37,6 +37,6 @@ Collect, process, and analyze real-time video and data streams. #AWSService
 
 #### References for Kinesis
 1. https://aws.amazon.com/kinesis/data-streams/?nc=sn&loc=2&dn=2
-###### Timestamp
+
 ---
 Created on 2023-03-10 22:46

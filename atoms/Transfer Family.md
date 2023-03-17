@@ -11,6 +11,6 @@ A fully-managed service for data transfer in and out of [[S3]] or [[EFS]] using 
 - Migrate your FTP customers seamlessly to AWS cloud without impacting them. #UseCase 
 #### References for Transfer Family
 1. https://aws.amazon.com/aws-transfer-family/
-###### Timestamp
+
 ---
 Created on 2023-03-09 16:21

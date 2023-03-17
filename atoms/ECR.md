@@ -6,6 +6,6 @@ Elastic Container Registry is where Docker images are **stored** and managed on 
 - Image Vulnerability Scanning, versioning, image lifecycle.
 #### References for ECR
 1. https://aws.amazon.com/ecr/faqs/
-###### Timestamp
+
 ---
 Created on 2023-03-11 21:23

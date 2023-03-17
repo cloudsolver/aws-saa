@@ -7,6 +7,6 @@ Visual workflows for distributed application. Automate ETL, IT functions, orches
 #### References for Step Functions
 1.  https://aws.amazon.com/step-functions/faqs/
 2. https://aws.amazon.com/step-functions/use-cases/
-###### Timestamp
+
 ---
 Created on 2023-03-13 16:31

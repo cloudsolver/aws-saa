@@ -22,6 +22,6 @@ By default, Amazon Redshift uses standard Internet routing for COPY and UNLOAD t
 > 	![[Pasted image 20230314170257.png|256]]
 #### References for Redshift
 1. [RedShift](https://aws.amazon.com/redshift/)
-###### Timestamp
+
 ---
 Created on 2023-03-14 16:55

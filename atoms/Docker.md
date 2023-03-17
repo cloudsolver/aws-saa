@@ -8,6 +8,6 @@ Containerization that supports modern microservices architecture, lift-and shift
 - You can pull image from repo.
 #### References for Docker
 1. 
-###### Timestamp
+
 ---
 Created on 2023-03-11 17:43

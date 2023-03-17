@@ -35,6 +35,6 @@ Key-value schema-less database with single digit millisecond performance at any 
 
 #### References for DynamoDB
 1. https://aws.amazon.com/dynamodb/
-###### Timestamp
+
 ---
 Created on 2023-03-13 14:37

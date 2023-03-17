@@ -6,7 +6,7 @@ Synchronize large amounts of data, and meta-data to and from on-prem or other cl
 
 #### References for DataSync
 1.
-###### Timestamp
+
 ---
 Created on 2023-03-09 17:09
 ### DataSync Details
@@ -21,6 +21,6 @@ Created on 2023-03-09 17:09
 ![](Pasted%20image%2020230309170808.png)
 #### References for DataSync
 1. https://aws.amazon.com/datasync/faqs/
-###### Timestamp
+
 ---
 Created on 2023-03-09 16:43

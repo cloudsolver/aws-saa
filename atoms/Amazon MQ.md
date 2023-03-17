@@ -6,6 +6,6 @@ AmazonMQ is a managed message broker service for RabbitMQ and ActiveMQ. Useful f
 
 #### References for Amazon MQ
 1. https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html
-###### Timestamp
+
 ---
 Created on 2023-03-11 00:04

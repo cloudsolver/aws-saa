@@ -2,8 +2,8 @@
 
 ### {{title}} Details
 
-#### References for {{title}}
-1. 
-###### Timestamp
 ---
-Created on {{date}} {{time}}
+> **References for {{title}}**
+	1.
+ 
+*Created on {{date}} {{time}}*
