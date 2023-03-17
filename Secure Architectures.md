@@ -9,7 +9,7 @@
 	2. Skills
 		1. Applying AWS security best practices to [[IAM]] users and root users (for example, multi-factor authentication [[MFA]])
 		2. Designing a flexible [[authorization]] model that includes [[IAM]] users, groups, roles and policies.
-		3. Designing a security strategy for multiple AWS accounts (for example, [[AWS Control Tower]], Service Control Policies [[SCP]]).
+		3. Designing a security strategy for multiple AWS accounts (for example, AWS [[ControlTower]], Service Control Policies [[SCP]]).
 		4. Determine the appropriate use of resource policies for AWS services.
 		5. Determining when to [[federate]] a [[directory service]] with [[IAM]] roles.
 2. Design secure workloads and applications.

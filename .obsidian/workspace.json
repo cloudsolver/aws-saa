@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a47e3e4769e17e91",
+        "id": "fbc0805960a58342",
         "type": "tabs",
         "children": [
           {
-            "id": "429e5b3e92b7a1b9",
+            "id": "29f12ffa505d6f52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "molecules/Observability Services.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a72bb771f9700115",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/Config.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a7d7504fe9a890e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atoms/CloudWatch.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#resilient",
+                "query": "Control Tower",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -113,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atoms/Config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atoms/Config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "atoms/Config.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,21 +146,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a72bb771f9700115",
+  "active": "29f12ffa505d6f52",
   "lastOpenFiles": [
     "atoms/CloudTrail.md",
+    "atoms/ControlTower.md",
+    "assets/Pasted image 20230316224021.png",
+    "Secure Architectures.md",
+    "IAM.md",
+    "atoms/AD.md",
+    "assets/Pasted image 20230316223154.png",
+    "assets/Pasted image 20230316222934.png",
+    "assets/Pasted image 20230316221203.png",
+    "assets/Pasted image 20230316215808.png",
+    "assets/Pasted image 20230316214456.png",
+    "assets/Pasted image 20230316213713.png",
     "atoms/CloudWatch.md",
-    "assets/Pasted image 20230316131732.png",
-    "assets/Pasted image 20230316131543.png",
+    "atoms/Organizations.md",
+    "assets/Pasted image 20230316204527.png",
+    "assets/organizations.png",
+    "atoms/Config.md",
     "molecules/Observability Services.md",
+    "assets/Pasted image 20230316141153.png",
     "templates/atom.md",
-    "assets/Pasted image 20230316121238.png",
-    "assets/Pasted image 20230316115838.png",
     "atoms/EventBridge.md",
-    "assets/Pasted image 20230316115004.png",
-    "assets/Pasted image 20230316114759.png",
-    "assets/Pasted image 20230316114151.png",
-    "assets/Pasted image 20230316114108.png",
     "molecules/Data and Analytics Services.md",
     "atoms/Transcribe.md",
     "atoms/Polly.md",
@@ -205,19 +178,11 @@
     "Resilient Architectures.md",
     "atoms/RDS.md",
     "molecules/Machine Learning Services.md",
-    "atoms/Config.md",
     "molecules/Edge Computing Services.md",
     "molecules/Messaging Services.md",
-    "assets/Pasted image 20230315221719.png",
     "atoms/Rekognition.md",
-    "assets/Pasted image 20230315205031.png",
     "atoms/Textract.md",
     "atoms/Personalize.md",
-    "atoms/Kendra.md",
-    "atoms/Forecast.md",
-    "atoms/Comprehend.md",
-    "atoms/Connect.md",
-    "atoms/Lex.md",
     "a",
     "molecules",
     "templates/sed54J1gs",
