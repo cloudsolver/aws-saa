@@ -10,6 +10,6 @@ Fig. Uses orgs and applies guardrails
 
 ---
 > **References for ControlTower**
-	1. https://aws.amazon.com/controltower/
+> 1. https://aws.amazon.com/controltower/
  
 *Created on 2023-03-16 22:40*
