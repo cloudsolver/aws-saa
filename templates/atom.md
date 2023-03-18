@@ -4,6 +4,7 @@
 
 ---
 > **References for {{title}}**
-	1.
+> 1. 
+> 
  
 *Created on {{date}} {{time}}*
