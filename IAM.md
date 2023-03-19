@@ -27,7 +27,7 @@ Identity and Access Management is a core #awsservice  Global Service.
 	
   
 **IAM Role**
-IAM Roles for [EC2](EC2.md) instance or AWS Services.
+IAM Roles for [[EC2]] instance or AWS Services.
 	* IAM Role for Services:
 	* Perform actions on your behalf 
 	* Assign permissions to AWS services with IAM Roles e.g. [EC2](EC2.md) Instnace, Lambda, etc.
@@ -47,10 +47,10 @@ Fig. Deny all IPs unless the request comes from the listed IPs.
 Fig. Resource Tag / Project "DataAnalytics"
 
 **Permission Boundaries**
-Users and Roles only.
+Does not apply to Groups. *Supports Users and Roles only.*
 AWS supports _permissions boundaries_ for IAM entities (users or roles). A permissions boundary is an advanced feature for using a managed policy to set the maximum permissions that an identity-based policy can grant to an IAM entity. An entity's permissions boundary allows it to perform only the actions that are allowed by both its identity-based policies and its permissions boundaries.
 *Does not apply to groups.*
-![[Pasted image 20230316221203.png|384]]
+![[access_policy_boundaries_venn_diagram.png|384]]
 Fig. Boundaries
 **IAM Roles compared to Resource-Based Policies**
 ![[Pasted image 20230316215808.png|384]]

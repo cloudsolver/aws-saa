@@ -63,7 +63,7 @@ Operational visibility into various workloads.
 | Container           | Aggregate logs and metrics from containers via CloudWatch agent within EKS, ECS, K8S, Fargate |
 | Lambda              | Cold starts, lambda worker shutdown.                                                          |
 | Contributor         | Top-N contributors based on CloudWatch logs                                                   |
-| Application         | SageMaker driven to isolate ongoing issues. EventBridge and SSM OpsCenter integration         |
+| Application         | SageMaker driven to isolate ongoing issues. EventBridge and [[SSM]] OpsCenter integration         |
 
 
 
