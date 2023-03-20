@@ -19,7 +19,7 @@ Amazon Machine Image are a customization of EC2 instance.
 ![AMI Lifecycle](https://docs.aws.amazon.com/images/AWSEC2/latest/UserGuide/images/ami_lifecycle.png)
 
 #UseCase  for sharing AMI encrypted via KMS*
-1. Source Account uses [[KMS]] for [[encryption]] of the AMI in the same region.
+1. Source Account uses [[KMS]] for [[Encryption Concepts]] of the AMI in the same region.
 2. Source Account updates Launch Permission for the Target Account
 3. Source Account gives permissions to use KMS key to target account
 4. Target Account can decrypt the AMI and launch an instance. 

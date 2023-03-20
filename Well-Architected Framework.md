@@ -12,11 +12,11 @@ AWS Well-Architected Framework helps cloud architects build secure, high-perform
 6. Sustainability #Sustainable 
 
 ---
-> **References for Well-Architected_Framework**
-> 1. [AWS Whitepapers](https://aws.amazon.com/whitepapers/) 
-> 2. Well-Architected Framework PDF [whitepaper](https://docs.aws.amazon.com/pdfs/wellarchitected/latest/framework/wellarchitected-framework.pdf#welcome) 
-1. https://aws.amazon.com/architecture/well-architected/
+**References for Well-Architected_Framework**
+1. Well-Architected Framework PDF [whitepaper](https://docs.aws.amazon.com/pdfs/wellarchitected/latest/framework/wellarchitected-framework.pdf#welcome) 
+2. https://aws.amazon.com/architecture/well-architected/
+3. [AWS Whitepapers](https://aws.amazon.com/whitepapers/) 
+
 > 
  
 *Created on 2023-03-19 16:22*
-3. 

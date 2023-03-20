@@ -3,7 +3,9 @@ Key management system is an #AWSService that automates encryption key management
 
 ### KMS Details
 - [KMS Key Concepts](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html)
-- Centrally manage [[encryption]] keys and define policies.
+- Centrally manage [[Encryption Concepts]] keys and define policies.
+- Supports Asymmetric and Symmetric keys.
+- AWS rotates keys once every year.
 - AWS Encryption SDK library should be used from within applications.
 - Validate [[Digital Signatures]] and perform signing operations using asymmetric digital keys.
 - Message authenticity and integrity with [[HMAC]] (Hash-based Message Authentication Codes)
@@ -19,7 +21,7 @@ KMS is monitored by [[CloudWatch]] and its usage tracked by [[CloudTrail]]
 |                    | AWS Managed           | Customer Managed |
 | ------------------ | --------------------- | ---------------- |
 | AWS Generated      | AWS Owned and Managed (annual rotation) | Created in KMS, annual rotation must be enabled.   |
-| Customer Generated | Imported to AWS (symmetric only)               | Manual rotation only                |
+| Customer Generated | Imported to AWS (symmetric only)        | Manual rotation only                |
 
 - The following script will create a base64 encoded file that is encrypted with kms key.
 	`aws kms encrypt --key-id alias/mykey --plaintext fileb://SecretFile.txt --output text --query CiphertextBlob --region us-east-1 > SecretFileEncrypted.base64` 

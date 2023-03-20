@@ -1,5 +1,5 @@
 ### Summary of Cognito
-Fully managed Customer Identity and Access Management that provides user authentication via User Pools and authorization via Identity Pools for web and mobile applications.  #AWSService 
+Fully managed Customer Identity and Access Management that provides user authentication via User Pools and authorization via Identity Pools for web and mobile applications.  #AWSService #secure 
 ### Cognito Details
 - Scale to millions of users with a fully managed, high-performant, and reliable identity store.
 - Federate sign-in using [[OIDC]] or [[SAML]] 2.0 and connect to a broad group of AWS services and products.

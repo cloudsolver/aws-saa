@@ -24,7 +24,7 @@ You can retrieve the entire path with `get-parameters-by-path`
 aws ssm get-parameters-by-path --path /parking --recursive --with-decryption
 ```
 ### Parameter Policies
-Advanced parameters supports policies.
+Advanced parameters supports policies. Once you create an Advanced Parameter - you cannot downgrade it.
 #UseCase How do you create a db credential expires in 90 days and a reminder be sent 15 minutes?
 Create the credential in the parameter store with multiple policies
 ```

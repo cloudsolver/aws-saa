@@ -12,5 +12,6 @@ AWS offers [[Athena]], [[Redshift]], [[OpenSearch]], [[Kinesis#Kinesis Data Stre
 | [[EMR]]            | Map Reduce                   | Scalable data pipelines, Big Data                              |
 | [[OpenSearch]]     | Search                       | Unstructured data search                                                               |
 
->** Redshift versus Athena**
-![[Pasted image 20230315122650.png|500]]
+** Redshift versus Athena**
+![[Pasted image 20230315122650.png|512]]
+Fig. Comparison
