@@ -11,7 +11,7 @@ Configuration Auditor. Assess, audit, and evaluate  configuration of your resour
 
 >**Config Remediation**
 Remediation Architecture ![[Pasted image 20230316140950.png]]
-> Create a custom [[SSM]] Document that triggers a Lambda function which takes the action.
+> Create a custom [[SSM Parameter Store]] Document that triggers a Lambda function which takes the action.
 > ![[Pasted image 20230316141153.png]]
 
 - Config now support organization wide compliance view.
