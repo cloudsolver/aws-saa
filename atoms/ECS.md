@@ -1,13 +1,16 @@
 ### Summary of ECS
 Elastic Container Service requires you to provision and maintain the EC2 instance.
 ### ECS Details
-> **EC2 Launch Type**
-	Each EC2 instance must run the ECS Agent to register in the ECS Cluster so AWS can start top containers.
-	IAM Roles for ECS: ECS Agent. Makes API calls to ECS services, sends container logs to CloudWatch, pull Docker image from ECR, reference sensitive data in Secrets Manager or SSM Parameter Store. **ECS Task Role** allows each task to have a specific role.
+
+**EC2 Launch Type**
+- Each EC2 instance must run the ECS Agent to register in the ECS Cluster so AWS can start top containers.
+- IAM Roles for ECS: ECS Agent. Makes API calls to ECS services, sends container logs to CloudWatch, pull Docker image from ECR, reference sensitive data in Secrets Manager or [[SSM Parameter Store]] Parameter Store. **ECS Task Role** allows each task to have a specific role.
+
 > **Fargate Launch Type**
-	No need to provision the infrastructure
-	Create Task definitions, assign memory and CPU.
-	To scale, just increase the number of tasks.
+>No need to provision the infrastructure
+>Create Task definitions, assign memory and CPU.
+>To scale, just increase the number of tasks.
+
 > [[ELB]] Supported
 	[[ALB]] supported and works for most use-cases. [[NLB]] recommended for high throughput / high performance use-cases or to pair it with AWS [[Private Link]] 
 > Data Volume with [[EFS]]

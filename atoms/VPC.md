@@ -12,11 +12,11 @@ A [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-your-vpc.html
 
 **Subnet**
 
-A [subnet](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html) is a range of IP addresses in your [[VPC]]. A [[Subnet]] must reside in a single [[AZ]]. After you add subnets, you can deploy AWS resources in your [[VPC]].
+[[Subnet]]
 
-**IP addressing**
+**IP Address**
 
-You can assign IPv4 addresses and IPv6 addresses to your VPCs and subnets. You can also bring your public IPv4 and IPv6 GUA addresses to AWS and allocate them to resources in your VPC, such as [EC2](EC2.md) instances, NAT gateways, and Network Load Balancers.
+[[IP Address]]
 
 **Routing**
 

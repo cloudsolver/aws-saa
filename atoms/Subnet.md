@@ -1,0 +1,1 @@
+A [subnet](https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html) is a range of IP addresses in your [[VPC]]. A [[Subnet]] must reside in a single [[AZ]]. After you add subnets, you can deploy AWS resources in your [[VPC]].
