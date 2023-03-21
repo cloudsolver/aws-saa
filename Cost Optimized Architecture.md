@@ -58,7 +58,7 @@
 1. Design cost-optimized network architectures.
 	1. AWS cost management service features and tools.
 	2. Load balancing concepts: ALB.
-	3. NAT gateways: NAT instnace costs compared with NAT gateway costs.
+	3. [[NATGW]]s: NAT instance costs compared with NAT gateway costs.
 	4. Network connectivity: Private lines, dedicated lines, VPNs.
 	5. Network routing, topology, and peering: AWS Transit Gateway, [[VPC]] peering.
 	6. Network services with appropriate use cases: DNS.

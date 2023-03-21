@@ -5,5 +5,5 @@
     
     Each VPN connection includes two VPN tunnels which you can simultaneously use for high availability.
     
-    [[Gateways]]
+    [[GW]]
     

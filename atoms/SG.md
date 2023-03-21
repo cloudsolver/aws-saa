@@ -1,4 +1,7 @@
-Security Group is a stateful firewall for [[EC2]] instances. Inbound and outbound traffic is paired at the port/IP level. 
+Security Group is a stateful firewall for [[EC2]] instances. 
+
+Inbound and outbound traffic is paired at the port/IP level. 
+
 Many instances can share a security group.
 SG is locked down to a [Region](Region.md)/[[VPC]] combination.
 #BestPractice maintain one separate security group for [[SSH]] access.

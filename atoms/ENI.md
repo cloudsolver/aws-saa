@@ -9,7 +9,7 @@ Each ENI lives within a particular subnet of the VPC (and hence within a particu
 -   Private IP Address
 -   [[ElasticIP]] Address
 -   [MAC Address](http://en.wikipedia.org/wiki/MAC_address)
--   [[SG]](s)
+-   [[SG | Security Groups]] 
 -   Source/Destination Check Flag
 -   Delete on Termination Flag
 
