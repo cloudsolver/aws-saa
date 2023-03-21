@@ -4,6 +4,7 @@ You can assign IPv4 addresses and IPv6 addresses to your VPCs and subnets. You c
 ![[CIDR]]
 
 ### Network ID
-**The portion of an IP address that identifies which TCP/IP network the host resides on**. For example, if an IP address is 192.158. 1.38., then the network ID is 192.158.
+**The portion of an IP address that identifies which TCP/IP network the host resides on**. Performing a bitwise AND operation between the IP address and the subnet mask.
 
 ### Broadcast ID
+When data is sent to the broadcast address, it is received by every device on that network. The broadcast ID is typically assigned as the last address in a network range.
