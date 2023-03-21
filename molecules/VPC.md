@@ -10,19 +10,19 @@ A [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-your-vpc.html
 
 * The default VPC always exists in every region. But all new VPCs are region specific.
 
-**Subnet**
+### Subnets
 
 [[Subnet]]
 
-**IP Address**
+### IP Addressing
 
 [[IP Address]]
 
-**Routing**
+### Routing
 
 Use [route tables](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html) to determine where network traffic from your subnet or gateway is directed.
 
-**[[Gateways]] and endpoints**
+** [[GW | Gateway]] and endpoints**
 
 A [gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-intro.html) connects your VPC to another network. For example, use an [internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) to connect your VPC to the internet. Use a [VPC endpoint](https://docs.aws.amazon.com/vpc/latest/privatelink/privatelink-access-aws-services.html) to connect to AWS services privately, without the use of an internet gateway or NAT device.
 
@@ -30,11 +30,13 @@ A [gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-intro.html) 
 
 Use a [VPC peering connection](https://docs.aws.amazon.com/vpc/latest/peering/) to route traffic between the resources in two VPCs.
 
+### VPC Endpoints
+
 **Traffic Mirroring**
 
 [Copy network traffic](https://docs.aws.amazon.com/vpc/latest/mirroring/) from network interfaces and send it to security and monitoring appliances for deep packet inspection.
 
-**Transit [[Gateways]]**
+**Transit [[GW]]**
 
 Use a [transit gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-tgw.html), which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS Direct Connect connections.
 

@@ -3,8 +3,7 @@
 ### {{title}} Details
 
 ---
-> **References for {{title}}**
-> 1. 
-> 
+**References for {{title}}**
+1.  
  
-*Created on {{date}} {{time}}*
+*Created: {{date}} {{time}}*
