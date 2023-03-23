@@ -1,6 +1,6 @@
  [[EC2]]  Elastic Cloud Compute is a core #AWSService that runs virtual servers within a [[VPC]].
 * Bootstrap with EC2 User Data - run once at instance first start.
-	* Install updates, software, download comming files etc as sudo.
+	* Install updates, software, download files etc as sudo.
 * Instance Naming Convention: m5.2xlarge m=instance class, 5=generation, 2xlarge=size of instance within class.
 * General Purpose: Web-server, application servers, 
 * Compute Optimized: Media transcoding, batch processing, high performance web servers, high performance computing (HPC), machine learning, scientific modeling and dedicated gaming server.
@@ -11,6 +11,8 @@
 - [[SG]] is a firewall for EC2. 
 - You can connect to EC2 via [[EC2 Instance Connect]] or [[SSH]] assuming the [[SG]] has been setup.
 - EC2 can assume a role to use other services #BestPractice Do not run `aws configure` into an EC2 instance. [IAM Role](IAM#IAM%20Role) should be used : attach the role to the EC2 instance. Based on the role, you can run AWS commands such as `aws iam list-users` from within the EC2 instance.
+- EC2 instances always get assigned an IPv4 within the CIDR range of the subnet.
+- EC2 instance must have a public IP address in order to connect to the Internet.
 
 ## EC2 Instance Purchasing Options
 * EC2 On-Demand Instances

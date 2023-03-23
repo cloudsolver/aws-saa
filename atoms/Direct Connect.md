@@ -30,3 +30,9 @@ Here are some drawbacks of using Direct Connect:
 
 Overall, Direct Connect is a great option for businesses that need a reliable, secure, and cost-effective way to connect to AWS.
 https://aws.amazon.com/directconnect/
+
+### Direct Connect Gateway
+A Direct Connect gateway is a globally available resource. You can create the Direct Connect gateway in any Region and access it from all other Regions.
+
+### Quiz
+#Q You have set up a Direct Connect connection between your corporate data center and your VPC A in your AWS account. You need to access VPC B in another AWS region from your corporate datacenter as well. What should you do?
