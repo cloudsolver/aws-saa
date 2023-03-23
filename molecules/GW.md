@@ -10,9 +10,14 @@ A [gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-intro.html) 
     
 -   **Virtual private gateway**: A virtual private gateway is the VPN endpoint on the Amazon side of your [[Site-to-Site VPN]] connection that can be attached to a single [[VPC]].
     
--   **Transit gateway**: A transit hub that can be used to interconnect multiple VPCs and on-premises networks, and as a VPN endpoint for the Amazon side of the Site-to-Site VPN connection.
+**Transit gateway**:
+A transit hub that can be used to interconnect multiple VPCs and on-premises networks, and as a VPN endpoint for the Amazon side of the Site-to-Site VPN connection.
+
 #### Internet Gateway
-![[IGW]]
+[[IGW]]
 
 #### NAT Gateway
-![[NATGW]]
+[[NATGW]]
+
+#### Direct Connect gateways
+[[Direct Connect#Direct Connect Gateway]]
