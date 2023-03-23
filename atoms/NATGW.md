@@ -6,6 +6,8 @@ Offers higher bandwidth, high availability, no administration compared to a NAT 
 - Requires [[IGW | Internet Gateway ]]
 	- Network path: Private Subnet => NATGW => IGW
 
+### NAT Gateway versus NAT instance
+
 | Quality                 | NATGW             | NAT Instance                         |
 | ----------------------- | ----------------- | ------------------------------------ |
 | Availability            | HA within AZ      | Needs scripting, failover setup      |

@@ -1,0 +1,1 @@
+Appliance or software on customer side of the VPN.

@@ -12,11 +12,12 @@ A [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-your-vpc.html
 
 ### Subnets
 
-[[Subnet]]
+![[Subnet]]
+You can add two CIDR ranges to a Subnet.
 
 ### IP Addressing
 
-[[IP Address]]
+![[IP Address]]
 
 ### Routing
 
@@ -26,9 +27,7 @@ Use [route tables](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Ta
 
 A [gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-intro.html) connects your VPC to another network. For example, use an [internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) to connect your VPC to the internet. Use a [VPC endpoint](https://docs.aws.amazon.com/vpc/latest/privatelink/privatelink-access-aws-services.html) to connect to AWS services privately, without the use of an internet gateway or NAT device.
 
-**Peering connections**
-
-Use a [VPC peering connection](https://docs.aws.amazon.com/vpc/latest/peering/) to route traffic between the resources in two VPCs.
+See [[VPC Connectivity]] for more options on interconnecting VPN.
 
 ### VPC Endpoints
 

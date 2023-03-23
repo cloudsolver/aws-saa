@@ -1,6 +1,6 @@
 ## Cost Optimized
 1. Design cost-optimized storage solutions.
-	1. Access options: S3 with Requester Pays object storage.
+	1. Access options: [[S3]] with Requester Pays object storage.
 	2. AWS cost management service features: Cost Allocation Tags, Multi-Account billing.
 	3. AWS Cost Management tools with appropriate use cases: AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report.
 	4. AWS storage services with appropriate use cases: Amazon FSx, Amazon [EFS](EFS.md), Amazon S3, Amazon [EBS](EBS.md).
