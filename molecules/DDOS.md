@@ -18,7 +18,7 @@ Fig. Best Practices Label
 | Detect and filter malicious traffic             | [[CloudFront]], [[WAF]]                     | Block geographies with CloudFront, WAF on top of it to block based on request signatures, IP reputation and anonymous IP |
 | Mitigate layer 7 attacks                        | [[Shield]]                                  | Protects Route 53, CloudFront, and WAF                                                                                   |
 | Obfuscate AWS resources                         | [[CloudFront]], [[API Gateway]] and [[ELB]] | Attacker cannot know what is running the compute workloads EC2 or Lambda                                                 |
-| Filter traffic based on IP and ENI-level subnet | [[NACL]], [[Security Groups]]               | Protect attacks to the subnet and EC2 instances                                                                          |
+| Filter traffic based on IP and ENI-level [[subnet]] | [[NACL]], [[Security Groups]]               | Protect attacks to the [[subnet]] and EC2 instances                                                                          |
 |                                                 |                                             |                                                                                                                          |
 
 Being at the edge protects from DDOS, NACL, Security Groups protects our VPC resources. API, ELB obfuscate. WAF can filter anonymous and bad reputation IPs and other problems. API Gateway as well as WAF can protect bursts and rate limiting.

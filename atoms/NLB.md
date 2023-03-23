@@ -13,4 +13,4 @@ Network Load Balancer operates at [Layer 4](OSI.md#Layer%204).
 	- NLB can front a TG consisting of an on-prem IP and a private IP.
 	- NLB can front a TG consisting of EC2 instances.
 - Health Check: Supports TCP, HTTP/S protocols.
-- NLB has an IPv4 address per Subnet in the AZ it is deployed to. So if you deploy to 3 AZs there will be 3 IP addresses.
+- NLB has an IPv4 address per [[Subnet]] in the AZ it is deployed to. So if you deploy to 3 AZs there will be 3 IP addresses.

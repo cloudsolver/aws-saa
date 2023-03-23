@@ -13,8 +13,8 @@ AWS Lambda is a serverless, event-driven compute service that lets you run code 
 	 1000 max concurrency quota
 - Lambda is launched outside of VPC by default - so it can access DynamoDB but nothing in a private VPC
 > **Lambda in VPC**
-> 	Specify VPC ID, Subnet and Security Groups.
-> 	AWS will launch Lambda by creating an [[ENI]] assigning IP address (note: scaling requires sufficient IP addresses in the subnet), Lambda is subject to the same networking rules. 
+> 	Specify VPC ID, [[Subnet]] and Security Groups.
+> 	AWS will launch Lambda by creating an [[ENI]] assigning IP address (note: scaling requires sufficient IP addresses in the [[subnet]]), Lambda is subject to the same networking rules. 
 > 	Lambda execution requires the following roles `ec2:CreateNetworkInterface`, `ec2:DescribeNetworkInterfaces`  and `ec2:DeleteNetworkInterface` 
 > 	If Lambda requires Internet access - it will need a NAT Gateway.
 > 	[[RDS#RDS Proxy]] is recommended for use with Lambda Functions to protect against bottlenecks to avoid too many connections to the database. Direct connection of lambda to RDS is risky. #antipattern 

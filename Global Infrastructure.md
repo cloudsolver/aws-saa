@@ -15,7 +15,7 @@ AWS Points of Presence (POP)
 1. [Local Zones](https://aws.amazon.com/about-aws/global-infrastructure/localzones/)
 
 * A Local Zone is an extension of an AWS [Region](Region.md) in geographic proximity to your users.
-* Local Zones have their own connections to the internet and support AWS Direct Connect, so that resources created in a Local Zone can serve local users with low-latency communications.
+* Local Zones have their own connections to the internet and support AWS [[Direct Connect]], so that resources created in a Local Zone can serve local users with low-latency communications.
 * Local Zones provide you the ability to place resources, such as compute and storage, in multiple locations closer to your end users.
 * Use case: Run latency sensitive applications closer to the end users.
 

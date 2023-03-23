@@ -22,7 +22,7 @@ The static addresses are advertised globally using anycast from the AWS edge net
 - Each accelerator includes one or more listeners. 
 - A listener processes inbound connections from clients to Global Accelerator.
 #### Customer Routing
-*A custom routing accelerator maps listener port ranges to EC2 instance destinations in virtual private cloud (VPC) subnets. This allows Global Accelerator to deterministically route traffic to a specific Amazon EC2 private IP address and port destination in your subnet.*
+*A custom routing accelerator maps listener port ranges to EC2 instance destinations in virtual private cloud (VPC) subnets. This allows Global Accelerator to deterministically route traffic to a specific Amazon EC2 private IP address and port destination in your [[subnet]].*
 Note: Global Accelerator **does not** perform health checks for custom routing accelerators and does not failover to healthy endpoints. Traffic for custom routing accelerators is routed deterministically, regardless of the health of a destination resource.
 ## References
 
