@@ -1,5 +1,5 @@
 ## Summary
-An Availability Zone (AZ) is one or more discrete data centers with redundant power, networking, and connectivity in an AWS Region
+An Availability Zone (AZ) is a logical data center comprised of one or more discrete physical data centers with redundant power, networking, and connectivity in an AWS Region
 ## AZ Details
 * An AWS Availability Zone will have usually 3, maximum is 6 datacenters.
 * Each AZ is one or more discrete data centers with redundant power, networking and connectivity.

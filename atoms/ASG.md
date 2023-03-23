@@ -18,7 +18,7 @@ A Launch Template is required for an ASG.
 	- Security Groups
 	- [SSH](SSH.md) Key Pair
 	- IAM Roles for EC2 Instances
-	- Network + Subnet 
+	- Network + [[Subnet]] 
 	- [ELB](ELB.md) Info
 	- Initial Capacity, Min and Max Size.
 	- Scaling Policies.

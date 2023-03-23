@@ -84,12 +84,12 @@
 	6. Network services with appropriate use cases: DNS.
 	7. Skills:
 		1. Configuring appropriate NAT gateway types for a network: Single shared NAT gateway compared with NAT gateways for each AZ.
-		2. Configuring appropriate network connections: Direct Connect compared with VPN compared with Internet.
+		2. Configuring appropriate network connections: [[Direct Connect]] compared with VPN compared with Internet.
 		3. Configuring appropriate network routes to minimize transfer costs: [Region](Region.md) to Region, AZ to AZ, private to public, Global Accelerator, [[VPC]] endpoints.
 		4. Determining strategic needs for content delivery networks and edge caching.
 		5. Reviewing existing workloads for network optimizations.
 		6. Selecting an appropriate throttling strategy.
-		7. Selecting the appropriate bandwidth allocation for a network device: single VPN compared with multiple VPN, Direct Connect speed.
+		7. Selecting the appropriate bandwidth allocation for a network device: single VPN compared with multiple VPN, [[Direct Connect]] speed.
  High-performing database solutions.
 	1. Caching strategies and services: [[ElastiCache]].
 	2. Data access patterns: Read-intensive compared to write-intensive.
@@ -106,7 +106,7 @@
 		5. Integrating caching to meet business requirements.
 4. Determined high-performing and scalable network architectures.
 	1. Edge networking services with appropriate use cases: Cloud Front, Global Accelerator.
-	2. How to design network architecture: Subnet tiers, routing, IP addressing.
+	2. How to design network architecture: [[Subnet]] tiers, routing, IP addressing.
 	3. Load balancing concepts: Application Load Balancer [[ALB]]
 	4. Network connection options: AWS [[VPN]], [[Direct Connect]], AWS [[PrivateLink]].
 	5. Skills:
