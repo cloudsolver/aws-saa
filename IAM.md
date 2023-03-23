@@ -7,7 +7,7 @@ Identity and Access Management is a core #awsservice  Global Service.
 - Features and Restrictions
 	- Users: mapped to a physical user, has a password for AWS Console
 	- Many users can be created. 
-	 - Principle of least privilege: give users only rights they need to do their job. #wellarchitected
+	 - Principle of least privilege: give users only rights they need to do their job. #WellArchitected
 	- Changes to IAM groups are live immediately. Policy can be attached directly, and by groups.
 
 **IAM Group**

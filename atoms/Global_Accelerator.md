@@ -1,7 +1,7 @@
 ## Summary
 It directs global traffic via closest edge locations and Anycast IP through internal Amazon network to improve performance and stability.  #AWSService 
 ## Global_Accelerator Details
-- Makes your application go global. #wellarchitected 
+- Makes your application go global. #WellArchitected 
 - Enables disaster recovery and failover to another region's ALB. #resilient  
 - Improve performance and stability. Application is deployed in one region, however there are users all over the world. How can global users work on the app without going through the Internet across so many hops? To minimize latency.
 - Two Anycast IPv4 addresses are created and a DNS entry are provided with the creation of the Global Accelerator. Dual-Stack IP Addresses are supported as well.

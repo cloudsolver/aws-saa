@@ -1,0 +1,2 @@
+EC2 instance firewall #secure . These are stateful and do not require ephemeral port considerations on the outbound.
+- Reachability Analyzer: performs network connectivity testing between AWS resources.

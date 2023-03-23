@@ -13,21 +13,25 @@ A [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/configure-your-vpc.html
 ### Subnets
 
 ![[Subnet]]
-You can add two CIDR ranges to a Subnet.
+You can add two CIDR ranges to a Subnet. Tied to AZ. Public Subnet - connects to IGW.
+
+[[NACL]] protects subnets.
+
+[[Security Groups]] protect EC2.
 
 ### IP Addressing
 
 ![[IP Address]]
 
-### Routing
+### Route Tables
 
-Use [route tables](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html) to determine where network traffic from your subnet or gateway is directed.
+![[RouteTable]]
 
-** [[GW | Gateway]] and endpoints**
+### Gateways
 
-A [gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-intro.html) connects your VPC to another network. For example, use an [internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) to connect your VPC to the internet. Use a [VPC endpoint](https://docs.aws.amazon.com/vpc/latest/privatelink/privatelink-access-aws-services.html) to connect to AWS services privately, without the use of an internet gateway or NAT device.
+![[GW | Gateway]] and endpoints
 
-See [[VPC Connectivity]] for more options on interconnecting VPN.
+- See [[VPC Connectivity]] for more options on interconnecting VPN.
 
 ### VPC Endpoints
 
