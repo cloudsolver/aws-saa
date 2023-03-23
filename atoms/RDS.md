@@ -59,7 +59,7 @@ Amazon RDS is a managed RDBMS service that supports various relational database 
 ## RDS Proxy
 Never publicly available.
 - Pool and share DB connections established with the database.
-- Improve database efficiency by reducing stress on the RDS Database instance by minimizing open connections, timeout and optimize. #operational-excellence
+- Improve database efficiency by reducing stress on the RDS Database instance by minimizing open connections, timeout and optimize. #OperationallyExcellent
 - Serverless, autoscaling and highly available (multi-AZ).
 - Reduced RDS and Aurora failover time by up to 65%.
 - Enforce IAM Auth for DB, and securely store credentials in AWS Secrets Manager. #secure 

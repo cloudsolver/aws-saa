@@ -8,8 +8,27 @@
 
 #UseCase It is well suited to fluctuations in demand for computing resources since it enables businesses to scale from on-premises to public cloud-based to meet increased demand, and scale back from the [public cloud](https://www.vmware.com/topics/glossary/content/public-cloud.html) to on-premises (private cloud) only once demand recedes.
 
+## Network to AWS
+https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/network-to-amazon-vpc-connectivity-options.html
+
+### Site-to-Site VPN
+Customer Gateway Device (On-premise)
+- Install [[CGW | Customer Gateway]]
+- Decide on IP Address
+	- Public Internet-routable
+	- [[NAT]]-T (NAT Traversal) public IP fronting the [[CGW]]
+- Routing
+	- Route Table propagation in each route table within a subnet must be enabled.
+	- Ping requires ICMP protocol in Security Group to be enabled
+[[VGW | Virtual Private Gateway]]
+
+### Use Cases for Hybrid
+- Cloud Bursting
+	- Storage and compute bursting in the cloud
+- Global Reach
+	- Use S3, CloudFront and other services on the edge and other regions.
 #### References for Hybrid Cloud Architecture
-1. 
+1. https://docs.aws.amazon.com/whitepapers/latest/hybrid-cloud-with-aws/hybrid-cloud-with-aws.html
 ###### Timestamp
 ---
 Created on 2023-03-14 16:52

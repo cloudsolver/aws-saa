@@ -1,10 +1,12 @@
-NATGW is created is an AWS managed NAT. Better choice than a NAT Instance.
+NATGW is created is an AWS managed NAT. Better choice than a [[NAT]] Instance. 
 
 Offers higher bandwidth, high availability, no administration compared to a NAT Instance.
 
 - EC2 instance in the same subnet can not use it. Only from another subnet.
 - Requires [[IGW | Internet Gateway ]]
 	- Network path: Private Subnet => NATGW => IGW
+
+### NAT Gateway versus NAT instance
 
 | Quality                 | NATGW             | NAT Instance                         |
 | ----------------------- | ----------------- | ------------------------------------ |
@@ -16,3 +18,4 @@ Offers higher bandwidth, high availability, no administration compared to a NAT 
 | Security Groups         | No                | Yes                                  |
 | Use as Bastion Host     | No                | Yes                                  |
 |                         |                   |                                      |
+NAT Instances must be set up in public subnets, disable Source/Destination check flags. 
