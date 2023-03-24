@@ -1,16 +1,21 @@
 ### Summary of ASG
-
+EC2 Autoscaling Groups are Regional Constructs. 
+[doc](https://aws.amazon.com/ec2/autoscaling/)
 ### ASG Details
 - Set desired, minimum and maximum capacity.
 - Dynamic Scaling: Tracks [CloudWatch](CloudWatch) and acts when it is in ALARM.
 	- Target Tracking Scaling: Amazon [[CloudWatch]] metric and target value.
 	- Step Scaling: Update capacity based on a SET of scaling adjustments.
 	- Simple Scaling: Update based on a SINGLE scaling adjustment. Cool down period.
+- Deleting an ASG terminates EC2 instances
+- ASG can be configured with [[SNS]] to send notifications on scaling events.
 ASG ensures EC2 instances are within a range (minimum, maximum capacity).
 It can scale out EC2 instances to match the load, and scale in when load decreases.
 Automatically registers new instances to a load balancer.
 Recreate an EC2 instance if one is terminated or unhealthy.
-There is no cost for ASG itself.
+- There is no cost for ASG itself.
+- ASG also supports Lifecycle hooks - that can take a snapshot of an EBS volume if an EC2 instance gets terminated, and restore it to another AZ via another lifecycle hook. [more on Lifecycle Hooks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html)
+
 A Launch Template is required for an ASG.
 	- [AMI](AMI.md) + Instance Type
 	- EC2 User Data

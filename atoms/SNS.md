@@ -14,14 +14,18 @@ SNS Access Policies (similar to S3 bucket policies)
 - SNS supports [CloudTrail](CloudTrail) to get a history of SNS API calls made for security analysis.
 
 
-### Solution Architecture
+### Solution Architectures
+[[SQS]] can subscribe to [[SNS]] topics to fan-out. Each queue can have
+![[Fan Out Options Architecture.png|512]]
+Fig. Fan Out Best Practice 
 
-SNS Fan-Out to SQS and Lambda.
-![](Pasted%20image%2020230310221856.png)
+SNS Fan-Out to [[SQS]] and [[Lambda]].
+![](S3-SNS-SQS-Lambda%20Event.png)
 
 SNS FIFO Fan-Out to SQS FIFO
-![](Pasted%20image%2020230310222059.png)
-#### References for SNS
+![](SNS%20FIFO%20to%20SQS%20FIFO.png)
+
+### References for SNS
 1. https://aws.amazon.com/sns/
 2. https://aws.amazon.com/sns/faqs/
 3. https://docs.aws.amazon.com/sns/latest/dg/sns-mobile-application-as-subscriber.html

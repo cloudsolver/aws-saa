@@ -1,5 +1,6 @@
 ### Summary of ECS
-Elastic Container Service requires you to provision and maintain the EC2 instance.
+Elastic Container Service requires you to provision and maintain the EC2 instance. #AWSService 
+
 ### ECS Details
 
 **EC2 Launch Type**
@@ -15,7 +16,8 @@ Elastic Container Service requires you to provision and maintain the EC2 instanc
 	[[ALB]] supported and works for most use-cases. [[NLB]] recommended for high throughput / high performance use-cases or to pair it with AWS [[Private Link]] 
 > Data Volume with [[EFS]]
 	Mount EFS file systems onto ECS. Tasks running in any AZ will share the same data. S3 cannot be mounted.
-![[Pasted image 20230311182006.png | 300]]
+![[EFS mounted on Fargate and EC2 Architecture.png | 300]]
+Fig. EFS can be mounted across a variety of workloads
 	#UseCase persistent multi-AZ shared storage for your containers. 
 
 ECS Deployment Configuration Application Type

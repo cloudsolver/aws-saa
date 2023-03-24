@@ -31,27 +31,27 @@ Routing for subnets and gateways.
 
 - See [[VPC Connectivity]] for more options on interconnecting VPN.
 
-### VPC Endpoints
 
-**Traffic Mirroring**
+### VPC Traffic Mirroring
 
 [Copy network traffic](https://docs.aws.amazon.com/vpc/latest/mirroring/) from network interfaces and send it to security and monitoring appliances for deep packet inspection.
 
-**Transit [[GW]]**
+### Transit [[GW]]
 
 Use a [transit gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-tgw.html), which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS [[Direct Connect]] connections.
 
-**VPC Flow Logs**
+### VPC Flow Logs
 
 A [flow log](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) captures information about the IP traffic going to and from network interfaces in your VPC.
+VPC Flow Logs is a VPC feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.
 
-**[[VPN]] connections**
+#### AWS 
 
 Connect your VPCs to your on-premises networks using [AWS Virtual Private Network (AWS VPN)](https://docs.aws.amazon.com/vpc/latest/userguide/vpn-connections.html).
 
 
-
-[[ELB]] on AWS is at the edge of the VPC architecture
+[[VPN]] is a Virtual Private Network.
+[[ELB]] on AWS is at the edge of the VPC architecture.
 
 ### Quiz
 

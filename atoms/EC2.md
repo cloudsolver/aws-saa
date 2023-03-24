@@ -29,7 +29,7 @@
 	* Commit to billable usage for 1 or 3 years.
 	* Usage beyond the commitment defaults to On-Demand price.
 	* Flexibility: Instance size within family, OS, and tenancy e.g. default, dedicated, host.
-* [[EC2SpotInstance]] Supports massive discounts up to 90%.
+* [[EC2 Spot Instance]] Supports massive discounts up to 90%.
 * EC2 Dedicated Hosts
 	* Physical server with EC2 instance capacity.
 	* #UseCase compliance requirements, server-bound software license e.g. per-socket, per-core or BYOL.
@@ -41,17 +41,17 @@
 	* You always have access to EC2 capacity when you need it.
 	* No time commitment.
 
-You can assign an [[ElasticIP]] to your instance. 
+- You can assign an [[ElasticIP]] to your instance. Only one per EC2 instance.
 
 When you launch a new EC2 instance, the EC2 service attempts to place the instance in such a way that all your instances are spread out across underlying hardware to minimize correlated failure. You can use [[PlacementGroups]] to influence the placement of a group of interdependent instances to meet the needs of your workload. 
 
 ### EC2 Storage Types
 ### Instance Storage
-- Ephemeral / Instance Storage on EC2 provides the highest performance >1M IOPS in some cases. However it is not durable across restarts. Good for temporary high-performance data #UseCase .
+- Ephemeral / Instance Storage on EC2 provides the highest performance >1M IOPS in some cases. However it is not durable across restarts. Good for temporary high-performance data. #performant  #UseCase 
 #### Volume Storage
-- [[EBS]] volumes can be attached to EC2 instances with up to 64K IOPS. Local to AZ. 
+- [[EBS]] volumes can be attached to EC2 instances with up to 64K IOPS. Local to AZ. Backup and restore to another AZ is possible and can be automated to support HA. #resilient 
 #### File Storage
-- [[EFS]] Elastic File Systems can be used for file base storage.
+- [[EFS]] Elastic File Systems can be used for file base storage. Multiple instances, in fact 100s of instances can use the file storage.
 
 ## EC2 Hibernate
 * RAM state is written to a file in the root [[EBS]] volume. The root [EBS](EBS.md) volume must be encrypted. 
@@ -62,4 +62,5 @@ When you launch a new EC2 instance, the EC2 service attempts to place the instan
 * 150GB, 60 days limit.
 * From OS pov `uptime` will count time elapsed during hibernation.
 
-[ASG](ASG.md)
+### Scaling EC2 Horizontally
+- [[ASG | Auto-Scaling Group]] with appropriate launch configurations and scaling policies can be used to scale. #performant 

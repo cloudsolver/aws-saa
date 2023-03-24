@@ -31,8 +31,16 @@ Customer Gateway Device (On-premise)
 	- Storage and compute bursting in the cloud
 - Global Reach
 	- Use S3, CloudFront and other services on the edge and other regions.
+
+### VMWare Cloud expanded to AWS
+A company that is already running VMWare on premise can expand into AWS.
+![[VMWare on AWS Cloud Architecture.png]]
+Fig. VMWare Cloud on AWS
+
 #### References for Hybrid Cloud Architecture
 1. https://docs.aws.amazon.com/whitepapers/latest/hybrid-cloud-with-aws/hybrid-cloud-with-aws.html
+
+
 ###### Timestamp
 ---
 Created on 2023-03-14 16:52

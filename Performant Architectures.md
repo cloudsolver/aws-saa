@@ -1,7 +1,7 @@
 ## High Performing
 1. Determine high-performing and scalable storage solutions.
 	1. Hybrid storage solutions to meet business requirement.
-	2. Storage services with appropriate use cases: S3, [EFS](EFS.md), [EBS](EBS.md).
+	2. Storage services with appropriate use cases: [[S3]], [[EFS]], [[EBS]].
 	3. Storage types with associated characteristics: Object, File, Block.
 	4. Skills:
 		1. Determining storage services and configurations that meet performance demands.
@@ -11,7 +11,7 @@
 	2. Distributed computing concepts supported by AWS [[Global Infrastructure]] and edge services.
 	3. Queuing and messaging concepts: Pub-sub.
 	4. Scalability capabilities with appropriate use cases:  AWS Auto Scaling with [[ASG]].
-	5. Serverless technologoes and patterns: Lambda, Fargate.
+	5. Serverless technologies and patterns: Lambda, Fargate.
 	6. Orchestration of containers: ECS, EKS.
 	7. Skills:
 		1. Decoupling workloads so that components can scale independently.
