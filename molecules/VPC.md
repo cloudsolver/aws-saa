@@ -38,7 +38,7 @@ Routing for subnets and gateways.
 
 ### Transit [[GW]]
 
-Use a [transit gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-tgw.html), which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS [[Direct Connect]] connections.
+Use a [transit gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-tgw.html), which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS [[DX]] connections.
 
 ### VPC Flow Logs
 
