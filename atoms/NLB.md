@@ -1,4 +1,4 @@
-Network Load Balancer is a type of [[ELB | Elastic Load Balancer]]
+Network Load Balancer is a type of [[ELB | Elastic Load Balancer]] that operates at layer 4. NLB does not terminate connections like the [[ALB]] does. NLB has no Security Group.
 ### Layer 4
 Network Load Balancer operates at [Layer 4](OSI.md#Layer%204).
 ![Network Load Balancer diagram|250](https://s3.us-east-1.amazonaws.com/elb-polaris-cdk-assets-us-east-1-prod/2023-02-21T01-06-41_f711e1f2085536cdd2e5cf3814c3b7f9a49425fa46543744dace8418e82c80dc/Static/NLBdiagram.svg)

@@ -12,6 +12,7 @@ Regional Caches are large than POPs and can hold less popular objects. This save
 - You can choose **Price Class 100**, viewers in India might experience higher latency than if you choose **Price Class 200**. #CostOptimized 
 - Lambda@Edge with CloudFront enables a variety of ways to customize the content that CloudFront delivers. #UseCase 
 - Accelerate static site delivery, VOD, field-level encryption are some of the UseCases.
+- CloudFront works with [[WAF]] to filter IPs. CloudFront will terminate the connection and VPC will not see Client IPs - so [[NACL]] is not useful.
 ### CloudFront Functions
 - Regional Edge Cache runs within 13 AWS Regions.
 ![[Pasted image 20230313115332.png|128]]

@@ -1,4 +1,8 @@
 Security Group is a stateful firewall for [[EC2]] instances. 
+EC2 instance firewall #secure . These are stateful and do not require ephemeral port considerations on the outbound.
+- Reachability Analyzer: performs network connectivity testing between AWS resources.
+
+Only Allow Rules. No deny rules. SG cannot block IP addresses, but you can limit the allow range to know IPs.
 
 Inbound and outbound traffic is paired at the port/IP level. 
 
