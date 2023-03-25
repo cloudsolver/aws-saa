@@ -1,5 +1,5 @@
 AWS Direct Connect makes it easy to establish a dedicated connection from an on-premises network  
-to one or more VPCs in the same region. Using private VIF on AWS Direct Connect, you can establish  
+to one or more VPCs in the same region. Using private [[VIF]] on AWS Direct Connect, you can establish  
 private connectivity between AWS and your data center, office, or colocation environment, as shown in  
 the following figure. #AWSService 
 
