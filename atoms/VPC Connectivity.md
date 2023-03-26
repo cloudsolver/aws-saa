@@ -6,7 +6,7 @@
 - Use a [VPC peering connection](https://docs.aws.amazon.com/vpc/latest/peering/) to route traffic between the resources in two VPCs.
 
 #### AWS Transit Gateway
-- AWS-provided regional router connectivity for VPCs
+[[TGW]] - AWS-provided regional router connectivity for VPCs
 
 #### Software Site-to-Site VPN
 
