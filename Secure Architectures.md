@@ -28,7 +28,7 @@ Knowledge:
 1. Designing [[VPC]] architectures with security components (for example, security groups, route tables, NACL, NAT gateways).
 2. Determining network segmentation strategies (for example, using public subnets and private subnets).
 3. Integrating AWS services to secure applications (for example, AWS [[Shield]], AWS [[WAF]], AWS [[SSO]], AWS [[SecretsManager]]).
-4. Securing external network connections to and from the AWS Cloud (for example, [[VPN]], AWS [[Direct Connect]]).
+4. Securing external network connections to and from the AWS Cloud (for example, [[VPN]], AWS [[DX]]).
 
 ### Determine appropriate data security controls.
 Knowledge:

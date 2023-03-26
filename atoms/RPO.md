@@ -1,10 +1,8 @@
-## Summary
-
 Recovery Point Objective is the acceptable amount of data loss measured in units of time. 
 
-### About RPO
+### RPO Details
 
-A Business Continuity Plan [BCP] should include Disaster Recovery [[DR]] outline with measures such as RPO.
+A [[BCP | Business Continuity Plan]] should include Disaster Recovery [[DR]] outline with measures such as RPO.
 RPO is defined as the amount of data an organization can lose without significant harm. When a system crashes, the recovery of the data will result in some amount of agreed upon data loss. For example, an RPO of 60 minutes means that system backups must occur every 60 minutes.
 
 #### Reference

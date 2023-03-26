@@ -10,6 +10,10 @@
 
 #UseCase It is well suited to fluctuations in demand for computing resources since it enables businesses to scale from on-premises to public cloud-based to meet increased demand, and scale back from the [public cloud](https://www.vmware.com/topics/glossary/content/public-cloud.html) to on-premises (private cloud) only once demand recedes.
 
+- Customer Gateway on the on-prem data center and a virtual private gateway on AWS is required
+
+![[Pasted image 20230324155936.png]]
+Fig. Customer Gateway and VPGW
 ## Network to AWS VPC
 [[VPC]] connectivity from other clouds or on-prem requires various architectural considerations. [AWS Whitepaper PDF](https://docs.aws.amazon.com/pdfs/whitepapers/latest/aws-vpc-connectivity-options/aws-vpc-connectivity-options.pdf#introduction)
 

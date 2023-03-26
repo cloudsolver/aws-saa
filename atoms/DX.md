@@ -1,5 +1,5 @@
 AWS Direct Connect makes it easy to establish a dedicated connection from an on-premises network  
-to one or more VPCs in the same region. Using private VIF on AWS Direct Connect, you can establish  
+to one or more VPCs in the same region. Using private [[VIF]] on AWS Direct Connect, you can establish  
 private connectivity between AWS and your data center, office, or colocation environment, as shown in  
 the following figure. #AWSService 
 
@@ -7,6 +7,7 @@ the following figure. #AWSService
 One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create _virtual interfaces_ directly to public AWS services (for example, to Amazon S3) or to Amazon VPC, bypassing internet service providers in your network path. [source](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html)
 ![[DirectConnectDiagram.png|512]]
 Fig. Direct Connect VIF, VLAN
+- Supports 1Gbps and 10Gbps bandwidth
 
 Steps on how to set up a Direct Connect with AWS:
 
@@ -31,8 +32,10 @@ Here are some drawbacks of using Direct Connect:
 Overall, Direct Connect is a great option for businesses that need a reliable, secure, and cost-effective way to connect to AWS.
 https://aws.amazon.com/directconnect/
 
+![[Multiple DX to Region.png]]
+Fig. Direct Connect from multiple customer datacenter
 ### Direct Connect Gateway
-A Direct Connect gateway is a globally available resource. You can create the Direct Connect gateway in any Region and access it from all other Regions.
+[[DGW]]
 
 ### Quiz
 #Q You have set up a Direct Connect connection between your corporate data center and your VPC A in your AWS account. You need to access VPC B in another AWS region from your corporate datacenter as well. What should you do?

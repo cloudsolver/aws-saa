@@ -10,3 +10,12 @@ Low cost option for archival and backup. Cost for object retrieval.
 - Minimum 90 days storage.
 ### Deep Archive
 - Minimum 180 days, retrieval 12 hours
+
+### Quiz
+#Q A user is trying to create a vault in AWS Glacier. The user want to enable notifications. In which of the below mentioned options can the user enable the notifications from the AWS console?
+(a) Glacier does not support the AWS console.
+(b) Archival upload complete
+(c) Vault upload job complete
+(d) Vault Inventory Retrieval Job Complete
+Answer: You can use the AWS Console to configure Vault Notifications (See this)[https://docs.aws.amazon.com/amazonglacier/latest/dev/configuring-notifications-console.html]. You cannot upload directly to Glacier - therefore options (b) and (c) are invalid. S3 Glacier defines events specifically related to job completion (`ArchiveRetrievalCompleted`, `InventoryRetrievalCompleted`).
+

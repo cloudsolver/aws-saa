@@ -3,22 +3,26 @@ Collect, process, and analyze real-time video and data streams. #AWSService
 ### Kinesis Details
 - Kinesis Data Streams: ingest and store data streams for processing.
 - Kinesis Data Firehose: extract, transform and load service for streaming data to data lakes, stores and analytics services.
-- Kinesis Data Analytics: Apache Flink or SQL to analyze and transform streaming data.
-- Kinesis Video Stream - camera devices securel stream video to AWS using Kinesis Video Streams SDK to be ingested, encrypt, durably store and index for real-time and batch analysis.
+- Kinesis Data Analytics: Apache [[Flink]] or SQL to analyze and transform streaming data.
+- Kinesis Video Stream - camera devices secure stream video to AWS using Kinesis Video Streams SDK to be ingested, encrypt, durably store and index for real-time and batch analysis.
 #### Kinesis Data Stream
+![[Stream.png]]
+Fig. Stream
 - Real-time (~200ms latency). 
 - Retention 1 day to 365 days.
 - Immutable data - can't be deleted but can be replayed
 ![](Pasted%20image%2020230310230955.png)
 - Provisioned Mode: 1MiB/Second/Shared Write with 2MiB/Second/Shard. Pay per shard provisioned per hour.
 - On demand: Up to 200MiB/second write and 400MiB/second read.
-![](Pasted%20image%2020230310230208.png)
+![](Kinesis%20Shard%20On-Demand%20or%20Provision.png)
 #### Kinesis Data Firehose
-- Firehose knows how to write data to S3, Redshift (copied from S3), OpenSearch. Can send data to 3rd party like Datadog, Splunk, New Relic, mongoDB.
+![[Firehose.png]]
+Fig. Firehose
+- Firehose knows how to write data to [[S3]], Redshift (copied from S3), [[OpenSearch]]. Can send data to 3rd party like Datadog, Splunk, New Relic, mongoDB.
 - Near-Realtime (buffer time min 60 seconds). No need to write your own code.
-- Transform data with Lambda, convert data format - Parquet, ORC etc.
+- Transform data with [[Lambda]], convert data format - [[Parquet]], ORC etc.
 - Buffer Interval - flushes at this interval.
-![](Pasted%20image%2020230310232602.png)
+![](Kinesis%20Data%20Firehose%20Conceptual.png)
 
 #### Data Stream versus Firehose
 | Data Stream| Firehose|

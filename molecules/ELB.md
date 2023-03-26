@@ -26,7 +26,10 @@ You can configure this in the Target Group settings.
 - CLB: Disabled by default. No charge for enabling.
 - NLB and GWLB: Disabled by default. Charges for enabling inter-AZ traffic.
 
-## SSL and TLS  
+## Security
+- Perfect Forward Secrecy [[PFS]] is supported to safeguard against eavesdropping of encrypted data.
+
+### SSL and TLS  
 
 HTTPS listener 
 	You must specify a default certificate. 
@@ -39,6 +42,7 @@ CLB v1 supports only 1 SSL certificate.
 ## Connection Draining
 Time to complete 'in-flight requests' while the instance is de-registering or unhealthy. Stops sending new request to the EC2 instance which is de-registering. During this time new connections to ELB are directed to healthy instances.
 Default: 300 seconds. Set to lower values for shorter requests.
+
 ## General Notes
 
 - Load Balancer security group should allow users to connect from anywhere via HTTP/S however the EC2 behind it should only allow traffic coming from the load balancer. How? By linking the security group of the EC2 to the load balancer security group as *source* rather than a CIDR.
