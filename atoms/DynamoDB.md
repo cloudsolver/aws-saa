@@ -33,6 +33,18 @@ Key-value schema-less database with single digit millisecond performance at any 
 - Two-way replication across Regions.
 - Accessible across regions via an active-active replication.
 
+### Quiz
+#Q You need to have a data storage layer in AWS. Following are the key requirements.
+(a) Storage of JSON documents.
+(b) Availability of Indexes
+(c) Automatic scaling. 
+What would be an ideal storage layer for the above requirements?
+1. DynamoDB
+2. EBS volumes
+3. S3
+4. Glacier
+Answer: S3 does not support indexes. DynamoDB would work. I don't like the word 'storage' - as it is not usually considered a storage in the architectural sense.
+
 #### References for DynamoDB
 1. https://aws.amazon.com/dynamodb/
 

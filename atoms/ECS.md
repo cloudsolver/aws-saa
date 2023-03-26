@@ -37,6 +37,13 @@ ECS Deployment Configuration Application Type
 	-   A serverless architecture : object uploaded to S3. S3 sends events to Event Bridge. Event Bridge runs ECS Task.
 	- Amazon Event Bridge can have a timer, that gets triggered. The trigger can start a task.
 
+#Q Which of the following sets of services are used in a typical AWS container stack?
+(a) ECR, ECS, EC2
+(b) ECS, EMR, EC2
+(c) Fargate, ECS, S3
+(d) ECR, ECS, S3
+Answer: Eliminate S3 because it does nothing for containers. Next, eliminate EMR as it has nothing to do with containers. EC2 can be used as an ECS launch type with the appropriate ECS Agent and Task Role.
+
 #### References for ECS
 1. https://aws.amazon.com/ecs/faqs/
 

@@ -7,6 +7,7 @@ the following figure. #AWSService
 One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create _virtual interfaces_ directly to public AWS services (for example, to Amazon S3) or to Amazon VPC, bypassing internet service providers in your network path. [source](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html)
 ![[DirectConnectDiagram.png|512]]
 Fig. Direct Connect VIF, VLAN
+- Supports 1Gbps and 10Gbps bandwidth
 
 Steps on how to set up a Direct Connect with AWS:
 

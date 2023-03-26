@@ -38,7 +38,7 @@ Routing for subnets and gateways.
 
 ### Transit [[GW]]
 
-Use a [transit gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-tgw.html), which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS [[Direct Connect]] connections.
+Use a [transit gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-tgw.html), which acts as a central hub, to route traffic between your VPCs, VPN connections, and AWS [[DX]] connections.
 
 ### VPC Flow Logs
 
@@ -62,3 +62,10 @@ Connect your VPCs to your on-premises networks using [AWS Virtual Private Networ
 > d. EC2 only has a private IP
 > e. NACL ingress rules for 1024-65535
 > Answer: It is true that an EC2 instance cannot connect to the Internet (via IGW) when it does not have a public IP address. It is also true that without a route to the IGW within the subnet that the the EC2 instance is running, it will not be able to reach the internet. Finally, NACL needs to allow egress on 80 and 443 assuming it's the web EC2 wants to reach. Therefore, SG ingress makes no sense at all. Why? If SG egress allows it, then ephemeral ports will automatically open to ingress.  NACL must be permissive
+
+#Q Which of the following VPC resources is highly available but not fault tolerant?
+(a) Internet Gateway
+(b) NAT Gateway
+(c) VPC Gateway
+(d) VPC Peering Connection
+Answer: IG is fault tolerant, so is VPC Gateway and VPC Peering Connection.

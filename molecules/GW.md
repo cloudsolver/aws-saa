@@ -20,4 +20,4 @@ A transit hub that can be used to interconnect multiple VPCs and on-premises net
 [[NATGW]]
 
 #### Direct Connect gateways
-[[Direct Connect#Direct Connect Gateway]]
+[[DX#Direct Connect Gateway]]

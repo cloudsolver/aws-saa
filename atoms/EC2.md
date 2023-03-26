@@ -24,6 +24,8 @@
 	* Convertible Reserved Instance
 		* Can change the EC2 instance type, instance family, OS, scope and tenancy.
 		* Up to 66% discount.
+	* Scheduled Reserved Instances
+		* For regularly scheduled daily, weekly and monthly workload for a specific start time and duration. [more](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-scheduled-instances.html)
 * Savings Plan
 	* Get a discount based on long-term usage (up to 72% - same as RIs)
 	* Commit to billable usage for 1 or 3 years.

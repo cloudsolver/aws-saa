@@ -13,6 +13,7 @@ Regional Caches are large than POPs and can hold less popular objects. This save
 - Lambda@Edge with CloudFront enables a variety of ways to customize the content that CloudFront delivers. #UseCase 
 - Accelerate static site delivery, VOD, field-level encryption are some of the UseCases.
 - CloudFront works with [[WAF]] to filter IPs. CloudFront will terminate the connection and VPC will not see Client IPs - so [[NACL]] is not useful.
+- CloudFront can use HTTPS to communicate with an Elastic Load Balancing load balancer, an Amazon EC2 instance, or another custom origin.
 ### CloudFront Functions
 - Regional Edge Cache runs within 13 AWS Regions.
 ![[Pasted image 20230313115332.png|128]]
@@ -21,7 +22,7 @@ Fig. Conceptual Architecture
 - Files as large as 20 GB can be delivered.
 - CloudFront functions are constrained JavaScript functions executed before the request hits the cache. 
 ![CloudFront Functions Architecture|256](https://miro.medium.com/v2/resize:fit:1400/0*feB6kqJ_WjWbpggD)
-- Native feature of CloudFront
+- Native feature of CloudFront Functions
 > Limits
 > 	No access to Internet
 > 	No use of await async
