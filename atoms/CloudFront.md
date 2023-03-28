@@ -1,7 +1,7 @@
 ## Summary
 CloudFront is a Content Distribution Network (CDN) Service offered by AWS. #AWSService 
 ## CloudFront Details
-As soon as the first byte arrives from the origin, CloudFront begins to forward the object to the user. CloudFront also adds the object to the cache for the next time someone requests it. While this service is useful for content distribution however for UDP, and non-HTTP acceleration such IoT this won't work. Instead, we must use [Global_Accelerator](Global_Accelerator.md) if business has more advanced use-cases such as requiring whitelisting IP addresses.
+As soon as the first byte arrives from the origin, CloudFront begins to forward the object to the user. CloudFront also adds the object to the cache for the next time someone requests it. While this service is useful for content distribution however for UDP, and non-HTTP acceleration such IoT this won't work. Instead, we must use [Global Accelerator](Global%20Accelerator.md) if business has more advanced use-cases such as requiring whitelisting IP addresses, reduced latency and performance.
 
 ![Architecture|384](https://docs.aws.amazon.com/images/AmazonCloudFront/latest/DeveloperGuide/images/how-you-configure-cf.png)
 Fig. Conceptual Architecture
@@ -14,6 +14,7 @@ Regional Caches are large than POPs and can hold less popular objects. This save
 - Accelerate static site delivery, VOD, field-level encryption are some of the UseCases.
 - CloudFront works with [[WAF]] to filter IPs. CloudFront will terminate the connection and VPC will not see Client IPs - so [[NACL]] is not useful.
 - CloudFront can use HTTPS to communicate with an Elastic Load Balancing load balancer, an Amazon EC2 instance, or another custom origin.
+- CloudFront supports [[RTMP]] for Video and Audio streaming. A CloudFront distribution is either a Web Distribution or an RTMP distribution but not both.
 ### CloudFront Functions
 - Regional Edge Cache runs within 13 AWS Regions.
 ![[Pasted image 20230313115332.png|128]]

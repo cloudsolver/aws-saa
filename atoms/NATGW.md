@@ -17,5 +17,5 @@ Offers higher bandwidth, high availability, no administration compared to a NAT 
 | Public and Private IPv4 | Yes               | Yes                                  |
 | Security Groups         | No                | Yes                                  |
 | Use as Bastion Host     | No                | Yes                                  |
-|                         |                   |                                      |
+| Port Forwarding         | No                | Yes                                     |
 NAT Instances must be set up in public subnets, disable Source/Destination check flags. 

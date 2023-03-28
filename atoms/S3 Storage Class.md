@@ -2,6 +2,9 @@
 S3 offers Standard, IA, OZ, Glacier, and Intelligent Tiering storage classes all with 99.9999999% durability but with variable costs, availability, retrieval [[SLA]]s.
 ## S3-Storage-Class Details
 
+![[S3 Transition.png]]
+Fig. Transition Level
+Objects need to be in S3 standard storage for a minimum of 30 days before it can be moved to other class.
 ![Storage Class|600](s3-storage-classes.png)
 #### Standard: 
 - 99.99% availability. Sustain 2 concurrent facility failures. #resilient 

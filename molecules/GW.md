@@ -12,10 +12,10 @@ The gateway pattern is evident in AWS offerings.
 #### NAT Gateway
 [[NATGW]] used to direct traffic [[VPC]]
 
-<<<<<<< HEAD
 #### Direct Connect gateways
+
 [[DX#Direct Connect Gateway]]
-=======
+
 ---
 #### Customer Gateway
 [[CGW]] sits on the edge of the on-prem data center in a [[Hybrid Cloud Architecture]].
