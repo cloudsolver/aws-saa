@@ -7,6 +7,8 @@ A VPC is a virtual network that closely resembles a traditional network that you
 * VPC A and VPC B can be peered so they act as one logical VPC.You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different Regions (also known as an inter-[Region](Region.md) VPC peering connection). More on [peering](https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html) 
 * The default VPC always exists in every region in the account and has Internet connectivity. But all new VPCs are region specific. _Limit to 5 per region (soft)_
 
+![[VPC Architecture.png]]
+Fig. VPC Architecture
 
 ### Subnets
 
@@ -15,6 +17,9 @@ You can add two CIDR ranges to a [[Subnet]]. Tied to AZ. Public Subnet - connect
 [[NACL]] protects subnets. #secure 
 
 [[Security Groups]] protect EC2. #secure
+
+### VPN
+Site to Site VPN access can be created.
 
 ### IP Addressing
 
@@ -31,7 +36,6 @@ Routing for subnets and gateways.
 
 - See [[VPC Connectivity]] for more options on interconnecting VPN.
 
-
 ### VPC Traffic Mirroring
 
 [Copy network traffic](https://docs.aws.amazon.com/vpc/latest/mirroring/) from network interfaces and send it to security and monitoring appliances for deep packet inspection.
@@ -45,13 +49,16 @@ Use a [transit gateway](https://docs.aws.amazon.com/vpc/latest/userguide/extend-
 A [flow log](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) captures information about the IP traffic going to and from network interfaces in your VPC.
 VPC Flow Logs is a VPC feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC.
 
-#### AWS 
+#### AWS VPN
 
 Connect your VPCs to your on-premises networks using [AWS Virtual Private Network (AWS VPN)](https://docs.aws.amazon.com/vpc/latest/userguide/vpn-connections.html).
 
 
 [[VPN]] is a Virtual Private Network.
 [[ELB]] on AWS is at the edge of the VPC architecture.
+
+### VPC Sharing
+VPC sharing (part of Resource Access Manager) allows multiple AWS accounts to create their application resources such as EC2 instances, RDS databases, Redshift clusters, and Lambda functions, into shared and centrally-managed Amazon Virtual Private Clouds (VPCs). To set this up, the account that owns the VPC (owner) shares one or more subnets with other accounts (participants) that belong to the same organization from AWS [[Organizations]]. After a subnet is shared, the participants can view, create, modify, and delete their application resources in the subnets shared with them. Participants cannot view, modify, or delete resources that belong to other participants or the VPC owner.
 
 ### Quiz
 

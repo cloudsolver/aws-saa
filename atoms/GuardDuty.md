@@ -1,6 +1,6 @@
 
 ### Summary of GuardDuty
-Intelligent Threat detection service fully managed and automated. #AWSService 
+Intelligent Threat detection service fully managed and automated. *GuardDuty analyzes tens of billions of events across multiple AWS data sources, such as AWS CloudTrail events, Amazon VPC Flow Logs, and DNS logs.* #AWSService 
 ### GuardDuty Details
 - Uses [[ML]] to detect anomalies
 - [[CloudTrail]] event logs - unusual API calls, unauthorized deployments

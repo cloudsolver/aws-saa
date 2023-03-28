@@ -27,7 +27,8 @@ Identity and Access Management is a core #awsservice  Global Service.
 	
   
 **IAM Role**
-IAM Roles for [[EC2]] instance or AWS Services.
+- IAM roles are a way to grant temporary permissions to users, applications or services without the need to share long-term access keys or credentials.
+- IAM Roles for [[EC2]] instance or AWS Services.
 	* IAM Role for Services:
 	* Perform actions on your behalf 
 	* Assign permissions to AWS services with IAM Roles e.g. [EC2](EC2.md) Instance, Lambda, etc.
@@ -35,6 +36,7 @@ IAM Roles for [[EC2]] instance or AWS Services.
 	* IAM password policies can be protected by requiring
 	* Complexity: min length, specific character types, numbers, non-alphanumeric characters, expiration, prevent reuse and change password by user.
 	* MFA: protect Root and IAM users. Password you know + Security device you own.
+	* Users can assume IAM role while accessing resources from the production environment
 * Access Keys: CLI or SDK
 * [[Audit]]: [[CredentialsReport]] and [[Access Advisor]] 
 

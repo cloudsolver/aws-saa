@@ -17,22 +17,25 @@ Recreate an EC2 instance if one is terminated or unhealthy.
 - ASG also supports Lifecycle hooks - that can take a snapshot of an EBS volume if an EC2 instance gets terminated, and restore it to another AZ via another lifecycle hook. [more on Lifecycle Hooks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html)
 
 A Launch Template is required for an ASG.
-	- [AMI](AMI.md) + Instance Type
-	- EC2 User Data
-	- EBS Volumes
-	- Security Groups
-	- [SSH](SSH.md) Key Pair
-	- IAM Roles for EC2 Instances
-	- Network + [[Subnet]] 
-	- [ELB](ELB.md) Info
-	- Initial Capacity, Min and Max Size.
-	- Scaling Policies.
-[[CloudWatch ]] Alarms can trigger a scaling request to ASG.
+- [[AMI]] + Instance Type
+- EC2 User Data
+- EBS Volumes
+- Security Groups
+- [SSH](SSH.md) Key Pair
+- IAM Roles for EC2 Instances
+- Network + [[Subnet]] 
+- [ELB](ELB.md) Info
+- Initial Capacity, Min and Max Size.
+- Scaling Policies.
+- [[CloudWatch ]] Alarms can trigger a scaling request to ASG.
+- With launch templates, you can provision capacity across multiple instance types using both **On-Demand Instances** and **Spot Instances** to achieve the desired scale, performance, and cost. Hence this is the correct option.
+
 #### Quiz
 #Q  You have an ASG and an [NLB](ELB.md#NLB). The application on your ASG supports the HTTP protocol and is integrated with the Load Balancer health checks. You are currently using the TCP health checks. You would like to migrate to using HTTP health checks, what do you do?
 (a) Migrate to an Application Load Balancer
 (b) Migrate the health check to HTTP
 Answer: Both answers are correct. Remember, that NLB supports HTTP health checks.
+
 #### References for ASG
 1. https://docs.aws.amazon.com/autoscaling/ec2/userguide/scale-your-group.html
 

@@ -36,6 +36,6 @@ AWS Points of Presence (POP)
 [[CloudFront]]
 
 ## Global Accelerator
-[[Global_Accelerator]]
+[[Global Accelerator]]
 
 https://infrastructure.aws

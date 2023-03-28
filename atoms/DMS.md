@@ -1,4 +1,4 @@
-Data Migration Service sets up a continuous replication from source to target. #AWSService 
+Data Migration Service sets up a continuous replication from source to target. Move data without development effort. #AWSService 
 
 ![[DMS Continuous Replication.png|512]]
 Fig. Continuous Replication Architecture
@@ -19,5 +19,6 @@ SCT - Schema Conversion Tool can transform the database schema e.g. from Oracle 
 	- PostGreSQL
 		- RDS Snapshot, Restore on Aurora.
 		- Import from S3 using `aws_s3` Aurora extension
-		
+- Database Migration Service (DMS) can be used to replicate data from Amazon [[S3]] to Amazon [[Kinesis]] Data Streams and [[Redshift]].
+ 
 https://aws.amazon.com/dms/

@@ -2,7 +2,7 @@
 Offline large data transfer without network to and from AWS and also supports Edge Computing. Snowcone, Snowcone SSD, Stand-alone Snowball, and Snowball Edge are typically also used for Edge Computing and batch data processing. Snow Mobile is used for data center migrations at Exabyte scale.
 
 ## Snow Family Details
-Snow Family of products cannot import data directly to [Glacier](S3_Storage_Class.md#Glacier) The path to Glacier must be traveled through [S3](S3.md)
+Snow Family of products cannot import data directly to [Glacier](S3%20Storage%20Class.md#Glacier) The path to Glacier must be traveled through [S3](S3.md)
 ![](snowball_glacier_process.png)
 
 #### Snowcone 
