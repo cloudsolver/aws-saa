@@ -35,11 +35,16 @@ Fig. Firehose
 | Supports Replay | No support for Replay|
 
 
-
 #### Kinesis Security
 - Controls access using IAM. HTTPS, KMS and CloudTrail supported
 
-#### References for Kinesis
+### Solution Architectures
+#UseCase A company provides a REST-based interface running on EC2 instances that allows a partner company to send data in near-real time. How do you scale?
+Any near-real time solution must utilize Kinesis. Other messaging solutions will work however will not meet the "near real-time" requirement.
+
+
+---
+**References for Kinesis**
 1. https://aws.amazon.com/kinesis/data-streams/?nc=sn&loc=2&dn=2
 
 ---
