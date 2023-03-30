@@ -45,13 +45,18 @@ Amazon RDS is a managed RDBMS service that supports various relational database 
 ![RDS Backup](RDS%20Backup.md#RDS%20Backup%20Summary)
 
 ## RDS Security
-  ### At-rest encryption
+
+### At-rest encryption
   - Database master and replicas encryption using AWS [[KMS]] - must be defined at launch time.
   - If master is not encrypted - the replicas cannot be encrypted.
   - DB snapshot, restore as encrypted.
+#UseCase Enable encryption for the database without incurring any data loss:
+Encrypt: take a snapshot, encrypt a copy of the snapshot and restore the snapshot to a new RDS DB instance
+Sync Data: Use [[DMS]] to sync data to the new RDS DB instance from the old RDS instance.
 ### In-Flight Encryption
 - TLS-ready by default. 
 - Use AWS TLS root certificate client-side.
+#UseCase Amazon RDS creates an SSL certificate and installs the certificate on the DB instance when Amazon RDS provisions the instance. These certificates are signed by a certificate authority. The SSL certificate includes the DB instance endpoint as the Common Name (CN) for the SSL certificate to guard against spoofing attacks.
 ### Security Groups
 - Control network access to RDS/Aurora DB
 ### Audit Logs

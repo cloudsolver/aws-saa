@@ -33,8 +33,8 @@ Identity and Access Management is a core #awsservice  Global Service.
 	* Perform actions on your behalf 
 	* Assign permissions to AWS services with IAM Roles e.g. [EC2](EC2.md) Instance, Lambda, etc.
 * Security: MFA + Password policy.
-	* IAM password policies can be protected by requiring
-	* Complexity: min length, specific character types, numbers, non-alphanumeric characters, expiration, prevent reuse and change password by user.
+	* IAM password policies can be protected by requiring complexity: min length, specific character types, numbers, non-alphanumeric characters, expiration, prevent reuse and change password by user.
+	* Password policies are done at the account level (not IAM policy)
 	* MFA: protect Root and IAM users. Password you know + Security device you own.
 	* Users can assume IAM role while accessing resources from the production environment
 * Access Keys: CLI or SDK

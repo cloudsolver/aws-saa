@@ -21,6 +21,9 @@ Queue Depth measured by CloudWatch triggers an alarm that can request [ASG](ASG.
 The underlying databases should be able to handle the load as well or throttled with limited connections in the pool. Alternatively use a max
 #UseCase 
 
+#### Prioritize Paid over Free
+Use Standard SQS queues. FIFO queues will not be helpful. The application tier should be able to prioritize polling logic to poll more frequently from the paid queue.
+
 #### Decouple Front End Web from Back End
 ![](Pasted%20image%2020230310215206.png)
 #### References for SQS

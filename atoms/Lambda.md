@@ -33,7 +33,7 @@ AWS Lambda is a serverless, event-driven compute service that lets you run code 
 >  dynamic web-applications at edge
 >  intelligent routing between origins and data centers
 >  bot mitigation at the edge
->  [[a-b testing]] A/B Testing
+>  [[A-B Testing Blue-Green Deployment]] A/B Testing
 >  user tracking, prioritization and analysis
 To use Lambda@Edge, you just upload your code to AWS Lambda and associate a function version to be triggered in response to Amazon CloudFront requests.
 #### References for Lambda

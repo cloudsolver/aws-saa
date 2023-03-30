@@ -42,6 +42,7 @@
 	* Reserve On-Demand instance capacity in a specific AZ for any duration.
 	* You always have access to EC2 capacity when you need it.
 	* No time commitment.
+	#UseCase EC2 instances are guaranteed to be available when needed.
 
 - You can assign an [[ElasticIP]] to your instance. Only one per EC2 instance.
 

@@ -35,13 +35,13 @@ Route 53 supports the following Routing Policies:
 - Latency based routing selects the path of least latency.
 #### Geo-location Routing Policy
 - By mapping IP addresses to locations it routes to resources that are based on the region of the request. Based on where users are their requests can be routed.
-- You can also use geolocation routing to restrict distribution of content to only the locations in which you have distribution rights. #UseCase 
-- You can use localization and i18n for users by routing with this policy. #UseCase 
+#UseCase  **Restrict distribution of content** to only the locations in which you have distribution rights.
+#UseCase **Localization and i18n** for users by routing with this policy. 
+#### Geo-proximity Routing Policy
+- By using Route 53 `traffic flow` it routes to resources closest to the request. Shift requests from one location to another.
 #### Multi-Value Answer Routing Policy
 - Route 53 returns multiple values for the request at random and based on health. 
 - Ability to return multiple health-checkable IP addresses is a way to use DNS to improve availability and load balancing. #resilient #performant 
-#### Geo-proximity Routing Policy
-- By using Route 53 `traffic flow` it routes to resources closest to the request. Shift requests from one location to another.
 ### Route 53 Health Checks
 HTTP Health Checks are only for public resources. Route 53 checkers are outside the VPC. They can't access private endpoint. You must create a CloudWatch Metric and associate a CloudWatch Alarm and have the Route53 Health Checker use that instead.
 1. Endpoint Monitoring

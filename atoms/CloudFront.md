@@ -15,6 +15,9 @@ Regional Caches are large than POPs and can hold less popular objects. This save
 - CloudFront works with [[WAF]] to filter IPs. CloudFront will terminate the connection and VPC will not see Client IPs - so [[NACL]] is not useful.
 - CloudFront can use HTTPS to communicate with an Elastic Load Balancing load balancer, an Amazon EC2 instance, or another custom origin.
 - CloudFront supports [[RTMP]] for Video and Audio streaming. A CloudFront distribution is either a Web Distribution or an RTMP distribution but not both.
+### CloudFront Origin Group with Primary and Secondary Origins
+You can set up CloudFront with origin failover for scenarios that require high availability. To get started, you create an _origin group_ with two origins: a primary and a secondary. If the primary origin is unavailable or returns specific HTTP response status codes that indicate a failure, CloudFront automatically switches to the secondary origin.
+
 ### CloudFront Functions
 - Regional Edge Cache runs within 13 AWS Regions.
 ![[Pasted image 20230313115332.png|128]]
@@ -37,6 +40,12 @@ Some of these constraints are lifted when using [[Lambda#Lambda@Edge]]
 > 	Modifying the CloudFront Cache Key e.g. normalization
 > 	Redirecting Traffic Based on Simple Conditions
 > 	URL Rewrites and redirection
+
+### Solution Architectures
+
+#### On-premises server requires a global distribution
+[[Hybrid Cloud Architecture]] with CloudFront is possible. A custom origin can point to an on-premises server and CloudFront is able to cache content for dynamic websites. CloudFront can provide performance optimizations for custom origins even if they are running on on-premises servers. These include persistent TCP connections to the origin, SSL enhancements such as Session tickets and OCSP stapling.
+Additionally, connections are routed from the nearest Edge Location to the user across the AWS global network. If the on-premises server is connected via a [[DX|Direct Connect]]  link this can further improve performance.
 
 ## References
 
