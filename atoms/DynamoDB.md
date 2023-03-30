@@ -23,12 +23,12 @@ Key-value schema-less database with single digit millisecond performance at any 
 - Microsecond latency for cached data on DynamoDB
 - No application business logic changes required.
 - DAX default TTL is 5 minutes.
-- ElastiCache is better for aggregated queries. DAX is good for single item cache. #UseCase 
+#UseCase Single items from DynamoDB are requested repeatedly. Many cache technologies are available. Which one should be used? [[ElastiCache]] is better for aggregated queries. DAX is good for single item cache. 
 ### DynamoDB Stream Processing
 - Item level modifications are streamed in order.
 - #UseCase Real-time usage analytics; implement cross-region replication; insert into derivative tables and invoke [[Lambda]].
 - #UseCase Alternatively, send events to [[Kinesis#Kinesis Data Stream]] and [[Kinesis#Kinesis Data Firehose]] to various services.
-- #Replication across regions is possible via Global Tables but it requires DynamoDB streams to be enabled.
+- Replication across regions is possible via Global Tables but it requires DynamoDB streams to be enabled.
 ### DynamoDB Global Tables
 - Two-way replication across Regions.
 - Accessible across regions via an active-active replication.

@@ -1,14 +1,19 @@
 ### Summary of App Runner
-Fully managed service that makes it easy to deploy web applications and APIs at scale without any infrastructure experience. #AWSService 
+
+Deploy containerized web applications and APIs at scale. Fully managed service that makes it easy to deploy web applications and APIs at scale without any infrastructure experience. #AWSService 
 
 ### App Runner Details
 - Start with source code or a [[Docker]] container image and Amazon [[ECR]]
-- Automatically builds and deploys the webapp.
+- Automatically builds and deploys a containerized web app.
 - Automatic scaling, high availability, load balancer, encryption.
-- VPC access support
+- [[VPC]] access support
 - Connect to database, cache, and message queue service
 - #UseCase Microservices, Web Apps with best practices implemented.
-#### References for App Runner
+
+If you want a fully managed service that is easy to use, AWS App Runner is a good choice. If you want more control over your infrastructure, [[Elastic Beanstalk]] is a good choice.
+
+---
+References
 1. https://aws.amazon.com/apprunner/
 
 ---
