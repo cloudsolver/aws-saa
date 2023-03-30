@@ -1,5 +1,5 @@
 ### Summary of Secrets Manager
-Centrally manage the lifecycle of secrets. #AWSService Primarily for RDS and API keys, DR and secrets compliance. Service offer compares to [[SSM Parameter Store]] with advanced parameters.
+Centrally manage the lifecycle of secrets. #AWSService Primarily for RDS and API keys, DR and secrets compliance. Service offer compares to [[SSM Parameter Store]] with advanced parameters. #secure 
 
 ### Secrets Manager Details
 - Force rotation of secrets every X days to support compliance 
@@ -9,7 +9,7 @@ Centrally manage the lifecycle of secrets. #AWSService Primarily for RDS and API
 - Replicate secrets across regions to support [[DR]] #UseCase 
 - Read replica secret can be promoted to a standalone secret
 
-![[Pasted image 20230320105202.png|512]]
+![[Credentials for Services.png|512]]
 Fig. Options for Secrets Manager
 
 

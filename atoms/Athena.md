@@ -29,8 +29,9 @@ Fig. Architecture
 #### Performance and Cost Optimization
 > Pay per query based on amount of data scanned. Save by compressing data, partitioning buckets by column, or converting data to columnar format like Parquet. Use larger files > 128 MB than many smaller files. #performant  #CostOptimized #BestPractice 
 
-![[Pasted image 20230314155418.png]|256]
+![[CostSavingsAthena.png|512]]
 Fig Performance and Cost Optimization
+
 #### References for Athena
 1. https://aws.amazon.com/athena/features/
 2. [Athena](https://aws.amazon.com/athena/) 

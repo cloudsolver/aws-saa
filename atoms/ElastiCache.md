@@ -1,7 +1,7 @@
 ## Summary
-A managed Redis or Memcached service.
+A managed Redis or Memcached service. #AWSService 
+
 ## ElastiCache Detail
-- ElastiCache is a managed Redis or Memcached #AWSService 
 - In-memory databases with high performance and low latency. #performant 
 - Reduce load off of databases for read-intensive workloads. #OperationallyExcellent 
 - Requires application code changes to use the cache.

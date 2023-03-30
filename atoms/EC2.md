@@ -46,7 +46,7 @@
 
 - You can assign an [[ElasticIP]] to your instance. Only one per EC2 instance.
 
-When you launch a new EC2 instance, the EC2 service attempts to place the instance in such a way that all your instances are spread out across underlying hardware to minimize correlated failure. You can use [[PlacementGroups]] to influence the placement of a group of interdependent instances to meet the needs of your workload. 
+When you launch a new EC2 instance, the EC2 service attempts to place the instance in such a way that all your instances are spread out across underlying hardware to minimize correlated failure. You can use [[Placement Groups]] to influence the placement of a group of interdependent instances to meet the needs of your workload. 
 
 ### EC2 Storage Types
 ### Instance Storage

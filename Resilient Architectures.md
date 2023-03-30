@@ -1,9 +1,8 @@
 ## Summary
 Resilient Architectures are resilient when the solution has high availability, fault tolerance and MTTR and MT. #resilient 
 
-## Resilient Architectures Detail
-
 ### Design scalable and loosely coupled architectures
+**Knowlege**
 1. API creation and management : [[API Gateway]], REST API
 2. AWS managed services with appropriate use cases: AWS Transfer Family, Amazon [[SQS]],[[Secrets Manager]].
 3. [[Caching]] Strategies

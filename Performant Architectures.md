@@ -1,25 +1,29 @@
-## High Performing
-1. Determine high-performing and scalable storage solutions.
-	1. Hybrid storage solutions to meet business requirement.
-	2. Storage services with appropriate use cases: [[S3]], [[EFS]], [[EBS]].
-	3. Storage types with associated characteristics: Object, File, Block.
-	4. Skills:
-		1. Determining storage services and configurations that meet performance demands.
-		2. Determining storage services that can scale to accommodate future needs.
-2. Design high-performing and elastic compute solutions.
-	1. AWS compute services with appropriate use cases: AWS Batch, EMR, Fargate.
-	2. Distributed computing concepts supported by AWS [[Global Infrastructure]] and edge services.
-	3. Queuing and messaging concepts: Pub-sub.
-	4. Scalability capabilities with appropriate use cases:  AWS Auto Scaling with [[ASG]].
-	5. Serverless technologies and patterns: Lambda, Fargate.
-	6. Orchestration of containers: ECS, EKS.
-	7. Skills:
+### Determine high-performing and scalable storage solutions.
+
+**Knowledge**
+- Hybrid storage solutions to meet business requirement.
+- Storage services with appropriate use cases: [[S3]], [[EFS]], [[EBS]].
+- Storage types with associated characteristics: Object, File, Block.
+
+**Skills**
+- Determining storage services and configurations that meet performance demands.
+- Determining storage services that can scale to accommodate future needs.
+
+### Design high-performing and elastic compute solutions.
+**Knowledge**
+- AWS compute services with appropriate use cases: AWS Batch, EMR, Fargate.
+-  Distributed computing concepts supported by AWS [[Global Infrastructure]] and edge services.
+	7. Queuing and messaging concepts: Pub-sub.
+	8. Scalability capabilities with appropriate use cases:  AWS Auto Scaling with [[ASG]].
+	9. Serverless technologies and patterns: Lambda, Fargate.
+	10. Orchestration of containers: ECS, EKS.
+	11. Skills:
 		1. Decoupling workloads so that components can scale independently.
 		2. Identifying metrics and conditions to perform scaling actions.
 		3. Selecting the appropriate compute options and features.
 		4. Selecting the appropriate resource type and size (Lambda) to meet business requirements.
-3. Determine## Cost Optimized
-1. Design cost-optimized storage solutions.
+6. Determine #CostOptimized 
+7. Design cost-optimized storage solutions.
 	1. Access options: S3 with Requester Pays object storage.
 	2. AWS cost management service features: Cost Allocation Tags, Multi-Account billing.
 	3. AWS Cost Management tools with appropriate use cases: AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report.
@@ -42,7 +46,7 @@
 		8. Selecting the appropriate storage tier
 		9. Selecting the correct data lifecycle for storage.
 		10. Selecting the mnost cost-effective storage service for a workload.
-2. Design cost-optimized compute solutions.
+8. Design cost-optimized compute solutions.
 	1. AWS cost management service features: Cost Allocation Tags, Multi-Account Billing.
 	2. AWS Cost Management tools with appropriate use cases: Cost Explorer, AWS Budgets, AWS Cost and Usage Report.
 	3. AWS [[Global Infrastructure]]: Availability Zone, Regions.
@@ -58,7 +62,7 @@
 		3. Determining cost-effective AWS compute services with appropriate use cases: [[Lambda]], [EC2](EC2.md), Fargate.
 		4. Determining the required availability for different classes of workloads: production workloads, non-production workloads.
 		5. Selecting the appropriate instance family and size for a workload.
-3. Design cost-optimized database solutions.
+9. Design cost-optimized database solutions.
 	1. AWS cost management service features: Cost Allocation Tags, Multi-Account Billing.
 	2. AWS Cost Management tools.
 	3. Caching Strategies.
@@ -78,7 +82,7 @@
 1. Design cost-optimized network architectures.
 	1. AWS cost management service features and tools.
 	2. Load balancing concepts: ALB.
-	3. NAT gateways: NAT instnace costs compared with NAT gateway costs.
+	3. NAT gateways: NAT instance costs compared with NAT gateway costs.
 	4. Network connectivity: Private lines, dedicated lines, VPNs.
 	5. Network routing, topology, and peering: AWS Transit Gateway, [[VPC]] peering.
 	6. Network services with appropriate use cases: DNS.
