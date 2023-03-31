@@ -1,7 +1,7 @@
 ## Secure
 
 ### Design secure access to AWS resources.
-Knowledge:
+**Knowledge**
 1. Access controls and management across multiple accounts.
 2. AWS federated access and identity services. AWS Identity and Access Management ([[IAM]]), AWS Single-Sign-On with [[IAM Identity Center]].
 3. AWS [[Global Infrastructure]] (AZ, AWS Regions).
@@ -16,7 +16,7 @@ Knowledge:
 	5. Determining when to federate a directory service [[AD]] with [[IAM]] roles.
 
 ### Design secure workloads and applications.
-Knowledge:
+**Knowledge**
 1. Application configuration and credentials security.
 2. AWS service endpoints.
 3. Control ports, protocols, and network traffic on AWS.
