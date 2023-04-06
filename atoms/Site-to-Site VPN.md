@@ -19,6 +19,6 @@ Fig. Multiple VPN from Virtual Private Gateway to CGW. You can add redundant CGW
 Fig. Transit Gateway to multiple customer datacenter.
 
 ![[VPN and DX.png]]
-Fig. Customer Data Center to DX to VPN to VPG
+Fig. Customer Data Center to [[DX]] to VPN to VPG
 ![[Private connection via CGW-DX-TGW over VLAN.png]]
 Fig. End to end private, secure and scalable

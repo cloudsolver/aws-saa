@@ -1,5 +1,5 @@
 ### VPC Gateway Endpoint
-[[VPC]] [Gateway Endpoints](https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html) do not require Internet or NAT - does not enable [[Private Link]] and are supported by [[S3]] and [[DynamoDB]] and don't cost anything.
+[[VPC]] [Gateway Endpoints](https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html) do not require Internet or NAT - does not enable [[PrivateLink]] and are supported by [[S3]] and [[DynamoDB]] and don't cost anything.
 
 ### VPC to VPC Connectivity
 
@@ -26,5 +26,5 @@
 
 #### AWS Private Link
 - AWS-provided network connectivity between two VPCs using interface endpoints.
-![[Private Link]]
+![[PrivateLink]]
 More information on [AWS Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/amazon-vpc-to-amazon-vpc-connectivity-options.html)

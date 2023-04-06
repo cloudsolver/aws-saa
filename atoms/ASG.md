@@ -1,5 +1,5 @@
 ### Summary of ASG
-EC2 Autoscaling Groups are Regional Constructs. 
+EC2 Autoscaling Groups are Regional Constructs. Supply AMI to ASG to launch instances.
 [doc](https://aws.amazon.com/ec2/autoscaling/)
 ### ASG Details
 - Set desired, minimum and maximum capacity.

@@ -1,6 +1,6 @@
 ## Summary
 It directs global traffic via closest edge locations and **Anycast** IP through internal Amazon network to reduce latency, improve performance and network stability.  #AWSService 
-## Global_Accelerator Details
+## Global Accelerator Details
 - Makes your application go global. #WellArchitected 
 - Enables disaster recovery and failover to another region's ALB. #resilient  
 - Improve performance and stability. Application is deployed in one region, however there are users all over the world. How can global users work on the app without going through the Internet across so many hops? To minimize **latency**.
@@ -10,14 +10,14 @@ It directs global traffic via closest edge locations and **Anycast** IP through 
 **Unicast**: one server one IP.
 **Anycast** IP: all servers hold the same IP address and the client is routed to the nearest one.
 
-
 Supported: ElasticIP, EC2, ALB, NLB.
 
 The static addresses are advertised globally using anycast from the AWS edge network to your endpoints.
 - You can point your custom domain name to the IP address or the DNS name of the global accelerator.
 - Now when a client makes a request using your custom domain name, the DNS server resolves it to the IP addresses, in random order, or to the DNS name for your accelerator.
 - #UseCase Blue/Green deployments when DNS server results are usually cached by clients. Portion of traffic can be moved.
-- 
+- For real-time streaming and on-demand videos [[CloudFront]] is a better option (not Global Accelerator).
+
 #### Security
 - Only 2 external IP need to be whitelisted.
 - DDoS protection from AWS [[Shield]]
