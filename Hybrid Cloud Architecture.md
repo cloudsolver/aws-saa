@@ -27,7 +27,7 @@ Customer Gateway Device (On-premise)
 	- [[NAT]]-T (NAT Traversal) public IP fronting the [[CGW]]
 - Routing
 	- Route Table propagation in each route table within a [[subnet]] must be enabled.
-	- Ping requires ICMP protocol in Security Group to be enabled
+	- Ping requires [[ICMP]] protocol in Security Group to be enabled.
 [[VGW | Virtual Private Gateway]]
 
 ### Use Cases for Hybrid

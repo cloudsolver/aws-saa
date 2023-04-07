@@ -10,11 +10,12 @@ Engines have native asynchronous replication features that are used to keep the 
 - Read replicas are supported within a region, across-regions as well as on-premises. [[Hybrid Cloud Architecture]]
 - Maximum 5 Read Replicas for Oracle and Microsoft. 
 	- Max 15 for MySQL, Maria and PostgreSQL.
+- A read-replica as multi-AZ DB instance can be created even if the source database is not a multi-AZ instance.
 - Applications must be updated to a read-replica connection string.
 - Replication is asynchronous.
 - Replicas can be promoted to their own DB - it can be outside the replication scheme and become a primary.
 - Encryption at rest with [[KMS]] can be enabled.
-- RDS read-replicas  within region is free. Cross region traffic will be charged.
+- RDS read-replicas within region is free. Cross region traffic will be charged.
 - Zero downtime to go from Single-AZ to Multi-AZ.
 
 ## Use Cases

@@ -16,10 +16,10 @@ You can add two CIDR ranges to a [[Subnet]]. Tied to AZ. Public Subnet - connect
 
 [[NACL]] protects subnets. #secure 
 
-[[Security Groups]] protect EC2. #secure
+[[SG | Security Groups]] protects EC2. #secure
 
 ### VPN
-Site to Site VPN access can be created.
+Site-to-Site VPN access can be created with a Virtual Private Gateway connection to a Customer Gateway in the customer data center.
 
 ### IP Addressing
 

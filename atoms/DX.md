@@ -32,8 +32,11 @@ Here are some drawbacks of using Direct Connect:
 Overall, Direct Connect is a great option for businesses that need a reliable, secure, and cost-effective way to connect to AWS.
 https://aws.amazon.com/directconnect/
 
+### High Resiliency with DX
+A highly resilient [[Hybrid Cloud Architecture]] can be designed by connecting multiple DX connections at multiple DX locations to AWS Region.
 ![[Multiple DX to Region.png]]
-Fig. Direct Connect from multiple customer datacenter
+Fig. Direct Connect from multiple customer datacenters
+
 ### Direct Connect Gateway
 [[DGW]]
 

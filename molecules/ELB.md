@@ -1,12 +1,10 @@
 Elastic Load Balancers is an #AWSService that can be set up externally as well as internally.
 ## CLB
-Classic Load Balancer (deprecated)
-- CLB : HTTP, HTTPS, TCP, SSL
+![[CLB]]
 #### ALB
 ![[ALB]]
 ## NLB
 ![[NLB]]
-
 ## GWLB
 ![[GWLB]]
 ## Session Affinity
@@ -22,9 +20,9 @@ You can configure this in the Target Group settings.
 ## Cross-Zone Load Balancing
 - With Cross-Zone Load Balancing enabled - each EC2 instance will get same load.
 - Without Cross-Zone Load Balancing each AZ gets equal load regardless of EC2 capacity.
-- ALB: Enabled by default. No charge.
-- CLB: Disabled by default. No charge for enabling.
-- NLB and GWLB: Disabled by default. Charges for enabling inter-AZ traffic.
+- [[ALB]]: Enabled by default. No charge.
+- [[CLB]]: Disabled by default. No charge for enabling.
+- [[NLB]] and [[GWLB]]: Disabled by default. Charges for enabling inter-AZ traffic.
 
 ## Security
 - Perfect Forward Secrecy [[PFS]] is supported to safeguard against eavesdropping of encrypted data.
@@ -35,7 +33,7 @@ HTTPS listener
 	You must specify a default certificate. 
 	You can add an optional list of certs to support multiple domains.
 	Clients can use [[SNI]] (Server Name Indication) to specify the hostname 
-Does not work with CLB. Only works with ALB, NLB and CloudFront.
+Constraint: Does not work with CLB. Only works with ALB, NLB and CloudFront.
 ALB v2 and NLB v2 supports multiple listeners with multiple SSL certificates and uses SNI.
 CLB v1 supports only 1 SSL certificate.
 

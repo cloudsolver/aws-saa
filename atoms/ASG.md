@@ -1,12 +1,19 @@
 ### Summary of ASG
-EC2 Autoscaling Groups are Regional Constructs. 
+EC2 Autoscaling Groups are Regional Constructs. Supply AMI to ASG to launch instances.
 [doc](https://aws.amazon.com/ec2/autoscaling/)
 ### ASG Details
 - Set desired, minimum and maximum capacity.
 - Dynamic Scaling: Tracks [CloudWatch](CloudWatch) and acts when it is in ALARM.
+
+| Scaling         | Description                                                                                                        |
+| --------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Simple          | The first scaling policy on AWS. No fine-grained controls. CloudWatch alarm can trigger a `%` increase in capacity |
+| Target Tracking | Recommended - especially for CPU metrics. Set the target metric and the scaling group expands or contracts to meet it.                                       |
+| Step            | Useful when ASG continues to react to alarms with no cool down wait.                                                                                                                   |
+
 	- Target Tracking Scaling: Amazon [[CloudWatch]] metric and target value.
 	- Step Scaling: Update capacity based on a SET of scaling adjustments.
-	- Simple Scaling: Update based on a SINGLE scaling adjustment. Cool down period.
+
 - Deleting an ASG terminates EC2 instances
 - ASG can be configured with [[SNS]] to send notifications on scaling events.
 ASG ensures EC2 instances are within a range (minimum, maximum capacity).
