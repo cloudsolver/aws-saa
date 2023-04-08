@@ -3,6 +3,8 @@ Highly scalable and highly available [[DNS]] service that supports various recor
 ## Route 53 Details
 
 ### Record Type
+
+
 - A => IPv4, supports multiple IP addresses. #resilient 
 	- Alias (AWS Extension) Records are used to point a hostname to an AWS Resource such as CloudFront distribution (rohitsood.com => d2ysinytc0i3i0.cloudfront.net.). This is how you point your zone apex to an Amazon Resource such as ELB. There is no additional charge. #CostOptimized 
 	- You cannot use an Alias for an EC2 DNS name or S3 Buckets! You can however use it for an ELB, VPC Interface Endpoints, S3 Websites, Elastic Beanstalk infrastructure, .
