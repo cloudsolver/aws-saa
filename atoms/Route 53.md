@@ -4,21 +4,14 @@ Highly scalable and highly available [[DNS]] service that supports various recor
 
 ### Record Type
 
+| Type  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| A     | IPv4. Supports multiple IP addresses #resilient                                                                                                                                                                                                                                                                                                                                                                                              |
+| *ALIAS* | This is an AWS thing.Point a hostname to an AWS Resources e.g. CloudFront. www.rohitsood.com => d3ds3fd.cloudfront.net. Point your zone apex to an Amazon resource e.g. ELB etc.You cannot use an Alias for an EC2 DNS name or S3 Buckets! You can however use it for an ELB, VPC Interface Endpoints, S3 Websites, Elastic Beanstalk infrastructure. AWS Resources expose an AWS hostname that can be used with an A record (alias) - free and has health check. |
+| CNAME | Name mapped to another name that has an A record. [RFC 1034](https://tools.ietf.org/html/rfc1034) states that the zone apex must be an A Record. You can created a CNAME for `www.rohitsood.com` but not for `rohitsood.com` because it is an Apex.                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
-- A => IPv4, supports multiple IP addresses. #resilient 
-	- Alias (AWS Extension) Records are used to point a hostname to an AWS Resource such as CloudFront distribution (rohitsood.com => d2ysinytc0i3i0.cloudfront.net.). This is how you point your zone apex to an Amazon Resource such as ELB. There is no additional charge. #CostOptimized 
-	- You cannot use an Alias for an EC2 DNS name or S3 Buckets! You can however use it for an ELB, VPC Interface Endpoints, S3 Websites, Elastic Beanstalk infrastructure, .
-	- AWS Resources expose an AWS Hostname that can be used with an A record (alias) - free and has health check.
-- AAAA=>IPv6
-		- Alias - same as A record Alias. Automatically recognizes changes in resource IP address. It can be used for top node of a DNS Namespace i.e Zone Apex.
-- CNAME=>name mapped to another name that has an A record - cannot be an apex, [RFC 1034](https://tools.ietf.org/html/rfc1034) states that the zone apex must be an A Record, and not a CNAME record. You can create a CNAME for `www.rohitsood.com` but not `rohitsood.com`.
-	- No Apex records allowed under CNAME.
-- NS - name server records
-	- Does not support wild-cards.
-- Value
-- Routing Policy
-- TTL - time to live for cache. DNS responds with IP address the TTL. 
-- If you set a high TTL such as 24hrs - there will less traffic.
+Note: Any AWS resource that is available with a domain name from AWS should be pointed to with a CNAME `ALIAS`. API Gateway API, AppRunner Service, AppSync domain name, CloudFront distribution, Elastic Beanstalk, ALB, NLB, Global Accelerator, S3 Website endpoint and VPC endpoint. 
+
 
 ### Route 53 Routing Policy
 Route 53 supports the following Routing Policies:
@@ -54,7 +47,7 @@ HTTP Health Checks are only for public resources. Route 53 checkers are outside 
 		1. Combines the results of multiple health checks into a single health checks
 		2. Parent => Child (256) OR, AND, NOT logic
 
-## References
+**References**
 
 1.  https://aws.amazon.com/route53/
 2. https://aws.amazon.com/route53/faqs/

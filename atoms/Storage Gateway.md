@@ -2,7 +2,7 @@
 Bridges on-premise data with cloud data on AWS as an essential component of a [Hybrid Cloud Architecture](Hybrid%20Cloud%20Architecture.md) #AWSService 
 ### Storage Gateway Details
 On-premises environment can host File, Volume, and Tape gateway for various workloads. [[NFS]] and [SMB](SMB) protocols would connect internal file shares with the File Gateway on-prem. Application Servers would use [iSCSI](iSCSI) to connect to a Volume Gateway on-prem. Backup application would use [[iSCSI#VTL]] to connect to a Tape Gateway. The gateways can be installed on virtualized or physical appliance on-premise.
-![](storage_gateway_on_prem_arch.png)
+![512](storage_gateway_on_prem_arch.png)
 Useful for [[DR]], [AWS Backup](AWS%20Backup.md) and restore. Tiered storage with on-premises [cache](Cache.md) and local-latency file access.
 
 Provide on-premises applications with access to virtually unlimited cloud storage. Fill [[S3]] will incoming data from on-prem to form a [[DataLake]], modernize file sharing for #CostOptimized architecture and #OperationallyExcellent 
