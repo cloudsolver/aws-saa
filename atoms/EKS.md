@@ -18,6 +18,7 @@ Elastic Kubernetes Service is a managed service. The most trusted way to start, 
 	- Specify `StorageClass` manifest on your EKS cluster
 	- Leverages a Container Storage Interface ([[CSI]]) compliant driver
 	- Support for EBS, EFS (works with Fargate for EKS), FSx for Lustre, FSx for NetApp ONTAP.
+- Monitoring with [[CloudWatch]] Container Insights -  configure in the existing EKS cluster. There is no agent to run because there is no access to instances. 
 #### References for EKS
 1. https://aws.amazon.com/eks/
 

@@ -1,7 +1,4 @@
-AWS Direct Connect makes it easy to establish a dedicated connection from an on-premises network  
-to one or more VPCs in the same region. Using private [[VIF]] on AWS Direct Connect, you can establish  
-private connectivity between AWS and your data center, office, or colocation environment, as shown in  
-the following figure. #AWSService 
+AWS Direct Connect makes it easy to establish a dedicated connection from an on-premises network to one or more VPCs in the same region. Using private [[VIF]] on AWS Direct Connect, you can establish private connectivity between AWS and your data center, office, or co-location environment, as shown in the following figure. #AWSService 
 
 ### Connectivity
 One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection, you can create _virtual interfaces_ directly to public AWS services (for example, to Amazon S3) or to Amazon VPC, bypassing internet service providers in your network path. [source](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html)
@@ -38,7 +35,8 @@ A highly resilient [[Hybrid Cloud Architecture]] can be designed by connecting m
 Fig. Direct Connect from multiple customer datacenters
 
 ### Direct Connect Gateway
-[[DGW]]
+![[DGW]]
 
 ### Quiz
-#Q You have set up a Direct Connect connection between your corporate data center and your VPC A in your AWS account. You need to access VPC B in another AWS region from your corporate datacenter as well. What should you do?
+#Q You have set up a Direct Connect connection between your corporate data center and your VPC A in your AWS account. You need to access VPC B in another AWS region from your corporate datacenter as well. What should you do? Answer: Use  a direct connect gateway.
+#Q An organization is extending a secure development environments into AWS. They have set up a Direct Connect connection. What else needs to be done to add encryption? Answer: Setup a VPG over DX to enable IPSec encryption. Alternatively, use [[MACsec]] (MAC Security) that provides confidentiality, integrity and origin authenticity.
