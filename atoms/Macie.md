@@ -7,6 +7,7 @@ Manage the security posture of your organization's Amazon Simple Storage Service
 
 * Helps you discover and protect sensitive data. Uses ML, evaluates S3 environment, uncovers [[PII]] information.
 * #UseCase : discover passport numbers stored on S3 using Macie. Find SSNs in S3 files.
+* Macie does not support RDS.
 
 ---
 > **References for Macie**

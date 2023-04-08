@@ -13,6 +13,8 @@ Governance, audit and compliance for your organization. #AWSService
 | Data Events (default off)      | S3 operations, Lambda operations etc. This is high volume.                                    |
 | Insight                        | Creates a baseline and then alerts on anomalies e.g. gaps in periodic maintenance, bursts, service limits. ![[Pasted image 20230316131543.png]]                                                                                              |
 
+*Note*: In order to log access to S3 bucket access. Data Events will need to be turned on.
+
 > **Notification Architecture with CloudTrail**
 > ![[Pasted image 20230316131732.png|512]] 
 > Fig. DynamoDB table deletion sends an email via [[EventBridge]]
