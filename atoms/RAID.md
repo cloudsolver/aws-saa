@@ -10,7 +10,12 @@ Redundant Array of Inexpensive Disks uses parity, striping and mirroring to enab
 - High write performance due to concurrent writes.
 - Not fault tolerant - if a drive fails there will be data loss.
 - Recommended for EBS by AWS.
-
+- Multiple RAID 0 - will increase performance
+#Q The application writes many temporary files during the data processing. The application requires a high-performance storage solution for the temporary files. **What would be the fastest storage option for this solution?**
+(a) Multiple EFS volumes with Max I/O performance
+(b) Multiple S3 buckets with transfer acceleration 
+(c) Multiple EBS volumes with provisioned IOPS
+(d) Multiple Instance Store volumes with software RAID 0
 ### RAID 1
 - Two drives with half the storage capacity.
 - Data is mirrored

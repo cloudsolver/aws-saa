@@ -15,10 +15,15 @@ Governance, audit and compliance for your organization. #AWSService
 
 *Note*: In order to log access to S3 bucket access. Data Events will need to be turned on.
 
-> **Notification Architecture with CloudTrail**
-> ![[Pasted image 20230316131732.png|512]] 
+> **Notification Solution Architecture on table deletion with CloudTrail**
+> ![[CloudTrail tracks DELETETABLE API call.png|512]] 
 > Fig. DynamoDB table deletion sends an email via [[EventBridge]]
 > EventBridge gets events automatically. 
+
+**Unmodifiable organization-wide trail Solution Architecture**
+You can create a CloudTrail trail in the management account with the **organization trails** option enabled and this will create the trail in all AWS accounts within the organization.
+Member accounts can see the organization trail but can't modify or delete it. By default, member accounts don't have access to the log files for the organization trail in the Amazon S3 bucket.
+
 ---
 > References for CloudTrail
 1. https://aws.amazon.com/cloudtrail/faqs/ 
