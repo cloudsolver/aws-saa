@@ -4,11 +4,11 @@ A fully-managed service for data transfer in and out of [[S3]] or [[EFS]] using 
 - Multi-AZ managed infrastructure that supports various protocols.
 ![](transfer_family_console.png)
 - Pricing is based on various factors:
-![Pricing|250](Pasted%20image%2020230309163354.png)
+![Pricing|250](Transfer%20Family%20Pricing.png)
 - Store and manage users' credentials within the service.
 - Integrates with Microsoft AD, LDAP, Okta, Cognito or custom solutions.
 - [[Route 53]] can have a DNS entry to AWS Transfer Family.
-- Migrate your FTP customers seamlessly to AWS cloud without impacting them. #UseCase 
+- Migrate your [[FTP]] customers seamlessly to AWS cloud without impacting them. #UseCase 
 #### References for Transfer Family
 1. https://aws.amazon.com/aws-transfer-family/
 

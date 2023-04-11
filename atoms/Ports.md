@@ -5,10 +5,10 @@ Networking ports are logically addresses on the network that allows software to 
 ![Port Types|300](https://ipcisco.com/wp-content/uploads/2021/01/network-ports-ipcisco.com_.jpg)
 #### Well-Known Ports 
 22 [[SSH]]
-21 [[FTP]]
-22 [[SFTP]]
+21 [[FTP|FTP]]
+22 [[FTP|SFTP]]
 80 [[HTTP]]
-443 [[HTTPS]]
+443 [[HTTP|HTTPS]]
 3389 [[RDP]]
 5432 PostgreSQL
 #### References for Ports

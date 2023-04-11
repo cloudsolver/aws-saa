@@ -12,6 +12,16 @@ Build loosely coupled event driven architecture at scale with Event Bridge. #AWS
  For Kinesis streams, EventBridge uses [identity-based](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-use-identity-based.html) policies.
  For Lambda, Amazon SNS, Amazon SQS, and Amazon CloudWatch Logs resources, EventBridge uses resource-based policies. [More](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-use-resource-based.html)
 
+> **Complex Log Event Processing with [[EventBridge]]**
+> Possible to set up a cron job. Also, set up security triggers e.g. notification email when root user logs in to console.
+> (a) Default Event Bus - provided within the AWS account. (b) Custom Event Bus - create a separate event bus, and (c) Partner Event Bus e.g. Data Dog, Zen Desk etc.
+> ![[Source-Destination Event Bridge Architecture.png|512]]
+> Fig. Event Bridge Architecture with [[CloudWatch]]
+> Support for event schema discovery within its Schema Registry feature along with versioning
+> Manage permissions into the Event Bus. #UseCase Aggregate all events into a central bus from all accounts within an organization.
+> ![[AWS events from other account.png]] 
+> You could create a bus by environment, organization unit and critical application or path.
+
 ## References
 
 1. [AWS Event Bridge](https://aws.amazon.com/eventbridge/) 
