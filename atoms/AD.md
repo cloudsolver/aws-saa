@@ -8,6 +8,6 @@ Active Directory is supported by AWS. Directory Service #AWSService
 |                     |                    |                                           |
 
 With AD Connector users will be on-premise not [[IAM]]
-![[Pasted image 20230316223154.png|512]]
+![[ad_managed_connector_simple_context.png|512]]
 
 https://aws.amazon.com/directoryservice/

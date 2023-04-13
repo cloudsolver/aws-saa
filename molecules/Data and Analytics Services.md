@@ -13,5 +13,5 @@ AWS offers [[Athena]], [[Redshift]], [[OpenSearch]], [[Kinesis#Kinesis Data Stre
 | [[OpenSearch]]     | Search                       | Unstructured data search                                                               |
 
 ** Redshift versus Athena**
-![[Pasted image 20230315122650.png|512]]
+![[redshift-spectrum-athena-comparison-table.png|512]]
 Fig. Comparison

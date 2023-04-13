@@ -1,7 +1,7 @@
 Connection between your VPC and your own on-premises network i.e. [[Hybrid Cloud Architecture]]. Site-to-Site VPN supports Internet Protocol security ([[IPsec]]) VPN connections.
 [More on AWS Site-To-Site VPN](https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html) 
 
-![[Pasted image 20230324172204.png|256]]
+![[VPG_customer_gateway-NAT_corp_data_center_Hybrid_Cloud_context.png|256]]
 Fig. Virtual Private Gateway needs Route Table propagation 
 
 _Note: IPv6 is NOT supported on Site-To-Site VPN._

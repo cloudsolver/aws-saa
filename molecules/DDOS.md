@@ -1,10 +1,10 @@
 AWS Best Practices for Distributed Denial of Service Attack Architecture
 
 
-![[Pasted image 20230320133228.png]]
+![[osi_model_table.png]]
 Fig. Attach Vectors OSI
 ### Best Practices
-![[Pasted image 20230320132833.png]]
+![[security_architecture_best_practice_context.png]]
 Fig. Best Practices Label
 
 | Defense                                         | AWS Service                                 | Description                                                                                                              |

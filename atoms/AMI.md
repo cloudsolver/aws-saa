@@ -23,7 +23,7 @@ Amazon Machine Image are a customization of EC2 instance.
 2. Source Account updates Launch Permission for the Target Account
 3. Source Account gives permissions to use KMS key to target account
 4. Target Account can decrypt the AMI and launch an instance. 
-![[Pasted image 20230320091319.png]]
+![[kms_cross_account_key.png]]
 Fig. AMI sharing across Accounts
 
 ### Quiz 

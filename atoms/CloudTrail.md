@@ -11,7 +11,7 @@ Governance, audit and compliance for your organization. #AWSService
 | ------------------------------ | --------------------------------------------------------------------------------------------- |
 | Management Events (default on) | Operations on AWS resources e.g. `IAMAttachRolePolicy` can separate Read versus Write events. |
 | Data Events (default off)      | S3 operations, Lambda operations etc. This is high volume.                                    |
-| Insight                        | Creates a baseline and then alerts on anomalies e.g. gaps in periodic maintenance, bursts, service limits. ![[Pasted image 20230316131543.png]]                                                                                              |
+| Insight                        | Creates a baseline and then alerts on anomalies e.g. gaps in periodic maintenance, bursts, service limits. ![[cloudtrail-insights-insight-event-generation-context.png]]                                                                                              |
 
 *Note*: In order to log access to S3 bucket access. Data Events will need to be turned on.
 
