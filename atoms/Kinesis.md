@@ -11,7 +11,7 @@ Fig. Stream
 - Real-time (~200ms latency). 
 - Retention 1 day to 365 days.
 - Immutable data - can't be deleted but can be replayed
-![](Pasted%20image%2020230310230955.png)
+![](kinesis-data-stream-producer-consumer-architecture.png)
 - Provisioned Mode: 1MiB/Second/Shared Write with 2MiB/Second/Shard. Pay per shard provisioned per hour.
 - On demand: Up to 200MiB/second write and 400MiB/second read.
 ![](Kinesis%20Shard%20On-Demand%20or%20Provision.png)

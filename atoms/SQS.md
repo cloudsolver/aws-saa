@@ -26,7 +26,7 @@ The underlying databases should be able to handle the load as well or throttled 
 Just use standard SQS queues. FIFO queues will not be helpful. The application tier should be able to prioritize polling logic to poll more frequently from the paid queue.
 
 #### Decouple Front End Web from Back End
-![](Pasted%20image%2020230310215206.png)
+![](sqs-decouple-architecture.png)
 #### References for SQS
 1. https://aws.amazon.com/sqs/faqs/
 

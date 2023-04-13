@@ -9,13 +9,13 @@ Analyze petabyte-scale data on [[S3]] with ease and flexibility - no need for ET
 - Run queries from Athena console, API, CLI, SDK, JDBC and ODBC.
 >**Federated query**
 > Connectors for enterprise data sources including DynamoDB, Redshift, OpenSearch, MySQL, PostgreSQL, Redis. Often used with QuickSight.
-> ![[Pasted image 20230314160100.png|256]]
+> ![[lambda-source-connector-solution.png|256]]
 Fig. Federated query via Lambda as connector
 - Invoke ML models from [[SageMaker]] within SQL queries for anomaly detection, customer cohort analysis and sales predictions.
 
 > #UseCase Query VPC flow logs, ELB logs, CloudTrail logs. Good for ad-hoc queries - for warehouse level aggregations use [[Redshift]]
 
-![[Pasted image 20230314153758.png|96]]
+![[athena-s3-quicksight-solution.png|96]]
 Fig. Architecture
 
 
