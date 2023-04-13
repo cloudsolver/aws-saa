@@ -54,7 +54,7 @@ Fig. Resource Tag / Project "DataAnalytics"
 Does not apply to Groups. *Supports Users and Roles only.*
 AWS supports _permissions boundaries_ for IAM entities (users or roles). A permissions boundary is an advanced feature for using a managed policy to set the maximum permissions that an identity-based policy can grant to an IAM entity. An entity's permissions boundary allows it to perform only the actions that are allowed by both its identity-based policies and its permissions boundaries.
 *Does not apply to groups.*
-![[access_policy_boundaries_venn_diagram.png|384]]
+![[iam-scp-permissions_boundary.png|384]]
 Fig. Boundaries
 **IAM Roles compared to Resource-Based Policies**
 ![[IAM roles versus Bucket policy.png|384]]

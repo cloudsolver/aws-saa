@@ -34,7 +34,7 @@ point. This objective determines what is considered an acceptable loss of data b
 ![[DR Availability.png|256]]
 Fig. Measures
 
-![[Availability Calc.png]]
+![[dr_availability_formula.png]]
 Fig. Availability
 
 
