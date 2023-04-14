@@ -4,6 +4,7 @@ Amazon Redshift uses SQL to analyze structured and semi-structured data across d
 * Data warehouse: data storage solution with historical data from disparate sources.
 * Business intelligence, querying and business intelligence.
 * Handles exabyte-scale data. OLAP implementation based on PostgreSQL engine.
+* Loading data into Redshift. Large inserts are much better. #BestPractice 
 #UseCase 
 	Data consolidation. Run a database when it doesn't require CRUD.
 	Analytics - allows querying to gain business insights.

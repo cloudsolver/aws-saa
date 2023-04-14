@@ -6,10 +6,10 @@ Elastic Kubernetes Service is a managed service. The most trusted way to start, 
 - #UseCase Company is already running Kubernetes on-premises and wants to migrate to AWS using Kubernetes.
 - Note Types
 	- Managed Node Groups
-		- ASG managed by EKS
+		- [[ASG]] managed by EKS
 		- Supports On-Demand or Spot Instances
 	- Self-Managed Nodes
-		- Nodes created by you and registered to the EKS cluster and managed by an ASG
+		- Nodes created by you and registered to the EKS cluster and managed by an [[ASG]]
 		- Pre-built AMI - Amazon EKS Optimized AMI
 		- Supports On-demand or Spot instances
 	- AWS [[Fargate]]

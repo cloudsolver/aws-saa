@@ -1,7 +1,7 @@
+AWS Glue is a fully managed serverless ETL service
+
 * Discover, prepare, and integrate all your data at any scale.
-
 * ETL Service.
-
 * Prepare to better understand your data.
 ### UseCases
 > JSON to Parquet #UseCase 
