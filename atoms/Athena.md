@@ -5,7 +5,7 @@ Analyze petabyte-scale data on [[S3]] with ease and flexibility - no need for ET
 - Serverless with automatic scaling and configuration. No indexes.
 - Define DDL statements or use [[Glue]] out-of-the-box to automatically crawl data sources and populate Data Catalog.
 - Athena uses [[Presto]] a distributed SQL query engine so ANSI SQL can be used against large data sets in S3.
-- Data formats CSV, JSON, ORC, Avro, or Parquet.
+- Data formats CSV, [[JSON]], [[ORC]], [[Avro]], or [[Parquet]].
 - Run queries from Athena console, API, CLI, SDK, JDBC and ODBC.
 >**Federated query**
 > Connectors for enterprise data sources including DynamoDB, Redshift, OpenSearch, MySQL, PostgreSQL, Redis. Often used with QuickSight.
