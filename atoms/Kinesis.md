@@ -11,12 +11,12 @@ Fig. Stream
 - Real-time (~200ms latency). 
 - Retention 1 day to 365 days.
 - Immutable data - can't be deleted but can be replayed
-![](Pasted%20image%2020230310230955.png)
+![](kinesis-data-stream-producer-consumer-architecture.png)
 - Provisioned Mode: 1MiB/Second/Shared Write with 2MiB/Second/Shard. Pay per shard provisioned per hour.
 - On demand: Up to 200MiB/second write and 400MiB/second read.
 ![](Kinesis%20Shard%20On-Demand%20or%20Provision.png)
 #### Kinesis Data Firehose
-![[Firehose.png]]
+![[firehost-photo.png]]
 Fig. Firehose
 - Firehose knows how to write data to [[S3]], Redshift (copied from S3), [[OpenSearch]]. Can send data to 3rd party like Datadog, Splunk, New Relic, mongoDB.
 - Near-Realtime (buffer time min 60 seconds). No need to write your own code.

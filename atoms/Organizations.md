@@ -30,8 +30,29 @@ Organizations includes account management and consolidated billing capabilities 
 > ![Orgs|768](https://docs.aws.amazon.com/images/organizations/latest/userguide/images/AccountOuDiagram.png)
 > OU can be part of a hierarchy with a simple 1:1 carnality between parent and child.
 
+**S3 Bucket Policy Restricted to Organization**
 
-
+```
+{   
+	"Version": "2012-10-17",   
+	"Statement": [     
+		{       
+			"Sid": "AllowBucketAccess",       
+			"Effect": "Allow",       
+			"Action": [         
+				"s3:GetObject",         
+				"s3:PutObject"       
+				],       
+			"Resource": "arn:aws:s3:::my-bucket/*",
+			"Condition": {         
+				"StringEquals": {           
+					"aws:PrincipalOrgID": "o-1234567890"         
+				}       
+			}     
+		}   
+	] 
+}
+```
 ---
 > **References for Organizations**
 	1. Concepts https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html

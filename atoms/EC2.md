@@ -39,7 +39,7 @@
 	* Hardware shares with instances of the same account.
 	* No control over instance placement.
 * EC2 Capacity Reservation
-	* Reserve On-Demand instance capacity in a specific AZ for any duration.
+	* Reserve On-Demand instance capacity in a **specific AZ** for any duration.
 	* You always have access to EC2 capacity when you need it.
 	* No time commitment.
 	#UseCase EC2 instances are guaranteed to be available when needed.

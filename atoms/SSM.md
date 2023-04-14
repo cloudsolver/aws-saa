@@ -6,15 +6,19 @@ AWS Systems Manager aka SSM is the operations hub for your AWS applications and 
 2. Features ability to use an agent to log in to an [[EC2]] instance without enabling port 22 for [[SSH]] in [[SG | security group]]
 3. Run Command - run scripts on EC2 instances (or on prem nodes). No need for SSH. Runs through agent, command logs are sent to S3 or SNS for status. Integrated with CloudTrail. EventBridge is automated. Run via SSM agent.
 
-![[Pasted image 20230324111847.png|512]]
+![[Run Command Architecture.png|512]]
 Fig. Run Command integration from SSM
 
 4. Patch Management - OS, Sec Updates, cross platform. Scheduled on maintenance windows. Compliance reports
-![[Pasted image 20230324112129.png]]
+![[Run Command Invocation Architecture.png|512]]
 Fig. Maintenance Window - batch update for Patch 
 
 5. Automation: Run books are SSM docs that can take action on EC2 instances. e.g. snapshots of EBS. Integrates with [[Config]] - apply remediations that match findings.
-6. 
+
+### Patch Manager versus Run Command
+
+If you need to automate patching and compliance for your instances, you should use SSM Patch Manager. If you need to execute ad-hoc commands or scripts on your instances, you should use Run Command. #UseCase 
+
 ---
 **References for Systems Manager**
 1. https://aws.amazon.com/systems-manager/ 

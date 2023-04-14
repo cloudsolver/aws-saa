@@ -4,7 +4,7 @@ ML based visual analysis from images and video streams. #AWSService
 
 #UseCase 
 How would you design a content moderation architecture that allows for optional manual review?
-![[Pasted image 20230315154321.png|256]]
+![[rekognition-confidence-context.png|256]]
 Fig. Content Moderation Architecture
 - Minimum Confidence Threshold must be set
 - Flag sensitive content for manual review in Amazon Augmented AI *A2I*

@@ -2,7 +2,6 @@
 Amazon RDS is a managed RDBMS service that supports various relational database engines. RDS supports, single AZ read-replicas for read scalability, Multi-AZ deployments for HA, and cross-region replication for DR.
 
 
-## About
 ### Engines
 - PostgreSQL
 - MySQL
@@ -46,6 +45,9 @@ Amazon RDS is a managed RDBMS service that supports various relational database 
 
 ## RDS Security
 
+### Authentication
+- Short-lived credentials can be created with `AWSAuthenticationPlugin` with IAM.
+- 
 ### At-rest encryption
   - Database master and replicas encryption using AWS [[KMS]] - must be defined at launch time.
   - If master is not encrypted - the replicas cannot be encrypted.

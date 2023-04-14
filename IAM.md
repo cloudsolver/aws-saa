@@ -1,5 +1,5 @@
 ### Summary of IAM
-Identity and Access Management is a core #awsservice  Global Service.
+Identity and Access Management is a core #awsservice  Global Service. #secure 
 
 ### IAM Details
 
@@ -15,6 +15,8 @@ Identity and Access Management is a core #awsservice  Global Service.
 	- Groups: contains users only. 
 	- Groups can't be nested.
 	- Groups can be given permissions via IAM Policy.
+	- Groups are NOT an identity, and cannot be identified as principals in an IAM policy. But the following is possible:
+		- `"Condition":{"StringEquals":{"aws:PrincipalTag/group":"developers"}}`
 
 
 **IAM Policy**
@@ -42,20 +44,20 @@ Identity and Access Management is a core #awsservice  Global Service.
 
 **IAM Conditions**
 Various IAM conditions can be applied via policies e.g. `aws:sourceIp` , `aws:RequestedRegion`, `ec2:ResourceTag`, etc.
-![[Pasted image 20230316213713.png|384]]
+![[clientIP IAM policy.png|384]]
 Fig. Deny all IPs unless the request comes from the listed IPs.
 
-![[Pasted image 20230316214456.png|384]]
+![[tag attribute permissions.png|384]]
 Fig. Resource Tag / Project "DataAnalytics"
 
 **Permission Boundaries**
 Does not apply to Groups. *Supports Users and Roles only.*
 AWS supports _permissions boundaries_ for IAM entities (users or roles). A permissions boundary is an advanced feature for using a managed policy to set the maximum permissions that an identity-based policy can grant to an IAM entity. An entity's permissions boundary allows it to perform only the actions that are allowed by both its identity-based policies and its permissions boundaries.
 *Does not apply to groups.*
-![[access_policy_boundaries_venn_diagram.png|384]]
+![[iam-scp-permissions_boundary.png|384]]
 Fig. Boundaries
 **IAM Roles compared to Resource-Based Policies**
-![[Pasted image 20230316215808.png|384]]
+![[IAM roles versus Bucket policy.png|384]]
 Fig. Both options to access the bucket are valid.
 
 | IAM Roles                                                               | Resource-Based Policies                                                              |
@@ -66,6 +68,15 @@ Fig. Both options to access the bucket are valid.
 EventBridge must use IAM Role when writing to Kinesis.
 
 Evaluation Logic: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html
+
+#Q A company has over 2000 users and is planning to use S3 bucket/home/%username% folder structure. What steps should be taken so that the users have access to only their folder?
+(a) Create an IAM Policy that applies object-level S3 ACLs
+(b) Create a bucket policy that applies access permissions based on username
+(c) Create an IAM group and attach the IAM policy
+(d) Attach an S3 ACL sub-resources that grants access based on the %username% variable
+(e) Create an IAM policy that applies folder level permissions
+
+Answer: The core idea is to differentiate between Role based on Resource based policy. Resource based policies will not scale for 2000 users. IAM will need to be used to grant access to folder level permissions. The other options are tricky. (c) and (e) are the correct options.
 
 
  **IAM Guidelines & Best Practices #bestpractice**
@@ -84,8 +95,10 @@ Evaluation Logic: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_pol
 - SSO for all accounts in the organization and third party applications
 - Integrates with 3rd party identity providers
 
-![[Pasted image 20230316222934.png]]
+![[Multi-account IAM ID Center Org.png]]
+Fig.
 
+- Enable IAM Identity Center and create a two-way forest trust to connect customer's self-managed Microsoft AD with SSO by using AWS Directory Service.
 #### Quiz
 #Q An IAM policy consists of one or more statements. A statement in an IAM policy consists of the following, EXCEPT:
 	1. Effect

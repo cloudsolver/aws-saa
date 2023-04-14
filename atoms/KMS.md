@@ -51,10 +51,10 @@ Plaintext keys are never written to disk and only ever used in volatile memory o
 - No need to re-encrypt or make cross-Region API calls
 - 
   Very select use cases e.g. Global Tables
-![[Pasted image 20230319223154.png|512]]
+![[kms_replica_key_cross_region_context.png|512]]
 Fig. Keys are managed independently
 Architecture for multi-region key replication
-![[Pasted image 20230319223343.png|384]]
+![[kms_multi_region_key_context.png|384]]
 Fig. Keys are replicated to support global tables
 
 DBA cannot read KMS encrypted columns as they will not have permission to the KMS key. Only an application will be able to decrypt and encrypt.

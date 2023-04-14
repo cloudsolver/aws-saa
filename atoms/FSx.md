@@ -18,7 +18,7 @@ Managed OpenZFS
 	- [[NFS]] compatible, millions of IOPS.
 	- Point-in-time instantaneous cloning just liske [[#NetApp ONTAP]]. 
 	- Move workloads running on ZFS to AWS. #UseCase 
-![](FSx_table.png)
+![](FSx_comparison_table.png)
 ## References
 
 1.[When to choose FSx](https://aws.amazon.com/fsx/when-to-choose-fsx/)

@@ -18,7 +18,7 @@ The root EBS volume is deleted upon termination. #UseCase You can preserve root 
 Answer: Amazon EBS volumes are placed in a specific Availability Zone where they are automatically replicated to protect you from the failure of a single component. All EBS volume types offer durable snapshot capabilities and are designed for 99.999% availability. Given that, AWS only recommends RAID 0. [Details](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/raid-config.html) 
 
 ### EBS Encryption
-- Data at rest is encrypted.
+- Data at rest is encrypted. Not all instance types support encryption.
 - Data in flight between instance and volume is encrypted.
 - All snapshots are encrypted.
 - All volumes created from snapshot.

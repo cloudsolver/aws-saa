@@ -1,7 +1,7 @@
 Determine where network traffic from your subnet or gateway is directed.
 Route Table belongs to a VPC and is associated with a [[Subnet]].
 Once it is associated with a subnet, it will need Destination - Target Routes to be setup.
-![[Pasted image 20230322213735.png]]
+![[routes_destination_target_table.png]]
 Fig. If Destination is 172.31.0.0/16 go to PCX - the peer connection.
 In the example above, a route table connects to another VPC through a peering connection.
 

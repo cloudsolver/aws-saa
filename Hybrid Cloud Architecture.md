@@ -12,7 +12,7 @@
 
 - Customer Gateway on the on-prem data center and a virtual private gateway on AWS is required
 
-![[Pasted image 20230324155936.png]]
+![[site-to-site_VPN_API_Gateway_CloudFront_Route53_context.png]]
 Fig. Customer Gateway and VPGW
 ## Network to AWS VPC
 [[VPC]] connectivity from other clouds or on-prem requires various architectural considerations. [AWS Whitepaper PDF](https://docs.aws.amazon.com/pdfs/whitepapers/latest/aws-vpc-connectivity-options/aws-vpc-connectivity-options.pdf#introduction)

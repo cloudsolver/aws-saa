@@ -10,9 +10,9 @@ Configuration Auditor. Assess, audit, and evaluate  configuration of your resour
 **Config Notification**
 
 >**Config Remediation**
-Remediation Architecture ![[Pasted image 20230316140950.png]]
+Remediation Architecture ![[config_trigger_auto-remediation_context.png]]
 > Create a custom [[SSM Parameter Store]] Document that triggers a Lambda function which takes the action.
-> ![[Pasted image 20230316141153.png]]
+> ![[config_eventbridge_trigger_context.png]]
 
 - Config now support organization wide compliance view.
 - Aggregate from multi-account multi-region out of the box. Integrates with AWS [[Organizations]]

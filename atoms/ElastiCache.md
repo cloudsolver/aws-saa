@@ -22,10 +22,12 @@ A managed Redis or Memcached service. #AWSService
 ### Security
 - IAM Authentication for Redis
 - IAM policies on ElastiCache are only used for AWS API-level security
-#### Redis Auth
-- You can set a "password/token" when you create a Redis cluster.
-- This is an extra level of security for your cache.
-- Support SSL in flight encryption.
+#### Redis 
+- REDIS AUTH
+	- You can set a "password/token" when you create a Redis cluster.
+	- This is an extra level of security for your cache.
+- Supports SSL in flight encryption. 
+- Enable in-transit encryption. 
 #### Memcached
 - Supports [[SASL]]-based authentication.
 ### Design Patterns

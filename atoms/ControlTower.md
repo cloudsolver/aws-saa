@@ -5,7 +5,7 @@ AWS Control Tower offers the easiest way to set up and govern a secure, multi-ac
 1. Preventative Guardrails by using SCP via [[Organizations]]
 2. Detective Guardrails by using [[Config]]
 
-![[Pasted image 20230316224021.png]]
+![[control_tower_sns_remediation_context.png]]
 Fig. Uses orgs and applies guardrails
 
 ---

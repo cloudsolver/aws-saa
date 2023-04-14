@@ -23,7 +23,7 @@ By default, Amazon Redshift uses standard Internet routing for COPY and UNLOAD t
  #Q How to prepare Redshift for [[DR]] ?
  Use automated snapshots to another region. 
 There is a multi-AZ option now available too. #resilient 
-![[Pasted image 20230314170257.png|256]]
+![[redshift-cross-region-restore-solution.png|256]]
 
 #Q How can Redshift run a few quick queries against data in S3 in a cost-effective way? #CostOptimized 
 (a) Use Redshift Direct Access

@@ -18,7 +18,8 @@ Amazon API Gateway is a fully managed service to create, publish, maintain, moni
 - API Keys
 	- We do not recommend you use API keys for authorization. #antipattern 
 	- You should use API keys to monitor usage by third-party developers and leverage a stronger mechanism for authorization, such as signed API calls or OAuth. #secure 
-
+#### Cache and Throttling
+- You enable caching by stage. Not method.
 #### Endpoint Types
 
 | Type                         | Description                                                                                                                |
