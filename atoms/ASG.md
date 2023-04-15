@@ -4,7 +4,8 @@ EC2 Autoscaling Groups are Regional Constructs. Supply AMI to ASG to launch inst
 ### ASG Details
 - Set desired, minimum and maximum capacity.
 - Dynamic Scaling: Tracks [CloudWatch](CloudWatch) and acts when it is in ALARM.
-
+- #WellArchitected For Fault tolerance requires the minimum number of [[EC2]] instances in each [[AZ]] that enables [[Resilient Architectures]] on AWS.
+- EC2 instance launched from the oldest launch configuration is terminated first.
 | Scaling         | Description                                                                                                        |
 | --------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Simple          | The first scaling policy on AWS. No fine-grained controls. CloudWatch alarm can trigger a `%` increase in capacity |
@@ -45,6 +46,6 @@ Answer: Both answers are correct. Remember, that NLB supports HTTP health checks
 
 #### References for ASG
 1. https://docs.aws.amazon.com/autoscaling/ec2/userguide/scale-your-group.html
-
+2. https://aws.amazon.com/autoscaling/
 ---
 Created on 2023-03-10 21:55

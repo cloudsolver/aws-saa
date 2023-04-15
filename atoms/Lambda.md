@@ -12,7 +12,7 @@ AWS Lambda is a serverless, event-driven compute service that lets you run code 
 - 5 max function layers,
 - 1000 max concurrency quota
 - Lambda is launched outside of VPC by default - so it can access DynamoDB but nothing in a private VPC
-
+* Lamda supports resource-based policies.
 **Lambda in [[VPC]]**
 - Specify VPC ID, [[Subnet]] and Security Groups.
 - AWS will launch Lambda by creating an [[ENI]] assigning IP address (note: scaling requires sufficient IP addresses in the [[subnet]]), Lambda is subject to the same networking rules. 

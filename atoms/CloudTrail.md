@@ -6,6 +6,7 @@ Governance, audit and compliance for your organization. #AWSService
 - Each trail is 90 days retention by default. For longer retention move them to [[S3]] and use [[Athena]].
 - Works with [[Config]] and [[CloudWatch]]
 - #UseCase if any resource is deleted, always start the investigation with CloudTrail.
+- #UseCase Ensure log files are not tampered. Enable `Log file validation`
 
 | Event Type                     | UseCase                                                                                       |
 | ------------------------------ | --------------------------------------------------------------------------------------------- |
