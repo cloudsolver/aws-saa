@@ -11,6 +11,7 @@ Writer, Reader and Custom endpoints provide flexibility, scale and high availabi
 - Underlying shared volume spans Writer and Reader Endpoints - auto expands from 10GB to 128TB.
 - Automated patching with zero downtime. Advanced monitoring.
 - Backtrack: restore data at any point of time without using backups.
+- You can create a stored procedure or native function that invokes a [[Lambda]]. #UseCase User Registered (new row in user column).
 ### Serverless
 - Aurora Serverless has a pay-as-you-go model
 ### Multi-Master

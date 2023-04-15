@@ -5,7 +5,8 @@
 * General Purpose: Web-server, application servers, 
 * Compute Optimized: Media transcoding, batch processing, high performance web servers, high performance computing (HPC), machine learning, scientific modeling and dedicated gaming server.
 * Memory Optimized: High performance, relational and non-relational database, distributed web scale cache stores, In-memory databases optimized for BI, applications performing real-time processing of big unstructured data.
-* #tip Use this website to checkout the EC2 Instance types https://instances.vantage.sh/
+* Use this website to checkout the EC2 Instance types https://instances.vantage.sh/ #tip 
+* [[CloudWatch]] can monitor CPU, Network and Disk but not Memory Usage. To monitor memory you must install an CloudWatch Agent.
 ### EC2 Connection
 
 - [[SG]] is a firewall for EC2. 
@@ -21,9 +22,11 @@
 	* Reserved Instance: 72% discount. 
 		* 1 year or 3 year
 		* Instance Type, [Region](Region.md), Tenancy, OS
+		* Can be sold if unused.
 	* Convertible Reserved Instance
 		* Can change the EC2 instance type, instance family, OS, scope and tenancy.
 		* Up to 66% discount.
+		* Can not be sold at the Reserved Instance Marketplace.
 	* Scheduled Reserved Instances
 		* For regularly scheduled daily, weekly and monthly workload for a specific start time and duration. [more](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-scheduled-instances.html)
 * Savings Plan

@@ -21,6 +21,7 @@ Storage: Petabyte-scale NFS
 	- Replaces data within a single AZ.
 - Standard/Regional and Standard/Regional IA
 	- Replicates data across multiple AZs.
+- MAX 90 Days: age-off policy.
 
 Amazon EFS offers Standard and One Zone storage classes for both frequently accessed and infrequently accessed files. Standard and One Zone storage classes are performance-optimized to deliver consistently low latencies. The EFS Standard-IA and EFS One Zone-IA storage classes are cost-optimized for files accessed less frequently. Start saving on storage costs with EFS Lifecycle Management and an age-off policy (1, 7, 14, 30, 60, or 90 days). Additionally, set a policy to automatically move accessed files from the cost-optimized infrequent access storage classes to the performance-optimized storage classes. With EFS Lifecycle Management, automatically move files between EFS Standard and EFS Standard-IA storage, or between EFS One Zone and EFS One Zone-IA storage, reducing costs up to 92%.
 
