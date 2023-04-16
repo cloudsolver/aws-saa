@@ -25,7 +25,7 @@ Provide on-premises applications with access to virtually unlimited cloud storag
 - Cached volumes offer low latency to most recent data.
 - Stored volumes: entire dataset is on premises, scheduled backups to S3.
 #### Tape Gateway
-- On-prem Virtual Tape Library is integrated with [Glacier](Glacier.md) Deep Archive Storage Class.
+- On-prem Virtual Tape Library is integrated with [Glacier](Glacier.md) **Deep Archive** Storage Class. 
 #### Storage Gateway Hardware Appliance
 - On-Premise Virtualization Alternative is to buy a Storage Gateway Hardware Appliance.
 - Works with File, Volume and Tape Gateways.

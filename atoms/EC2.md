@@ -3,8 +3,9 @@
 	* Install updates, software, download files etc as sudo.
 * Instance Naming Convention: m5.2xlarge m=instance class, 5=generation, 2xlarge=size of instance within class.
 * General Purpose: Web-server, application servers, 
-* Compute Optimized: Media transcoding, batch processing, high performance web servers, high performance computing (HPC), machine learning, scientific modeling and dedicated gaming server.
-* Memory Optimized: High performance, relational and non-relational database, distributed web scale cache stores, In-memory databases optimized for BI, applications performing real-time processing of big unstructured data.
+* **Compute Optimized**: Media transcoding, batch processing, high performance web servers, high performance computing (HPC), machine learning, scientific modeling and dedicated gaming server.
+* **Memory Optimized**: High performance, relational and non-relational database, distributed web scale cache stores, In-memory databases optimized for BI, applications performing real-time processing of big unstructured data.
+* **Storage Optimized**: High throughput for sequential reads and writes. 
 * Use this website to checkout the EC2 Instance types https://instances.vantage.sh/ #tip 
 * [[CloudWatch]] can monitor CPU, Network and Disk but not Memory Usage. To monitor memory you must install an CloudWatch Agent.
 ### EC2 Connection

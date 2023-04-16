@@ -4,9 +4,9 @@ Accelerate the replication of data into AWS. One-way tasks can move large amount
 
 
 ### DataSync Details
-Accelerate cloud migrations.
-You can use AWS DataSync to migrate data located on premises, at the edge, or in other clouds to Amazon S3, Amazon EFS, Amazon FSx for Windows File Server, Amazon FSx for Lustre, Amazon FSx for OpenZFS, and Amazon FSx for NetApp ONTAP. Configure DataSync to make an initial copy of your entire dataset, and schedule subsequent incremental transfers of changing data until the final cut-over from on-premises to AWS.
-
+Accelerate cloud migrations. Move the data and be done.
+You can use AWS DataSync to migrate data located on premises, at the edge, or in other clouds to Amazon S3, Amazon EFS, Amazon FSx for Windows File Server, Amazon FSx for Lustre, Amazon FSx for OpenZFS, and Amazon [[FSx]] for NetApp ONTAP. Configure DataSync to make an initial copy of your entire dataset, and schedule subsequent incremental transfers of changing data until the final cut-over from on-premises to AWS.
+- Move data directly into [[S3]] Glacier and S3 Glacier Deep Archive.
 - Schedule data transfers between:
 	- On-Prem and AWS
 	- AWS Services

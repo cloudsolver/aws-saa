@@ -16,6 +16,7 @@ RDS automatically creates a primary database, and sets up a secondary database t
 	- Aurora: all instances are updated together.
 - Automatic failover to standby
 	- Aurora: 
+- The canonical name record - CNAME is switched from the primary to standby instance.
 ### _Multiple-AZ with two readable standbys_
 Available for PostgreSQL and MySQL.
 * Standbys serve as failover targets as well as serve read traffic.
