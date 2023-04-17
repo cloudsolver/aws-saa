@@ -69,7 +69,7 @@ EventBridge must use IAM Role when writing to Kinesis.
 
 Evaluation Logic: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html
 
-#Q A company has over 2000 users and is planning to use S3 bucket/home/%username% folder structure. What steps should be taken so that the users have access to only their folder?
+#Q A company has over 2000 users and is planning to use S3 bucket/home/%username% folder structure. What steps should be taken so that the users have access to only their folder? (Pick Two)
 (a) Create an IAM Policy that applies object-level S3 ACLs
 (b) Create a bucket policy that applies access permissions based on username
 (c) Create an IAM group and attach the IAM policy
@@ -79,7 +79,7 @@ Evaluation Logic: https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_pol
 Answer: The core idea is to differentiate between Role based on Resource based policy. Resource based policies will not scale for 2000 users. IAM will need to be used to grant access to folder level permissions. The other options are tricky. (c) and (e) are the correct options.
 
 
- **IAM Guidelines & Best Practices #bestpractice**
+**IAM Guidelines & Best Practices #bestpractice**
 1. Don't use root.
 2. One physical user 
 3. Assigned users to groups and assign permissions to groups
@@ -117,6 +117,8 @@ Fig.
 3. IAM Services Report
 4. IAM Security Advisor
 Answer: This is a tricky question because when the question is framed like a 'tool' you would want to pick IAM Securtiy Advisor thinking it is the IAM [Access Advisor](Access%20Advisor.md). However, that would be incorrect becauser there is no Security Advisor within IAM. There is a report that comes out of IAM i.e. [[CredentialsReport]] - but it is not a tool. Is it? Well, I guess that's the answer for this question.
+
+You can enable IAM **cross-account access** for all corporate IT administrators in each child account.
 
 #### References
 

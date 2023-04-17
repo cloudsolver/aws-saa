@@ -4,6 +4,7 @@ Governance, audit and compliance for your organization. #AWSService
 - CloudTrail records API calls made from any client. The AWS Management Console, AWS Software Development Kits (SDKs), command line tools, and higher-level AWS services call AWS API operations, so these calls are recorded.
 - Per Region limit of 5 trails. 
 - Each trail is 90 days retention by default. For longer retention move them to [[S3]] and use [[Athena]].
+- CloudTrail default settings **encrypt** the logs.
 - Works with [[Config]] and [[CloudWatch]]
 - #UseCase if any resource is deleted, always start the investigation with CloudTrail.
 - #UseCase Ensure log files are not tampered. Enable `Log file validation`

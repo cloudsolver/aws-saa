@@ -30,6 +30,8 @@ Answer: Amazon EBS volumes are placed in a specific Availability Zone where they
 	- Copy the snapshot with encryption enabled.
 	- Create new EBS volume from the snapshot.
 	- Restore encrypted snapshot copy to volume.
+- #Q How can you ensure that all of the new EBS volumes restored from the unencrypted snapshots are automatically encrypted
+	- Enable **EBS Encryption By Default** for the [[Region]].
 ### EBS Multi-Attach
 Amazon EBS Multi-Attach enables you to attach a single Provisioned IOPS SSD (`io1` or `io2`) volume to multiple instances that are in the same Availability Zone.
 If it better to use [[EFS]] when required to span AZ as EBS is not a good solution for that. e.g. Web Servers that need to span AZs that use EBS for storage.
