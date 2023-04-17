@@ -4,6 +4,7 @@ Key management system is an #AWSService that automates encryption key management
 ### KMS Details
 - [KMS Key Concepts](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html)
 - Centrally manage [[Encryption Concepts|encryption]] keys and define policies. Multi-region keys are not supported.
+- AWS KMS solution uses an _envelope encryption_ strategy with _AWS KMS keys_. ![[Envelope encryption]]
 - Supports Asymmetric and Symmetric keys.
 - AWS rotates keys once every year.
 - AWS Encryption SDK library should be used from within applications.

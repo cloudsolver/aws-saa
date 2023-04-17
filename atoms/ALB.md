@@ -2,7 +2,7 @@
 Application Load Balancer is a layer 7 load balancer that is fully managed [[ELB]].
 ### ALB Details
 
-- A global accelerator can provide it a fixed IP address
+- A global accelerator can provide it a fixed IP address. You CAN'T assign an Elastic IP. The other alternative is to front it with an [[NLB]] and assign it an Elastic IP or BYOIP (Bring your own IP). 
 - Web ACL from [[WAF]] in the same region can be attached for protection. #secure 
 
 ![Application Load Balancer diagram|250](https://s3.us-east-1.amazonaws.com/elb-polaris-cdk-assets-us-east-1-prod/2023-02-21T01-06-41_f711e1f2085536cdd2e5cf3814c3b7f9a49425fa46543744dace8418e82c80dc/Static/ALBdiagram.svg)

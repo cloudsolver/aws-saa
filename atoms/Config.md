@@ -7,7 +7,10 @@ Configuration Auditor. Assess, audit, and evaluate  configuration of your resour
 	Specify configuration rules and be notified when configuration changes don't meet the rules.
 	Implement Policies in the Config Rules engine to implement practice.
 
-**Config Notification**
+**Config Notification Solution**
+AWS Config can send a non-compliance event to [[EventBridge]] which can invoke a [[Lambda]] for remediation. Notifications can be sent via [[SNS]].
+*Avoid*: AWS Batch (overkill)
+*Note*: AWS Config can only use [[SSM]] Automation documents as remediation actions.
 
 >**Config Remediation**
 Remediation Architecture ![[config_trigger_auto-remediation_context.png]]

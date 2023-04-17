@@ -61,8 +61,12 @@ Sync Data: Use [[DMS]] to sync data to the new RDS DB instance from the old RDS 
 #UseCase Amazon RDS creates an SSL certificate and installs the certificate on the DB instance when Amazon RDS provisions the instance. These certificates are signed by a certificate authority. The SSL certificate includes the DB instance endpoint as the Common Name (CN) for the SSL certificate to guard against spoofing attacks.
 ### Security Groups
 - Control network access to RDS/Aurora DB
-### Audit Logs
+### Monitoring and Audit Logs
 - CloudWatch logs for longer retention.
+- Enhanced RDS Monitoring Provides:
+	- RDS Child Processes
+	- OS Processes
+
 ## RDS Proxy
 Never publicly available.
 - Pool and share DB connections established with the database.
