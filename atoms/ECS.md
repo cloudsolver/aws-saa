@@ -6,14 +6,13 @@ Elastic Container Service requires you to provision and maintain the EC2 instanc
 **EC2 Launch Type**
 - Each EC2 instance must run the ECS Agent to register in the ECS Cluster so AWS can start top containers.
 - IAM Roles for ECS: ECS Agent. Makes API calls to ECS services, sends container logs to CloudWatch, pull Docker image from ECR, reference sensitive data in Secrets Manager or [[SSM Parameter Store]] Parameter Store. **ECS Task Role** allows each task to have a specific role.
+ **Fargate Launch Type**
+No need to provision the infrastructure
+Create Task definitions, assign memory and CPU.
+To scale, just increase the number of tasks.
 
-> **Fargate Launch Type**
->No need to provision the infrastructure
->Create Task definitions, assign memory and CPU.
->To scale, just increase the number of tasks.
-
-> [[ELB]] Supported
-	[[ALB]] supported and works for most use-cases. [[NLB]] recommended for high throughput / high performance use-cases or to pair it with AWS [[Private Link]] 
+ [[ELB]] Supported
+[[ALB]] supported and works for most use-cases. [[NLB]] recommended for high throughput / high performance use-cases or to pair it with AWS [[PrivateLink]] 
 > Data Volume with [[EFS]]
 	Mount EFS file systems onto ECS. Tasks running in any AZ will share the same data. S3 cannot be mounted.
 ![[EFS mounted on Fargate and EC2 Architecture.png | 300]]
@@ -43,6 +42,9 @@ ECS Deployment Configuration Application Type
 (c) Fargate, ECS, S3
 (d) ECR, ECS, S3
 Answer: Eliminate S3 because it does nothing for containers. Next, eliminate EMR as it has nothing to do with containers. EC2 can be used as an ECS launch type with the appropriate ECS Agent and Task Role.
+### Scaling Services
+- AWS Auto Scaling policy  scales out the ECS service when the service’s memory utilization is too high.
+- Similarly, when CPU is too high.
 
 #### References for ECS
 1. https://aws.amazon.com/ecs/faqs/

@@ -5,7 +5,9 @@ Cluster, Partition and Spread [[EC2]] [placement groups](https://docs.aws.amazon
 - A cluster placement group can span peered virtual private networks ([[VPC]]s) in the same Region.
 - [Enhanced Networking](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enhanced-networking.html) on linux uses single root I/O virtualization [[SR-IOV]] to provide high-performance networking capabilities. Note: T2 instances don't support it. There is not extra charge.
 * Use a single launch request to launch all the instances and use the same instance type for all instances.
-* Fig. Cluster Placement Group ![[cluster_placement_group.png]]
+* There is no limit set for the number of instances allowed to run. If there are issues adding more instances - you can try to restart the cluster/placement - AWS will try to find a rack that can accommodate the new number.
+ ![[cluster_placement_group.png]]
+ Fig. Cluster Placement Group
 * #Q You have an application performing big data analysis hosted on a fleet of EC2 instances. You want to ensure your EC2 instances have the highest networking performance while communicating with each other. Which EC2 Placement Group should you choose?
 * Answer: If performance over HA is required. Go for Cluster Placement Group.
 

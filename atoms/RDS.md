@@ -47,7 +47,9 @@ Amazon RDS is a managed RDBMS service that supports various relational database 
 
 ### Authentication
 - Short-lived credentials can be created with `AWSAuthenticationPlugin` with IAM.
-- IAM DB Authentication - manage your database user credentials through AWS IAM users and roles.
+- **IAM DB Authentication** - manage your database user credentials through AWS IAM users and roles.
+#Q How do you use the profile credentials specific to your EC2 instance to access your database, instead of a password?
+	-Use IAM DB Authentication
 ### At-rest encryption
   - Database master and replicas encryption using AWS [[KMS]] - must be defined at launch time.
   - If master is not encrypted - the replicas cannot be encrypted.
@@ -58,9 +60,10 @@ Sync Data: Use [[DMS]] to sync data to the new RDS DB instance from the old RDS 
 ### In-Flight Encryption
 - TLS-ready by default. 
 - Use AWS TLS root certificate client-side.
+- Force all connections to your DB instance to use SSL by setting the `rds.force_ssl` parameter to true. Once done, reboot your DB instance.
 #UseCase Amazon RDS creates an SSL certificate and installs the certificate on the DB instance when Amazon RDS provisions the instance. These certificates are signed by a certificate authority. The SSL certificate includes the DB instance endpoint as the Common Name (CN) for the SSL certificate to guard against spoofing attacks.
 ### Security Groups
-- Control network access to RDS/Aurora DB
+- Control network access to RDS/Aurora DB.
 ### Monitoring and Audit Logs
 - CloudWatch logs for longer retention.
 - Enhanced RDS Monitoring Provides:

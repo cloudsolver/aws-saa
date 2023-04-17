@@ -12,6 +12,11 @@ AWS Certificate Manager is an AWS service for creating certificates. #AWSService
 - You can upload your own certificates.
 - ACM sends daily expiration events for imported certificates to [[EventBridge]] - from there you can integrate to [[Lambda]] or [[SNS]] or [[SQS]]
 
+ #Q How can you be notififed before certificates are set to expire?
+>Create an Amazon EventBridge (Amazon CloudWatch Events) rule that will check AWS Health or ACM expiration events related to ACM certificates. Send an alert notification to an Amazon Simple Notification Service (Amazon SNS) topic when a certificate is going to expire in 30 days.
+
+![[EventBridge Rules Notification.png]]
+Fig. EventBridge Notifications
 #### Constraints
  - **Certificates in ACM are regional resources**. To use a certificate with Elastic Load Balancing for the same fully qualified domain name (FQDN) or set of FQDNs in more than one AWS region, you must request or import a certificate for each region.
 - Cannot use public certificates with [[EC2]] 

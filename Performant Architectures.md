@@ -76,15 +76,15 @@
 		1. Designing appropriate backup and retention policies: snapshot frequency.
 		2. Determining an appropriate database engine: MySQL versus PostGres.
 		3. Determining cost-effective AWS database services with appropriate use cases: DynamoDB compares with Amazon RDS, serverless.
-		4. Determining cost-effective AWS database type: time series format, columnra format.
+		4. Determining cost-effective AWS database type: time series format, columnar format.
 		5. Migrating database schemas and data to different locations and different database engines.
 		   
 1. Design cost-optimized network architectures.
 	1. AWS cost management service features and tools.
-	2. Load balancing concepts: ALB.
+	2. Load balancing concepts: [[ALB]].
 	3. NAT gateways: NAT instance costs compared with NAT gateway costs.
 	4. Network connectivity: Private lines, dedicated lines, VPNs.
-	5. Network routing, topology, and peering: AWS Transit Gateway, [[VPC]] peering.
+	5. Network routing, topology, and peering: AWS [[GW|Transit Gateway|]], [[VPC]] peering.
 	6. Network services with appropriate use cases: DNS.
 	7. Skills:
 		1. Configuring appropriate NAT gateway types for a network: Single shared NAT gateway compared with NAT gateways for each AZ.
@@ -106,10 +106,10 @@
 		1. Configuring read replicas to meet business requirements.
 		2. Designing database architectures.
 		3. Determining an appropriate database engine: MySQL compared with PostgreSQL.
-		4. Determining an appropriate database type: Aurora, DynamoDB.
+		4. Determining an appropriate database type: [[Aurora]], [[DynamoDB]].
 		5. Integrating caching to meet business requirements.
 4. Determined high-performing and scalable network architectures.
-	1. Edge networking services with appropriate use cases: Cloud Front, Global Accelerator.
+	1. Edge networking services with appropriate use cases: [[CloudFront]], [[Global Accelerator]].
 	2. How to design network architecture: [[Subnet]] tiers, routing, IP addressing.
 	3. Load balancing concepts: Application Load Balancer [[ALB]]
 	4. Network connection options: AWS [[VPN]], [[DX]], AWS [[PrivateLink]].
@@ -121,8 +121,8 @@
 5. Determine high-performing data ingestion and transformation solutions.
 	1. Data analytics and visualization services with appropriate use cases: Amazon Athena, Lake Formation, QuickSight.
 	2. Data ingestion patterns.
-	3. Data transfer services with appropriate use cases: AWS [DataSync](DataSync.md), AWS Storage Gateway.
-	4. Data transformation services with appropriate use cases: AWS Glue.
+	3. Data transfer services with appropriate use cases: AWS [DataSync](DataSync.md), AWS [[Storage Gateway]].
+	4. Data transformation services with appropriate use cases: AWS [[Glue]].
 	5. Secure access to ingestion access points.
 	6. Sizes and speeds needed to meet business requirements.
 	7. Streaming data services with appropriate use cases: Amazon [[Kinesis]].
@@ -131,6 +131,6 @@
 		2. Designing data streaming architectures.
 		3. Designing data transfer solutions.
 		4. Implementing visualization strategies.
-		5. Selecting appropriate compute options for data processing: Amazone EMR.
+		5. Selecting appropriate compute options for data processing: Amazon [[EMR]].
 		6. Selecting appropriate configurations for ingestion.
-		7. Transforming data between formats: CSV to Parquet.
+		7. Transforming data between formats: CSV to [[Parquet]].
