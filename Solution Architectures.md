@@ -9,9 +9,9 @@
 
 ### Stateless Application Architecture
 * Elastic IP and DNS round-robin is not resilient. Because TTL of DNS round-robin can cause partial failure when an instance goes down.
-* Adding ALB and pointing DNS to ALB can offer protections, because ALB can point to private EC2 instances with health checks. However, ALBs and EC2 instances can fail in the AZ.
+* Adding [[ALB]] and pointing [[DNS]] to ALB can offer protections, because ALB can point to private [[EC2]] instances with health checks. However, ALBs and EC2 instances can fail in the AZ.
 * Multi-AZ ALB, EC2 can offer High Availability with failover to another AZ.
-* Multi-Region with a secondary failover region and Multi-AZ in each region can offer Disaster Recovery and business continuity along with high availability at a higher cost.
+* Multi-Region with a secondary failover region and Multi-AZ in each region can offer [[DR | Disaster Recovery]] and business continuity along with high availability at a higher cost.
 * Reserved Instances, and Auto Scaling group can help save costs. #CostOptimized 
 
 ### Stateful Application Architecture

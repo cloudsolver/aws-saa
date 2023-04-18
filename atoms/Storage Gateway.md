@@ -13,7 +13,6 @@ Provide on-premises applications with access to virtually unlimited cloud storag
 - Transition to Glacier via LifeCycle Policies.
 
 
-
 #### FSx File Gateway
 - Native access to Amazon FSx for Windows File Server
 - Advantages: Cache, Windows native compatibility.
@@ -25,10 +24,14 @@ Provide on-premises applications with access to virtually unlimited cloud storag
 - Cached volumes offer low latency to most recent data.
 - Stored volumes: entire dataset is on premises, scheduled backups to S3.
 #### Tape Gateway
-- On-prem Virtual Tape Library is integrated with [Glacier](Glacier.md) **Deep Archive** Storage Class. 
+- On-prem Virtual Tape Library (VTL) is integrated with [Glacier](Glacier.md) **Deep Archive** Storage Class. 
 #### Storage Gateway Hardware Appliance
 - On-Premise Virtualization Alternative is to buy a Storage Gateway Hardware Appliance.
 - Works with File, Volume and Tape Gateways.
+
+### DataSync versus Storage Gateway
+Although you can copy data from on-premises to AWS with Storage Gateway, it is not suitable for transferring large sets of data to AWS. Storage Gateway is mainly used in providing low-latency access to data by caching frequently accessed data on-premises while storing archive data securely and durably in Amazon cloud storage services. Storage Gateway optimizes data transfer to AWS by sending only changed data and compressing data. To move large data sets to AWS from on-prem it is best to use [[DataSync]] which i 10x faster than most open source products.
+
 
 #### References for Storage Gateway
 1. https://aws.amazon.com/storagegateway/
