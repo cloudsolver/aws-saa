@@ -1,6 +1,6 @@
 
 #### Kinesis vs SQS ordering
-Assume 100 trucks sending GPS data, 5 kinesis shared versus SQS FIFO
+Assume 100 trucks sending GPS data, 5 kinesis shards versus SQS FIFO
 
 | [[Kinesis]] | [[SQS]] FIFO |
 |---|---|

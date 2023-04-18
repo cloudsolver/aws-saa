@@ -4,7 +4,7 @@ AWS offers [[Athena]], [[Redshift]], [[OpenSearch]], [[Kinesis#Kinesis Data Stre
 | Service         | Purpose                      | Architecture                                                   |
 | ------------------ | ---------------------------- | -------------------------------------------------------------- |
 | [[Redshift]]       | Data warehouse               | Handles exabyte-scale data. Indexes for high performance.      |
-| [[Glue]]           | ETL                          | Serverless. Out-of-the-box integration for Athena              |
+| [[Glue]]           | ETL                          | Serverless. Out-of-the-box integration for Athena. ETL.             |
 | [[Lake Formation]] | Data Lake                    | Serverless. Fine-grained permissions.                          |
 | [[QuickSight]]     | BI Analytics Visualization   | Users and Role are separately managed from [[IAM]].            |
 | [[Athena]]         | SQL for S3                   | Serverless. Federated query. Glue. Cost optimization - no etl. |
