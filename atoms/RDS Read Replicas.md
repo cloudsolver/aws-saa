@@ -1,6 +1,6 @@
 ## RDS Read Replicas Summary
 
-Read scalability is achieved by asynchronously pushing data to up to five to fifteen read replicas within an AZ, across AZs or Cross Region. 
+Read scalability is achieved by asynchronously pushing data to up to five to fifteen read replicas within an [[AZ]], across AZs or Cross Region. 
 
 ## Introduction
 

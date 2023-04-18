@@ -19,6 +19,5 @@ There are various storage options.
 
 #### References for Storage Architecture
 1. https://aws.amazon.com/architecture/storage/
-###### Timestamp
 ---
 Created on 2023-03-09 17:10

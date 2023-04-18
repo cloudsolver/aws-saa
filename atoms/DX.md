@@ -16,7 +16,7 @@ Steps on how to set up a Direct Connect with AWS:
 Here are some benefits of using Direct Connect:
 
 -   **Increased bandwidth and lower latency.** Direct Connect provides a dedicated connection between your on-premises network and AWS, which can increase bandwidth and lower latency.
--   **Improved security.** Direct Connect provides a secure connection between your on-premises network and AWS.
+-   **Improved security.** Direct Connect provides a private connection between your on-premises network and AWS. It is not encrypted.
 -   **Cost savings.** Direct Connect can save you money on bandwidth costs.
 -   **Flexibility.** Direct Connect can be used to connect to a variety of AWS services.
 

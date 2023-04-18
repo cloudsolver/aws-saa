@@ -27,16 +27,16 @@
 	1. Access options: S3 with Requester Pays object storage.
 	2. AWS cost management service features: Cost Allocation Tags, Multi-Account billing.
 	3. AWS Cost Management tools with appropriate use cases: AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report.
-	4. AWS storage services with appropriate use cases: Amazon FSx, Amazon [EFS](EFS.md), Amazon S3, Amazon [EBS](EBS.md).
+	4. AWS storage services with appropriate use cases: Amazon [[FSx]], Amazon [EFS](EFS.md), Amazon S3, Amazon [EBS](EBS.md).
 	5. Backup strategies.
 	6. Block storage options: HDD volume types, SSD volume types.
 	7. Data lifecycles.
-	8. Hybrid storage options: [DataSync](DataSync.md), Transfer Family, Storage Gateway.
+	8. Hybrid storage options: [DataSync](DataSync.md), [[Transfer Family]], [[Storage Gateway]].
 	9. Storage access patterns.
 	10. Storage tiering: Cold Tiering for object storage.
 	11. Storage types with associated characteristics: Object, File and Block.
 	12. Skills:
-		1. Designing appropriate storage strategies: Batch uploads to AWS S3 compared with individual uploads.
+		1. Designing appropriate storage strategies: Batch uploads to AWS [[S3]] compared with individual uploads.
 		2. Determining the correct storage size for a workload.
 		3. Determining the lowest cost method of transferring data for a workload to AWS storage.
 		4. Determining when storage auto scaling is required. 
@@ -45,10 +45,10 @@
 		7. Selecting the appropriate services for data migration to storage services
 		8. Selecting the appropriate storage tier
 		9. Selecting the correct data lifecycle for storage.
-		10. Selecting the mnost cost-effective storage service for a workload.
+		10. Selecting the most cost-effective storage service for a workload.
 8. Design cost-optimized compute solutions.
 	1. AWS cost management service features: Cost Allocation Tags, Multi-Account Billing.
-	2. AWS Cost Management tools with appropriate use cases: Cost Explorer, AWS Budgets, AWS Cost and Usage Report.
+	2. AWS Cost Management tools with appropriate use cases: Cost Explorer, AWS [[Budgets]], AWS Cost and Usage Report.
 	3. AWS [[Global Infrastructure]]: Availability Zone, Regions.
 	4. AWS purchasing options: Spot Instances, Reserved Instances, Savings Plans.
 	5. Distributed compute strategies: Edge processing.

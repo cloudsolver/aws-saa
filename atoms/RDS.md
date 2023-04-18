@@ -30,6 +30,8 @@ Amazon RDS is a managed RDBMS service that supports various relational database 
 ### Constraints
 - No [SSH](SSH.md) access to the database engine.
 	- Unless you opt for [[RDS Custom]] where you get access to EC2 instance.
+- Enhanced Monitoring needs to be enabled
+	- To monitor how the different processes or threads on a DB instance use the CPU, including the percentage of the CPU bandwidth and total memory consumed by each process
 
 ### RDS Read Replica
 ![RDS Read Replicas](RDS%20Read%20Replicas.md#Summary)

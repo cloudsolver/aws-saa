@@ -10,7 +10,7 @@
 
 **Skills**
 1. Applying AWS security best practices to [[IAM]] users and root users (for example, multi-factor authentication [[MFA]])
-2. Designing a flexible [[authorization]] model that includes [[IAM]] users, groups, roles and policies.
+2. Designing a flexible authorization model that includes [[IAM]] users, groups, roles and policies.
 3. Designing a security strategy for multiple AWS accounts (for example, AWS [[ControlTower]], Service Control Policies [[SCP]]).
 4. Determine the appropriate use of resource policies for AWS services.
 5. Determining when to federate a directory service [[AD]] with [[IAM]] roles.
@@ -27,7 +27,7 @@
  **Skills**
 1. Designing [[VPC]] architectures with security components (for example, security groups, route tables, [[NACL]], [[NAT]] gateways).
 2. Determining network segmentation strategies (for example, using public subnets and private subnets).
-3. Integrating AWS services to secure applications (for example, AWS [[Shield]], AWS [[WAF]], AWS [[SSO]], AWS [[SecretsManager]]).
+3. Integrating AWS services to secure applications (for example, AWS [[Shield]], AWS [[WAF]], AWS [[SSO]], AWS [[Secrets Manager]]).
 4. Securing external network connections to and from the AWS Cloud (for example, [[VPN]], AWS [[DX]]).
 
 ### Determine appropriate data security controls

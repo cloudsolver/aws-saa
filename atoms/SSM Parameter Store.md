@@ -11,6 +11,7 @@ Store data such as
 - database strings, 
 - Amazon Machine Image (AMI) IDs, and 
 - license codes as parameter values. 
+- You can use [[Secrets Manager]] to automatically rotate secrets stored in Parameter Store.
  
 You can store values as plain text or encrypted data. You can reference Systems Manager parameters in your scripts, commands, SSM documents, and configuration and automation workflows by using the unique name that you specified when you created the parameter.
 
