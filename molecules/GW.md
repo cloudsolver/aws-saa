@@ -14,7 +14,7 @@ The gateway pattern is evident in AWS offerings.
 
 #### Direct Connect gateways
 
-[[DX#Direct Connect Gateway]]
+[[DX|Direct Connect Gateway]]
 
 ---
 #### Customer Gateway

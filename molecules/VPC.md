@@ -68,7 +68,7 @@ VPC sharing (part of Resource Access Manager) allows multiple AWS accounts to cr
 > c. NACL egress rules
 > d. EC2 only has a private IP
 > e. NACL ingress rules for 1024-65535
-> Answer: It is true that an EC2 instance cannot connect to the Internet (via IGW) when it does not have a public IP address. It is also true that without a route to the IGW within the subnet that the the EC2 instance is running, it will not be able to reach the internet. Finally, NACL needs to allow egress on 80 and 443 assuming it's the web EC2 wants to reach. Therefore, SG ingress makes no sense at all. Why? If SG egress allows it, then ephemeral ports will automatically open to ingress.  NACL must be permissive
+> Answer: It is true that an EC2 instance cannot connect to the Internet (via IGW) when it does not have a public IP address. It is also true that without a route to the IGW within the subnet that the the EC2 instance is running, it will not be able to reach the internet. Finally, NACL needs to allow egress on 80 and 443 and allow ingress on ephemeral ports. That leaves us with SG ingress allow. Typically, when the Internet wants to reach EC2 - you need to allow SG ingress. In this case, EC2 wants to reach the Internet therefore it needs SG egress allow. Option b is SG ingress rules - this is a rule I would not check.  
 
 #Q Which of the following VPC resources is highly available but not fault tolerant?
 (a) Internet Gateway

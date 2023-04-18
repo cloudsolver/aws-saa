@@ -1,7 +1,7 @@
 ### Summary of API Gateway
 Amazon API Gateway is a fully managed service to create, publish, maintain, monitor, and secure  RESTful APIs and WebSocket APIs that enable real-time two-way communication applications. #AWSService  
 ### API Gateway Details
-- Expose any AWS Service via API Gateway 
+- Expose any AWS Service via API Gateway.
 - Supports containerized and serverless workloads, as well as web applications integrates with [[ELB#ALB]], [[Lambda]]
 - #UseCase API Gateway is helpful to add features such as throttling, rate-limiting, caching responses, API Keys etc. to your application.
 - API Gateway has a feature that can proxy AWS Service APIs for DynamoDB, Kinesis and CloudWatch as these services have APIs.
